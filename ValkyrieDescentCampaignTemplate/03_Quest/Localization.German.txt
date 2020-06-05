@@ -1,0 +1,38 @@
+.,German
+ContinueButton,Weiter
+SearchButton,{action} Suchen
+quest.name,Descent - Campaign Template - Quest 3
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch4Players.button1,{qst:SearchButton}
+EventTokenSearch2Players1.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch2Players1Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch2Players2Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch3PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch4PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+TokenSearch4Players.text,<i>Hier einen "Helden haben etwas gefunden"-Storytext hinzufügen.</i>
+TokenSearch3Players.text,<i>Hier einen "Helden haben etwas gefunden"-Storytext hinzufügen.</i>
+TokenSearch2Players2.text,<i>Hier einen "Helden haben etwas gefunden"-Storytext hinzufügen.</i>
+TokenSearch2Players1.text,<i>Hier einen "Helden haben etwas gefunden"-Storytext hinzufügen.</i>
+EventVictory.button1,{qst:ContinueButton}
+EventDefeat.text,<i>Storytext hier einfügen.</i>\n\n<b>Die Helden haben diese Begegnung verloren!</b>
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory.text,<i>Storytext hier einfügen.</i>\n\n<b>Die Helden haben diese Begegnung gewonnen!</b>
+TokenDebug.button1,Sieg
+TokenDebug.button2,Niederlage
+TokenDebug.text,Klicken Sie auf diesen Button Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
+EventNoMorale.text,<i>Keine Moral Storytext hier einfügen.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventEndEncounter1.text,Die Helden erhalten {var:RewardGold} Gold, {var:RewardXp} Xp und {var:RewardFame} Ruhm.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventPlaceTiles.text,Legt die folgenden Spielplanteile bereit:
+EventPlaceTiles.button1,{qst:ContinueButton}
+EventIntroduction.text,<i>Einleitungstext hier einfügen.</i>
+EventIntroduction.button1,{qst:ContinueButton}

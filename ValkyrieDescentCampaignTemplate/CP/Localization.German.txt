@@ -1,0 +1,599 @@
+.,German
+ContinueButton,Weiter
+quest.name,Valkyrie - Descent - Kampagnen Template - Kampagnenphase
+quest.description,Kampagnenphase
+UIQuest1.text,Quest 1 Text hier einfügen.
+UIQuest1.button1,Begegnung starten
+UIQuest2.text,Quest 2 Text hier einfügen.
+UIQuest3.button1,Begegnung starten
+UIQuest4.text,Quest 4 Text hier einfügen.
+UIQuest2.button1,Begegnung starten
+UIQuest3.text,Quest 3 Text hier einfügen.
+UIQuest4.button1,Begegnung starten
+UIQuest5.text,Quest 5 Text hier einfügen.
+UIQuest5.button1,Begegnung starten
+UIQuestFinale.text,Finale Text hier einfügen.
+UIQuestFinale.button1,Finale Begegnung starten
+UICity.text,Nach einem anstrengenden Tag eilt ihr zurück in die Stadt.
+UICity.button1,{qst:ContinueButton}
+UICityStartGame.text,Ihr startet euer Abenteuer in dieser Stadt
+UICityStartGame.button1,{qst:ContinueButton}
+EventTransition.text,<b>Übergang zu Akt II</b>\n\nLegt alle Monsterkarten des ersten Aktes, Leutnantskarten und Agentenkarten (falls vorhanden) in die Spielkiste zurück. Nur Monsterkarten aus Akt II, Leutnantskarten und Agentenkarten (falls vorhanden) werden für den Rest der Kampagne verwendet. \n\n<i>Ihr bemerkt eine Vielzahl von Händlern, die in die Stadt reisen.<i> \n\nIhr werdet in der Stadt zusätzliche Händler aufsuchen können.
+EventTransition.button1,{qst:ContinueButton}
+EventCity.button1,Stadt verlassen
+EventCity.button2,Waren auffüllen
+EventCity.button3,Schwarzmarkt besuchen
+EventCityEL.button1,Stadt verlassen
+EventCityEL.button2,Waren auffüllen
+EventCityEL.button3,Schwarzmarkt besuchen
+EventBlackMarketVisited.text,Ihr zahlt die Gebühr und eurer Kontakt führt euch durch unzählige Hinterstraßen zumn Schwarzmarkt der Stadt.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
+EventRestockAvailable.text,Aufgrund eurer bisherigen erfolge, konnte die stadt einige neue Händler anlocken.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
+EventCityAct2.button1,Stadt verlassen
+EventCityAct2.button2,Waren auffüllen
+EventCityAct2.button3,Schwarzmarkt besuchen
+EventRestock.text,<i>Es mag andere Händler in der Stadt geben, aber seid euch nicht sicher, ob ihr die Zeit habt, sie zu suchen.</i>\n\n Ihr könnt die Items beim Händler {var:%RestockAmount} mal auffüllen.\n\n Wollt ihr sie auffüllen?
+EventRestock.button1,Yes
+EventRestock.button2,No
+EventLeaveCity.text,Wollt ihr wirklich die Stadt verlassen und euch auf ein anderes Abenteuer einlassen?
+EventLeaveCity.button1,Ja
+EventLeaveCity.button2,Nein
+EventRestockAvailable.button1,{qst:ContinueButton}
+EventRestockNotAvailable.text,Leider haben die Kaufleute nichts anderes zu bieten.\n\nIhr könnt keinen anderen Kaufmann finden.
+EventRestockNotAvailable.button1,{qst:ContinueButton}
+EventBlackMarketCheck.text,Es wird ein paar Stunden dauern, um jemanden zu finden, der bereit ist, euch die weniger legalen Waren anzubieten. Und es wird euch einiges Kosten ...\n\nWollt ihr {var:EventBlackMarket1EntryGold} Gold bezahlen, um Zugang zu anderen Waren zu erhalten?
+EventBlackMarketCheck.button1,Ja
+EventBlackMarketCheck.button2,Nein
+EventBlackMarketAlreadyVisited.text,Ihr habt bereits den Schwarzmarkt besucht. Es gibt nichts anderes zu verkaufen.\n\nIhr könnt keinen anderen Kaufmann finden.
+EventBlackMarketAlreadyVisited.button1,{qst:ContinueButton}
+EventBlackMarketVisited.button1,{qst:ContinueButton}
+EventTravelEventRoadNothing.text,<b>Straße - Nichts passiert</b>\n\n<i>Ihr reist entlang der Straße.</i>\n\nNichts passiert.
+EventTravelEventRoadNothing.button1,{qst:ContinueButton}
+EventTravelEventPlainsNothing.text,<b>Ebenen - Nichts passiert</b>\n\n<i>Ihr reist durch offene Ebenen.</i>\n\nNichts passiert.
+EventTravelEventPlainsNothing.button1,{qst:ContinueButton}
+EventTravelEventForestNothing.text,<b>Wald - Nichts passiert</b>\n\n<i>Ihr reist durch einen dichten Wald.</i>\n\nNichts passiert.
+EventTravelEventForestNothing.button1,{qst:ContinueButton}
+EventTravelEventWaterNothing.text,<b>Wasser - Nichts passiert</b>\n\n<i>Ihr reist entlang eines Flusses.</i>\n\nNichts passiert.
+EventTravelEventWaterNothing.button1,{qst:ContinueButton}
+EventTravelEventMountainsNothing.text,<b>Berge - Nichts passiert</b>\n\n<i>Ihr reist durch die Berge.</i>\n\nNichts passiert.
+EventTravelEventMountainsNothing.button1,{qst:ContinueButton}
+EventTravelEventRoad2.text,<b>Straße - Wandernder Kaufmann:</b>\n\n<i>Ihr trefft auf einen reisenden Kaufmann.</i>\n\nJeder Held legt eine {knowledge} Probe ab und zieht eine Suchkarte, wenn sie gelingt.
+EventTravelEventRoad2.button1,{qst:ContinueButton}
+EventTravelEventRoad6.text,<b>Straße - Versteckter Weg:</b>\n\n<i>Ihr findet einen versteckten Pfad und kommt daher gut vorran!</i>.\n\nIhr überspringt das nächste Reiseereignis.
+EventTravelEventRoad6.button1,{qst:ContinueButton}
+EventTravelEventRoad7.text,<b>Straße - Reisender Weiser:</b>\n\n<i>Ein Reisender Weiser gibt euch Zugang zu seiner Bibliothek.</i>\n\nEin Heldenspieler wählt einen Helden, um  eine {knowledge} Probe abzulegen. War sie erfolgreich?
+EventTravelEventRoad7.button1,Nein
+EventTravelEventRoad7.button2,Ja
+EventTravelEventRoad7A.text,<b>Straße - Reisender Weiser:</b>\n\n<i>Leider lernt ihr von der Bibliothek des Weisen nichts von Interesse.</i>\n\nNichts passiert.
+EventTravelEventRoad7A.button1,{qst:ContinueButton}
+EventTravelEventRoad7B.text,<b>Straße - Reisender Weiser:</b>\n\n<i>In den Büchern des Weisen lernt ihr etwas über die möglichen Schwächen des Overlords.</i>\n\nEure Moral steigt um {var:EventTravelEventRoad7BMorale}.
+EventTravelEventRoad7B.button1,{qst:ContinueButton}
+EventTravelEventRoad9.text,<b>Straße - Die Spione des Overlords:</b>\n\n<i>Die Spione des Overlords sind überall.</i>
+EventTravelEventRoad9.button1,{qst:ContinueButton}
+EventTravelEventRoad9H2.text,<b>Straße - Die Spione des Overlords:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben die Probe <b>nicht</b> bestanden??
+EventTravelEventRoad9H2.button1,Keiner
+EventTravelEventRoad9H2.button2,Einer
+EventTravelEventRoad9H2.button3,Zwei
+EventTravelEventRoad9H3.text,<b>Straße - Die Spione des Overlords:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben die Probe <b>nicht</b> bestanden??
+EventTravelEventRoad9H3.button1,Keiner
+EventTravelEventRoad9H3.button2,Einer
+EventTravelEventRoad9H3.button3,Zwei
+EventTravelEventRoad9H3.button4,Drei
+EventTravelEventRoad9H4.text,<b>Straße - Die Spione des Overlords:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben die Probe <b>nicht</b> bestanden??
+EventTravelEventRoad9H4.button1,Keiner
+EventTravelEventRoad9H4.button2,Einer
+EventTravelEventRoad9H4.button3,Zwei
+EventTravelEventRoad9H4.button4,Drei
+EventTravelEventRoad9H4.button5,Vier
+EventTravelEventRoad9A.text,<b>Straße - Die Spione des Overlords:</b>\n\nIhr schafft es, die Spione des Overlords zu meiden.\n\nNichts passiert.
+EventTravelEventRoad9A.button1,{qst:ContinueButton}
+EventTravelEventRoad9B.text,<b>Straße - Die Spione des Overlords:</b>\n\nDer Overlord erfährt wertvolle Informationen über euren Aufenthaltsort.\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventRoad9B.button1,{qst:ContinueButton}
+EventTravelEventRoad9C.text,<b>Straße - Die Spione des Overlords:</b>\n\nDer Overlord erfährt wertvolle Informationen über euren Aufenthaltsort.\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventRoad9C.button1,{qst:ContinueButton}
+EventTravelEventRoad9D.text,<b>Straße - Die Spione des Overlords:</b>\n\nDer Overlord erfährt wertvolle Informationen über euren Aufenthaltsort.\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventRoad9D.button1,{qst:ContinueButton}
+EventTravelEventRoad9E.text,<b>Straße - Die Spione des Overlords:</b>\n\nDer Overlord erfährt wertvolle Informationen über euren Aufenthaltsort.\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventRoad9E.button1,{qst:ContinueButton}
+EventTravelEventRoad11.text,<b>Straße - Falsch abgebogen:</b>\n\n<i>Ihr denkt, ihr habt eine falsche Abzweigung genommen ...</i>\n\nJeder Held legt eine {knowledge} Probe ab und erleidet {var:EventTravelEventRoad11Fatigue} {fatigue}, wenn er scheitert. Ist die Probe bei allen Helden gescheitert?
+EventTravelEventRoad11.button1,Nein
+EventTravelEventRoad11.button2,Ja
+EventTravelEventRoad11A.text,<b>Straße - Falsch abgebogen:</b>\n\n<i>Ihr findet einen Weg zurück auf die Straße.</i>\n\nNichts passiert.
+EventTravelEventRoad11A.button1,{qst:ContinueButton}
+EventTravelEventRoad11B.text,<b>Straße - Falsch abgebogen:</b>\n\n<i>Überraschenderweise stellt sich heraus, dass ihr eine Abkürzung gefunden habt.</i>\n\nIhr überspringt das nächste Reiseereignis.
+EventTravelEventRoad11B.button1,{qst:ContinueButton}
+EventTravelEventRoad12.text,<b>Straße - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventRoad12Morale}.
+EventTravelEventRoad12.button1,{qst:ContinueButton}
+EventTravelEventRoad15.text,<b>Straße - Alte Schriftrolle:</b>\n\n<i>Ihr stoßt auf eine alte Schriftrolle.</i>\n\nDie Helden wählen einen Magier. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann dies nach dem Würfeln eines Verteidigungswurfes verwerfen, um seinem Ergebnis {shield} in Höhe seiner {knowledge} hinzuzufügen.
+EventTravelEventRoad15.button1,{qst:ContinueButton}
+EventTravelEventRoad17.text,<b>Straße - Verlorener Gesandter:</b>\n\n<i>Ein verlorener Gesandter verkauft Geheimnisse.</i>\n\nDie Helden können sich entscheiden, {var:EventTravelEventRoad17GoldNeeded} Gold auszugeben (falls vorhanden), um einige der Geheimnisse des Overlords zu erfahren.
+EventTravelEventRoad17.button1,Nein
+EventTravelEventRoad17.button2,Ja
+EventTravelEventRoad17A.text,<b>Straße -Verlorener Gesandter:</b>\n\n<i>Auf das zwielichtige Angebot reagiert ihr nicht.</i>\n\nNichts passiert.
+EventTravelEventRoad17A.button1,{qst:ContinueButton}
+EventTravelEventRoad17B.text,<b>Straße -Verlorener Gesandter:</b>\n\n<i>Ihr lernt einige der Pläne des Overlords kennen, für einen Preis.</i>\n\nIhr werdet in der Lage sein, einige der Verstärkungen des Overlords zu vermeiden.
+EventTravelEventRoad17B.button1,{qst:ContinueButton}
+EventTravelEventRoad17C.text,<b>Straße -Verlorener Gesandter:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
+EventTravelEventRoad17C.button1,{qst:ContinueButton}
+EventTravelEventRoad20.text,<b>Straße - Großer Baum:</b>\n\n<i>Ein hoher Baum bietet eine Möglichkeit die Gegend auszukundscha.</i>\n\nWählt einen Helden, um {var:EventTravelEventRoad20Fatigue} {fatigue} zu erleiden und eine {awareness} Probe abzulegen. War sie erfolgreich?
+EventTravelEventRoad20.button1,Nein
+EventTravelEventRoad20.button2,Ja
+EventTravelEventRoad20A.text,<b>Straße- Großer Baum:</b>\n\n<i>Ihr schafft es nicht, den Baumwipfel zu erreichen.</i>\n\nNichts passiert.
+EventTravelEventRoad20A.button1,{qst:ContinueButton}
+EventTravelEventRoad20B.text,<b>Straße- Großer Baum:</b>\n\n<i>Von der Spitze des Baumes bekommt man einen klaren Blick.</i>\n\nIhr werdet in der Lage sein, einige der Verstärkungen des Overlords zu vermeiden.
+EventTravelEventRoad20B.button1,{qst:ContinueButton}
+EventTravelEventRoad22.text,<b>Straße - Zwielichtiger Reisender:</b>\n\n<i>Ein zwielichtiger Reisender will euch den Weg zeigen – zu einem Preis.</i>\n\nDie Helden können sich entscheiden, {var:EventTravelEventRoad22Gold} Gold auszugeben (falls vorhanden). Wollt ihr die Gebühr bezahlen?
+EventTravelEventRoad22.button1,Nein
+EventTravelEventRoad22.button2,Ja
+EventTravelEventRoad22A.text,<b>Straße - Zwielichtiger Reisender:</b>\n\n<i>Auf das zwielichtige Angebot reagiert ihr nicht.</i>\n\nNichts passiert.
+EventTravelEventRoad22A.button1,{qst:ContinueButton}
+EventTravelEventRoad22B.text,<b>Straße - Zwielichtiger Reisender:</b>\n\n<i>Ihr zahlt den Wucherpreis und der Reisende zeigt euch tatsächlich eine Abkürzung zu eurem Ziel.</i>\n\nIhr überspringt das nächste Reiseereignis.
+EventTravelEventRoad22B.button1,{qst:ContinueButton}
+EventTravelEventRoad22C.text,<b>Straße - Zwielichtiger Reisender:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
+EventTravelEventRoad22C.button1,{qst:ContinueButton}
+EventTravelEventRoad24.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert euren Weg und fordert euren stärksten Krieger zum Duell.</i>\n\nNehmt ihr die Herausforderung an?
+EventTravelEventRoad24.button1,Nein
+EventTravelEventRoad24.button2,Ja
+EventTravelEventRoad24A.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventRoad24A.button1,{qst:ContinueButton}
+EventTravelEventRoad24B.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventRoad24B.button1,Nein
+EventTravelEventRoad24B.button2,Ja
+EventTravelEventRoad24C.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventRoad24C.button1,Nein
+EventTravelEventRoad24C.button2,Ja
+EventTravelEventRoad24D.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventRoad24D.button1,{qst:ContinueButton}
+EventTravelEventRoad24E.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventRoad24E.button1,{qst:ContinueButton}
+EventTravelEventRoad24F.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
+EventTravelEventRoad24F.button1,{qst:ContinueButton}
+EventTravelEventRoad26.text,<b>Straße - Ein Baum mit inspirierenden Worten:</b>\n\n<i>Ein großer Baum auf eurem Weg ist mit inspirierenden Worten beschriftet.</i>\n\nJeder Held erhält bis zum Ende der Reisephase +{var:EventTravelEventRoad26AttributesAdd} auf jedes seiner Attribute.
+EventTravelEventRoad26.button1,{qst:ContinueButton}
+EventTravelEventRoad27.text,<b>Straße- Kehrt um:</b>\n\n<i>KEHRT UM ist mit Blut auf eine alte Straßenmarkierung gekritzelt.</i>\n\nJeder Held legt eine {will} Probe ab. Sind {var:EventTravelEventRoad27Heroes} oder mehr Helden gescheitert?
+EventTravelEventRoad27.button1,Nein
+EventTravelEventRoad27.button2,Ja
+EventTravelEventRoad27A.text,<b>Straße- Kehrt um:</b>\n\n<i>Ihr ignoriert die Worte, denn sie sind eindeutig dazu da, um euch zu behindern.</i>\n\nNichts passiert.
+EventTravelEventRoad27A.button1,{qst:ContinueButton}
+EventTravelEventRoad27B.text,<b>Straße- Kehrt um:</b>\n\n<i>Ihr habt die Warnung beachtet, aber das bedeutet, dass ihr einen Umweg nehmen müsst.</i>\n\nIhr werdet ein weiteres zufälliges Reiseereignis haben.
+EventTravelEventRoad27B.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoB.text,<b>Straße - Uralter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
+EventTravelEventRoad28MoB.button1,Nein
+EventTravelEventRoad28MoB.button2,Ja
+EventTravelEventRoad28MoBA.text,<b>Straße - Uralter Friedhof:</b>\n\n<i>Ihr riskiert nicht, den dunklen Kristall zu berühren.</i>\n\nNichts passiert.
+EventTravelEventRoad28MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoBB.text,<b>Straße - Uralter Friedhof:</b>\n\n<i>Ihr berührt den dunklen Kristall ...</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt oder erkrankt. Wenn alle Proben erfolgreich sind, legt einen Heldenmarker vom Helden mit der höchsten {knowledge} neben den Spielplan. Während seines Zuges kann dieser Held den Marker ablegen. Wenn er das tut, kann jeder Held einen Zustand entfernen.
+EventTravelEventRoad28MoBB.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoB.text,<b>Straße - Die Überreste eines Wagens:</b>\n\n<i>Ihr findet die Überreste eines Wagens. Eine Kiste mit einem bizarrem Schloss liegt ungeöffnet unter den Trümmern. Eine Stimme flüstert dir in den Kopf: „Durch Oger und Geist, entfesselt sich das, was wartet.“</i>\n\nWollen die Helden die Truhe öffnen?
+EventTravelEventRoad29MoB.button1,Nein
+EventTravelEventRoad29MoB.button2,Ja
+EventTravelEventRoad29MoBA.text,<b>Straße - Die Überreste eines Wagens:</b>\n\n<i>Ihr lasst die Truhe ungeöffnet.</i>\n\nNichts passiert.
+EventTravelEventRoad29MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBB.text,<b>Straße - Die Überreste eines Wagens:</b>\n\n<i>Ihr versucht, die Truhe zu öffnen.</i>\n\nDie Helden wählen einen Helden, um sowohl {might} als auch {will} zu testen. Haben alle Helden die Probe bestanden?
+EventTravelEventRoad29MoBB.button1,Nein
+EventTravelEventRoad29MoBB.button2,Ja
+EventTravelEventRoad29MoBC.text,<b>Straße - Die Überreste eines Wagens:</b>\n\n<i>IIhr schafft es nicht die Truhe zu öffnen, aber etwas hat sich daraus befreit ...</i>\n\nJeder Held, dessen {might} Probe misslungen ist, ist gelähmt. Jeder Held, dessen {will} misslungen ist, ist verängstigt.
+EventTravelEventRoad29MoBC.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBD.text,<b>Straße - Die Überreste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
+EventTravelEventRoad29MoBD.button1,{qst:ContinueButton}
+EventTravelEventRoad30.text,<b>Straße - Battalion feindlicher Soldaten:</b>\n\n<i>Ihr seid auf der Straße unterwegs, als ein Battalion feindlicher Soldaten in Sicht kommt. Ihr drückt euch verzweifelt auf den Boden der Straße, um nicht gesehen zu werden.</i>\n\nJeder Held legt eine {awareness} Probe ab. Für jeden Helden, dessen Probe misslingt, erleidet jeder Held {var:EventTravelEventRoad30Fatigue} {fatigue}.
+EventTravelEventRoad30.button1,{qst:ContinueButton}
+EventTravelEventRoad31.text,<b>Straße- Zwölf Straßen kreuzen euren Weg:</b>\n\n<i>Zwölf Straßen kreuzen euren Weg</i>\n\nEin Held legt eine {knowledge} oder eine {awareness} Probe ab. War sie erfolgreich?
+EventTravelEventRoad31.button1,Ja
+EventTravelEventRoad31.button2,Nein
+EventTravelEventRoad31A.text,<b>Straße- Zwölf Straßen kreuzen euren Weg:</b>\n\n<i>Ihr findet den richtigen Weg.</i>\n\nNichts passiert.
+EventTravelEventRoad31A.button1,{qst:ContinueButton}
+EventTravelEventRoad31B.text,<b>Straße- Zwölf Straßen kreuzen euren Weg:</b>\n\n<i>Ihr verirrt euch ganz furchtbar.</i>\n\nIhr werdet 3 zusätzliche zufällige Reiseereignisse haben.
+EventTravelEventRoad31B.button1,{qst:ContinueButton}
+EventTravelEventPlains1.text,<b>Ebene - Moosbdeckte Steine:</b>\n\n<i>Ihr stoßt auf eine Sammlung von moosbedeckten Steinen.</i>\n\nJeder Held legt eine {will} Probe ab und erleidet {var:EventTravelEventPlains1Fatigue} {fatigue}, wenn er scheitert. Wenn alle Helden erfolgreich sind, zieht jeder Held eine Suchkarte.
+EventTravelEventPlains1.button1,{qst:ContinueButton}
+EventTravelEventPlains2.text,<b>Ebenen - Bande der Flüchtlinge:</b>\n\n<i>Ihr stoßt auf eine Bande von Flüchtlingen.</i>\n\nWollt ihr anhalten und ihnen helfen?
+EventTravelEventPlains2.button1,Nein
+EventTravelEventPlains2.button2,Ja
+EventTravelEventPlains2A.text,<b>Ebenen - Bande der Flüchtlinge:</b>\n\n<i>Ihr weigert euch ihnen zu helfen.</i>\n\nJeder Held erleidet {var:EventTravelEventPlains2AHeart} {heart}.
+EventTravelEventPlains2A.button1,{qst:ContinueButton}
+EventTravelEventPlains2B.text,<b>Ebenen - Bande der Flüchtlinge:</b>\n\n<i>Ihr stoppt und helft den Flüchtlingen.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventPlains2B.button1,{qst:ContinueButton}
+EventTravelEventPlains3.text,<b>Ebenen - Rauchschwaden über dem Horizont:</b>\n\n<i>Ihr seht Rauchschaden in der Ferne am Horizont.</i>\n\nEure Moral sinkt um {var:EventTravelEventPlains3Morale}.
+EventTravelEventPlains3.button1,{qst:ContinueButton}
+EventTravelEventPlains4.text,<b>Ebene - Gesetzlose Briganten:</b>\n\n<i>Gesetzlose Brigands greifen euch an.</i>\n\nWählt einen Heldenspieler, eine {might} Probe abzulegen, um sie abzuschrecken. Scheitert sie, erleidet jeder Held {var:EventTravelEventPlains4Heart} {heart} im Kampf.
+EventTravelEventPlains4.button1,{qst:ContinueButton}
+EventTravelEventPlains8.text,<b>Ebene - Brennende Farm:</b>\n\n<i>Ihr findet einen Hof, der lichterloh bereits brennt, und bleibt stehen, um den Bauern eine ordentliche Bestattung zu geben.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventPlains8.button1,{qst:ContinueButton}
+EventTravelEventPlains10.text,<b>Ebenen - Baum mit goldenen Äpfeln:</b>\n\n<i>Ihr haltet kurz in einem Obstgarten, den ihr entdeckt habt, voller Bäume mit goldenen Äpfeln.</i>\n\nWählt einen Helden um eine {will} Probe abzulegen. Wenn sie gelingt, zieht eine Suchkarte.
+EventTravelEventPlains10.button1,{qst:ContinueButton}
+EventTravelEventPlains11.text,<b>Ebenen - Geflügelte Diener:</b>\n\n<i>Geflügelte Diener des Overlords steigen herab, um euch von oben zu überwältigen.</i>\n\nEin Heldlegt eine {awareness} Probe ab. Scheitert er, erleidet jeder Held {var:EventTravelEventPlains11Heart} {heart} und {var:EventTravelEventPlains11Fatigue} {fatigue}.
+EventTravelEventPlains11.button1,{qst:ContinueButton}
+EventTravelEventPlains12.text,<b>Straße - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventPlains12Morale}.
+EventTravelEventPlains12.button1,{qst:ContinueButton}
+EventTravelEventPlains13.text,<b>Straße - Die Späher des Overlords:</b>\n\nDie Späher des Overlords haben euch entdeckt.\n\nDer Held mit der höchsten {awareness} muss entweder {var:EventTravelEventPlains13Heart} {heart} oder {var:EventTravelEventPlains13Fatigue} {fatigue} erleiden.
+EventTravelEventPlains13.button1,{var:EventTravelEventPlains13Fatigue} {fatigue} erleiden
+EventTravelEventPlains13.button2,{var:EventTravelEventPlains13Heart} {heart} erleiden
+EventTravelEventPlains13A.text,<b>Ebene - Die Späher des Overlords:</b>\n\n<i>Ihr schafft es, die Feinde gekonnt abzulenken, ohne erwischt zu werden.</i>\n\nNichts passiert.
+EventTravelEventPlains13A.button1,{qst:ContinueButton}
+EventTravelEventPlains13B.text,<b>Ebene - Die Späher des Overlords:</b>\n\n<i>Ihr greift die Späher direkt an und besiegt sie.</i>\n\nIhr werdet in der Lage sein, einige der Verstärkungen des Overlords zu vermeiden.
+EventTravelEventPlains13B.button1,{qst:ContinueButton}
+EventTravelEventPlains14.text,<b>Ebenen - Wandernder Mystiker:</b>\n\n<i>Ein wandernder Mystiker segnet euch.</i>\n\nDie Helden wählen einen Heiler. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann diesen Marker bei der Wiederbelebung eines Helden ablegen. Der wiederbelebte Held erholt sofort alle {heart}.
+EventTravelEventPlains14.button1,{qst:ContinueButton}
+EventTravelEventPlains15.text,<b>Ebene - Wanderheiler:</b>\n\n<i>Ein reisender Heiler bietet euch eine geheimnisvolle Methode der Heilung an.</i>\n\nDie Helden wählen einen Helden, um {var:EventTravelEventPlains15Heart} {heart} zu erleiden. Ein anderer Held eurer Wahl erholt alle {heart} und wirft alle seine Zustandskarten ab.
+EventTravelEventPlains15.button1,{qst:ContinueButton}
+EventTravelEventPlains16.text,<b>Ebenen - Hinterhalt:</b>\n\n<i>Ihr bemerkt einen Hinterhalt.</i>\n\nDie Helden können bis zu {var:EventTravelEventPlains16Heroes} verschiedenen Helden wählen, um {var:EventTravelEventPlains16Heart} {heart} zu erleiden. Nach dem Aufbau können sie ein Monster wählen, um ihnen die gleiche Menge an {heart} zuzufügen.
+EventTravelEventPlains16.button1,{qst:ContinueButton}
+EventTravelEventPlains19.text,<b>Ebene - Vermummter Reisender:</b>\n\n<i>Ein vermummter Reisender warnt euch.</i>\n\nDie Helden können wählen, {var:EventTravelEventPlains19Heart} {heart} pro Held zu erleiden, um einige der Overlord-Truppen zu vermeiden. Wollt ihr dies tun?
+EventTravelEventPlains19.button1,Nein
+EventTravelEventPlains19.button2,Ja
+EventTravelEventPlains19A.text,<b>Ebene - Vermummter Reisender:</b>\n\n<i>Ihr schickt  den Mann Weg.</i>\n\nNichts passiert.
+EventTravelEventPlains19A.button1,{qst:ContinueButton}
+EventTravelEventPlains19B.text,<b>Ebene - Vermummter Reisender:</b>\n\n<i>Ihr hört euch die schrecklichen Geschichten des vermummten Mannes an.</i>\n\nIhr werdet in der Lage sein, einige der Verstärkungen des Overlords zu vermeiden.
+EventTravelEventPlains19B.button1,{qst:ContinueButton}
+EventTravelEventPlains21LoR.text,<b>Ebenen - unfruchtbares Feld:</b>\n\n<i>Als ihr durch ein karges Feld geht, werdet ihr von einer unsichtbaren dunkler Energie angegriffen.</i>\n\nJeder Held legt eine {will} Probe ab. Jeder Held, dessen Probe misslingt, wird verflucht.
+EventTravelEventPlains21LoR.button1,{qst:ContinueButton}
+EventTravelEventPlains22.text,<b>Ebenen - Böses Gewitter:</b>\n\n<i>Ein furchtbares Gewitter behindert eure Reise.</i>\n\nJeder Held erleidet {var:EventTravelEventPlains22Fatigue} {fatigue}. Danach folgt noch ein Reiseereignis.
+EventTravelEventPlains22.button1,{qst:ContinueButton}
+EventTravelEventPlains24.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
+EventTravelEventPlains24.button1,Nein
+EventTravelEventPlains24.button2,Ja
+EventTravelEventPlains24A.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventPlains24A.button1,{qst:ContinueButton}
+EventTravelEventPlains24B.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventPlains24B.button1,Nein
+EventTravelEventPlains24B.button2,Ja
+EventTravelEventPlains24C.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventPlains24C.button1,Nein
+EventTravelEventPlains24C.button2,Ja
+EventTravelEventPlains24D.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventPlains24D.button1,{qst:ContinueButton}
+EventTravelEventPlains24E.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventPlains24E.button1,{qst:ContinueButton}
+EventTravelEventPlains24F.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
+EventTravelEventPlains24F.button1,{qst:ContinueButton}
+EventTravelEventPlains25MoB.text,<b>Ebene -Wild Witch:</b>\n\n<i>Eine wilde Hexe bietet einen Segen.</i>\n\nDie Helden wählten 1 Held, um verängstigt zu sein. Am Ende des ersten Zuges dieses Helden ist jedes Monster, benachbart diesem Helden, verängstigt.
+EventTravelEventPlains25MoB.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoB.text,<b>Ebenen - Alter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
+EventTravelEventPlains28MoB.button1,Nein
+EventTravelEventPlains28MoB.button2,Ja
+EventTravelEventPlains28MoBA.text,<b>Ebenen - Alter Friedhof:</b>\n\n<i>Ihr riskiert nicht, den dunklen Kristall zu berühren.</i>\n\nNichts passiert.
+EventTravelEventPlains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoBB.text,<b>Ebenen - Alter Friedhof:</b>\n\n<i>Ihr berührt den dunklen Kristall ...</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt oder erkrankt. Wenn alle Proben erfolgreich sind, legt einen Heldenmarker vom Helden mit der höchsten {knowledge} neben den Spielplan. Während seines Zuges kann dieser Held den Marker ablegen. Wenn er es tut, kann jeder Held einen Zustand ablegen.
+EventTravelEventPlains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoB.text,<b>Ebenen - Die Überreste eines Wagens:</b>\n\n<i>Ihr findet die Überreste eines Wagens. Eine Kiste mit einem bizarrem Schloss liegt ungeöffnet unter den Trümmern. Eine Stimme flüstert dir in den Kopf: „Durch Oger und Geist, entfesselt sich das, was wartet.“</i>\n\nWollen die Helden die Truhe öffnen?
+EventTravelEventPlains29MoB.button1,Nein
+EventTravelEventPlains29MoB.button2,Ja
+EventTravelEventPlains29MoBA.text,<b>Ebenen - Die Überreste eines Wagens:</b>\n\n<i>Ihr lasst die Truhe ungeöffnet.</i>\n\nNichts passiert.
+EventTravelEventPlains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBB.text,<b>Ebenen - Die Überreste eines Wagens:</b>\n\n<i>Ihr versucht, die Truhe zu öffnen.</i>\n\nDie Helden wählen {var:EventTravelEventPlains29MoBBHeroes} Helden, um sowohl {might} als auch {will} zu testen. Haben alle Helden die Probe bestanden?
+EventTravelEventPlains29MoBB.button1,Nein
+EventTravelEventPlains29MoBB.button2,Ja
+EventTravelEventPlains29MoBC.text,<b>Ebenen - Die Überreste eines Wagens:</b>\n\n<i>IIhr schafft es nicht die Truhe zu öffnen, aber etwas hat sich daraus befreit ...</i>\n\nJeder Held, dessen {might} Probe misslungen ist, ist gelähmt. Jeder Held, dessen {will} misslungen ist, ist verängstigt.
+EventTravelEventPlains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBD.text,<b>Ebenen - Die Überreste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
+EventTravelEventPlains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventPlains30TctR.text,<b>Ebene - Stille Geier:</b>\n\n<i>Stille Geier versammeln sich am Himmel über euch. Ihre Zahl wächst immer weiter.</i>\n\nJeder Held legt eine {will} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt. Jeder Held, dessen Probe erfolgreich ist, wählt ein Monster auf dem Spielplan nach dem Aufbau. Diese Monster ist verängstigt.
+EventTravelEventPlains30TctR.button1,{qst:ContinueButton}
+EventTravelEventForest1.text,<b>Enges Dickicht:</b>\n\n<i>Ihr hört ein Weinen im Zentrum eines engen Dickichts.</i>\n\nWollt ihr nachsehen, was dort vor sich geht?
+EventTravelEventForest1.button1,Nein
+EventTravelEventForest1.button2,Ja
+EventTravelEventForest1A.text,<b>Enges Dickicht:</b>\n\n<i>Ihr verschwendet keine Zeit, um den Wald zu erforschen, sondern reist weiter.</i>\n\nNichts passiert.
+EventTravelEventForest1A.button1,{qst:ContinueButton}
+EventTravelEventForest1B.text,<b>Enges Dickicht:</b>\n\n<i>Ihr hackt euch durch das Dickicht und bekommt ein paar Narben auf dem Weg. Ihr findet nichts besonders interessantes, aber ihr seid sicher, dass man ihr das Richtige getan hat.</i>\n\nJeder Held erleidet {var:EventTravelEventForest1BHeart} {heart} aber Eure Moral steigt um {var:EventTravelEventForest1BMorale}.
+EventTravelEventForest1B.button1,{qst:ContinueButton}
+EventTravelEventForest2.text,<b>Wald - Verirrt:</b>\n\n<i>Ihr habt euch im Wald verirrt.</i>\n\nWählt einen Helden, der eine {awareness} Probe ablegt. Scheitert er, erleidet jeder Held {var:EventTravelEventForest2Fatigue} {fatigue}.
+EventTravelEventForest2.button1,{qst:ContinueButton}
+EventTravelEventForest3.text,<b>Wald - Friedliche Wiese:</b>\n\n<i>Unerwartet findet ihr eine schöne und ruhige Wiese im Wald.</i>\n\nJeder Held erholt {heart} und {fatigue}.
+EventTravelEventForest3.button1,{qst:ContinueButton}
+EventTravelEventForest4.text,<b>Wald - Spinnennetze überall!:</b>\n\n<i>Überall hängen Spinnennetze!</i>\n\nJeder Held legt eine {awareness} Probe ab. Jeder Held, dessen Probe misslingt, wird von einer Spinne überfallen und vergiftet. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventForest4Heart} {heart}.
+EventTravelEventForest4.button1,{qst:ContinueButton}
+EventTravelEventForest5.text,<b>Wald - Latari Elfen:</b>\n\n<i>Eine Gruppe von Latari-Elfen wird von Dienern des Overlords angegriffen.</i>\n\nIhr könnte den Elfen beistehen, aber ihr könntet dabei verwundet werden. Wollt ihr ihnen helfen?
+EventTravelEventForest5.button1,Nein
+EventTravelEventForest5.button2,Ja
+EventTravelEventForest5A.text,<b>Wald - Latari Elfen:</b>\n\n<i>Während ihr eure Reise fortsetzt, Hallen die sterbenden Schreie der Elfen durch den Wald.</i>\n\nEure Moral sinkt um {var:EventTravelEventForest5AMorale}.
+EventTravelEventForest5A.button1,{qst:ContinueButton}
+EventTravelEventForest5B.text,<b>Wald - Latari Elfen:</b>\n\n<i>Ihr eilt zu ihrer Verteidigung.</i>\n\nJeder Held erleidet {var:EventTravelEventForest5BHeart} {heart}.
+EventTravelEventForest5B.button1,{qst:ContinueButton}
+EventTravelEventForest6.text,<b>Wald - Diener des Overlords erscheinen!:</b>\n\n<i>Diener des Overlords erscheinen wie aus dem Nichts!</i>\n\nDie Helden wählen 1 Attribut. Jeder Held muss das für das gewählte Attribut eine Probe ablegen. Jeder Held, dessen Probe misslingt, erleidet {var:EventTravelEventForest6Heart} {heart} und {var:EventTravelEventForest6Fatigue} {fatigue}.
+EventTravelEventForest6.button1,{qst:ContinueButton}
+EventTravelEventForest7.text,<b>Wald - Spinnen!:</b>\n\n<i>Spinnen! Bei allen Göttern! Überall Spinnen!</i>\n\nDer Held mit der niedrigsten {awareness} ist vergiftet.
+EventTravelEventForest7.button1,{qst:ContinueButton}
+EventTravelEventForest12.text,<b>Wald - mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der getarnte fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventForest12Morale}.
+EventTravelEventForest12.button1,{qst:ContinueButton}
+EventTravelEventForest13LotW.text,<b>Wald - ein altes Weib:</b>\n\n<i>Sie begegnen einer alten Frau, die euch mit einem Fluch belegt, bevor sie wieder in den Nebeln verschwindet.</i>\n\nJeder Held muss eine {will} Probe ablegen. Jeder Held, dessen Probe misslingt, erliegt ihrem Bann und brennt.
+EventTravelEventForest13LotW.button1,{qst:ContinueButton}
+EventTravelEventForest14.text,<b>Wald - Starker Nebel:</b>\n\n<i>Ihr spürt einen schweren Nebel, der euch umgibt. Plötzlich fühlt ihr euch seltsam müde.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, muss einen Heldenmarker auf sein Heldenblatt legen. Die Geschwindigkeit dieses Helden ist bei seinem ersten Zug {var:EventTravelEventForest14Speed}.
+EventTravelEventForest14.button1,{qst:ContinueButton}
+EventTravelEventForest15.text,<b>Wald - Banditen:</b>\n\n<i>Banditen haben diesen Wald besetzt.</i>\n\nJeder Held legt entweder eine {will} oder {knowledege} Probe ab. Haben alle Helden die Probe bestanden?
+EventTravelEventForest15.button1,Nein
+EventTravelEventForest15.button2,Ja
+EventTravelEventForest15A.text,<b>Wald - Banditen:</b>\n\n<i>Ihr werdet von den Banditen überfallen, aber es gelingt euch, sie zu verjagen. Einige von euch sind im Kampf verwundet worden.</i>\n\nJeder Held, dessen Probe gescheitert ist, erleidet {var:EventTravelEventForest15AHeart} {heart} und {var:EventTravelEventForest15AFatigue} {fatigue}.
+EventTravelEventForest15A.button1,{qst:ContinueButton}
+EventTravelEventForest15B.text,<b>Wald - Banditen:</b>\n\n<i>Die Banditen versuchen, euch in einen Hinterhalt zu locken, aber ihr lockt Sie stattdessen in eine Falle. Während ihr ihre Überreste durchsucht, findet ihr den Gegenstand {c:QItemTravelRewardF15}.</i>\n\nDie Helden erhalten den Gegenstand {c:QItemTravelRewardF15}.
+EventTravelEventForest15B.button1,{qst:ContinueButton}
+EventTravelEventForest16.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ein verlorener Kaufmann fragt nach dem Weg.</i>
+EventTravelEventForest16.button1,{qst:ContinueButton}
+EventTravelEventForest16H2.text,<b>Wald - Verlorener Kaufmann:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben Probe bestanden?
+EventTravelEventForest16H2.button1,nichts
+EventTravelEventForest16H2.button2,Eine
+EventTravelEventForest16H2.button3,Zwei
+EventTravelEventForest16H3.text,<b>Wald - Verlorener Kaufmann:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben Probe bestanden?
+EventTravelEventForest16H3.button1,nichts
+EventTravelEventForest16H3.button2,Eine
+EventTravelEventForest16H3.button3,Zwei
+EventTravelEventForest16H3.button4,Drei
+EventTravelEventForest16H4.text,<b>Wald - Verlorener Kaufmann:</b>\n\nJeder Held legt eine {knowledge} Probe ab.\n\nWie viele Helden haben Probe bestanden?
+EventTravelEventForest16H4.button1,nichts
+EventTravelEventForest16H4.button2,Eine
+EventTravelEventForest16H4.button3,Zwei
+EventTravelEventForest16H4.button4,Drei
+EventTravelEventForest16H4.button5,Vier
+EventTravelEventForest16A.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Leider könnt ihr dem Kaufmann nicht helfen.</i>\n\nIhr setz eure Reise fort.
+EventTravelEventForest16A.button1,{qst:ContinueButton}
+EventTravelEventForest16B.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ihr könnt dem Händler eine ungenaue Beschreibung geben.</i>\n\nDie Helden werden mit {var:EventTravelEventForest16BGold} Gold belohnt.
+EventTravelEventForest16B.button1,{qst:ContinueButton}
+EventTravelEventForest16C.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ihr könnt dem Händler eine grobe Beschreibung geben.</i>\n\nDie Helden werden mit {var:EventTravelEventForest16CGold} Gold belohnt.
+EventTravelEventForest16C.button1,{qst:ContinueButton}
+EventTravelEventForest16D.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ihr könnt dem Händler eine ziemlich genaue Beschreibung geben.</i>\n\nDie Helden werden mit {var:EventTravelEventForest16DGold} Gold belohnt.
+EventTravelEventForest16D.button1,{qst:ContinueButton}
+EventTravelEventForest16E.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ihr könnt dem Händler eine genaue Beschreibung geben.</i>\n\nDie Helden erhalten den Gegenstand {c:QItemTravelRewardF16}.
+EventTravelEventForest16E.button1,{qst:ContinueButton}
+EventTravelEventForest17.text,<b>Wald - Goldschlüssel:</b>\n\n<i>Ein seltsamer Mann bietet euch einen goldenen Schlüssel an.</i>\n\nGibt es einen Fährtensucher / Späher in der Heldengruppe?
+EventTravelEventForest17.button1,Nein
+EventTravelEventForest17.button2,Ja
+EventTravelEventForest17A.text,<b>Wald - Goldschlüssel:</b>\n\n<i>Der seltsame Mann widerruft sein Angebot.</i>\n\nNichts passiert.
+EventTravelEventForest17A.button1,{qst:ContinueButton}
+EventTravelEventForest17B.text,<b>Wald - Goldschlüssel:</b>\n\n<i>Der Späher identifiziert ihn als Wertgegenstand, den ihr für weiteren Handel nutzen könnt.</i>\n\nDas nächste Mal, wenn ihr eine Stadt besucht, werdet ihr 3 Weitere Artikel auf dem Markt finden.
+EventTravelEventForest17B.button1,{qst:ContinueButton}
+EventTravelEventForest18.text,<b>Wald - Wildes Tier:</b>\n\n<i>Eine wilde Bestie überfällt eure Gruppe und ihr lasst vor Schreck eure Waffen fallen. Ihr müsst mit bloßen Händen Kämpfen.</i>\n\n{rnd:hero} Legt eine {might} Probe ab. Wenn die Probe misslingt, erleidet er {heart} gleich seiner {might}.
+EventTravelEventForest18.button1,{qst:ContinueButton}
+EventTravelEventForest22.text,<b>Wald - Goblin-Späher:</b>\n\n<i>Ein Goblin-Späher rennt vor euch Weg, um seine Kameraden zu warnen!</i>\n\nEin Held mit einer Fernkampfwaffe würfelt mit derren Angriffswürfel. Ist die gewürfelte Entfernung geringer als {var:EventTravelEventForest22DiceResult}, erleidet jeder Held {var:EventTravelEventForest22Heart} {heart}.
+EventTravelEventForest22.button1,{qst:ContinueButton}
+EventTravelEventForest23.text,<b>Wald - Goblin-Späher:</b>\n\n<i>Ein Goblin-Späher rennt vor euch Weg, um seine Kameraden zu warnen!</i>\n\nEin Held mit einer Fernkampfwaffe würfelt mit derren Angriffswürfel. Ist die gewürfelte Entfernung geringer als {var:EventTravelEventForest23DiceResult}, erleidet jeder Held {var:EventTravelEventForest23Heart} {heart}.
+EventTravelEventForest23.button1,{qst:ContinueButton}
+EventTravelEventForest23TT.text,<b>Wald - Pestwurm:</b>\n\n<i>Ein abscheulicher Pestwurm greift euch an!</i>\n\n{rnd:hero} erleidet {var:EventTravelEventForest23TTHeart} {heart} und ist geschwächt.
+EventTravelEventForest23TT.button1,{qst:ContinueButton}
+EventTravelEventForest24.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
+EventTravelEventForest24.button1,Nein
+EventTravelEventForest24.button2,Ja
+EventTravelEventForest24A.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventForest24A.button1,{qst:ContinueButton}
+EventTravelEventForest24B.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventForest24B.button1,Nein
+EventTravelEventForest24B.button2,Ja
+EventTravelEventForest24C.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventForest24C.button1,Nein
+EventTravelEventForest24C.button2,Ja
+EventTravelEventForest24D.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventForest24D.button1,{qst:ContinueButton}
+EventTravelEventForest24E.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventForest24E.button1,{qst:ContinueButton}
+EventTravelEventForest24F.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
+EventTravelEventForest24F.button1,{qst:ContinueButton}
+EventTravelEventForest25.text,<b>Wald - Goblin-Späher:</b>\n\n<i>Ein Goblin-Späher rennt vor euch Weg, um seine Kameraden zu warnen!</i>\n\nEin Held mit einer Fernkampfwaffe würfelt mit derren Angriffswürfel. Ist die gewürfelte Entfernung geringer als {var:EventTravelEventForest25DiceResult}, erleidet jeder Held {var:EventTravelEventForest25DiceHeart} {heart}.
+EventTravelEventForest25.button1,{qst:ContinueButton}
+EventTravelEventForest25MoB.text,<b>Wald - Ein seltsames Medaillon:</b>\n\n<i>Ein seltsames Medaillon glänzt im Dreck.</i>\n\nDie Helden wählen einen Held, um eine {knowledge} Probe abzulegen. War sie erfolgreich?
+EventTravelEventForest25MoB.button1,Nein
+EventTravelEventForest25MoB.button2,Ja
+EventTravelEventForest25MoBA.text,<b>Wald - Ein seltsames Medaillon:</b>\n\n<i>Ihr schafft es nicht, das Medallion zu öffnen.</i>\n\nJeder Held legt eine {knowledge} Probe ab und erhält {fatigue} in Höhe der gewürfelten {shield}.
+EventTravelEventForest25MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest25MoBB.text,<b>Wald - Ein seltsames Medaillon:</b>\n\n<i>Ihr schafft es, das Medallion zu öffnen.</i>\n\nDarin findet ihr {var:EventTravelEventForest25MoBBGold} Gold.
+EventTravelEventForest25MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest26.text,<b>Wald - Plötzlicher Regen:</b>\n\n<i>Ein plötzlicher Regenschauer hat den Wald ein matschiges Chaos verwandelt.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, verringert seine Geschwindigkeit auf {var:EventTravelEventForest26Speed} während seines ersten Zuges.
+EventTravelEventForest26.button1,{qst:ContinueButton}
+EventTravelEventForest27.text,<b>Wald - Goblin-Späher:</b>\n\n<i>Ein Goblin-Späher rennt vor euch Weg, um seine Kameraden zu warnen!</i>\n\nEin Held mit einer Fernkampfwaffe würfelt mit derren Angriffswürfel. Ist die gewürfelte Entfernung geringer als {var:EventTravelEventForest27DiceResult}, erleidet jeder Held {var:EventTravelEventForest27DiceHeart} {heart}.
+EventTravelEventForest27.button1,{qst:ContinueButton}
+EventTravelEventForest28MoB.text,<b>Wald - Alter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
+EventTravelEventForest28MoB.button1,Nein
+EventTravelEventForest28MoB.button2,Ja
+EventTravelEventForest28MoBA.text,<b>Wald - Alter Friedhof:</b>\n\n<i>Ihr riskiert nicht, den dunklen Kristall zu berühren.</i>\n\nNichts passiert.
+EventTravelEventForest28MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest28MoBB.text,<b>Wald - Alter Friedhof:</b>\n\n<i>Ihr berührt den dunklen Kristall ...</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt oder erkrankt. Wenn alle Proben erfolgreich sind, legt einen Heldenmarker vom Helden mit der höchsten {knowledge} neben den Spielplan. Während seines Zuges kann dieser Held den Marker ablegen. Wenn er es tut, kann jeder Held einen Zustand ablegen.
+EventTravelEventForest28MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest29MoB.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>Ihr findet die Überreste eines Wagens. Eine Kiste mit einem bizarrem Schloss liegt ungeöffnet unter den Trümmern. Eine Stimme flüstert dir in den Kopf: „Durch Oger und Geist, entfesselt sich das, was wartet.“</i>\n\nWollen die Helden die Truhe öffnen?
+EventTravelEventForest29MoB.button1,Nein
+EventTravelEventForest29MoB.button2,Ja
+EventTravelEventForest29MoBA.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>Ihr lasst die Truhe ungeöffnet.</i>\n\nNichts passiert.
+EventTravelEventForest29MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBB.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>Ihr versucht, die Truhe zu öffnen.</i>\n\nDie Helden wählen {var:EventTravelEventForest29MoBBHeroes} Helden, um sowohl {might} als auch {will} zu testen. Haben alle Helden die Probe bestanden?
+EventTravelEventForest29MoBB.button1,Nein
+EventTravelEventForest29MoBB.button2,Ja
+EventTravelEventForest29MoBC.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>IIhr schafft es nicht die Truhe zu öffnen, aber etwas hat sich daraus befreit ...</i>\n\nJeder Held, dessen {might} Probe misslungen ist, ist gelähmt. Jeder Held, dessen {will} misslungen ist, ist verängstigt.
+EventTravelEventForest29MoBC.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBD.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
+EventTravelEventForest29MoBD.button1,{qst:ContinueButton}
+EventTravelEventForest30.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ein junges Paar durchsucht die verkohlten Überreste ihrer Hütte..</i>\n\nWollen die Helden {var:EventTravelEventForest30Gold} Gold ausgeben (wenn vorhanden), um sie zu unterstützen?
+EventTravelEventForest30.button1,Nein
+EventTravelEventForest30.button2,Ja
+EventTravelEventForest30A.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr habt keine Zeit, den Einheimischen zu Helfen.</i>\n\nNichts passiert.
+EventTravelEventForest30A.button1,{qst:ContinueButton}
+EventTravelEventForest30B.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr helft dem Paar, und sie versprechen, anderen von eurer heroischen Tat zu erzählen.</i>\n\nEure Moral steigt um {var:EventTravelEventForest30Morale}.
+EventTravelEventForest30B.button1,{qst:ContinueButton}
+EventTravelEventForest30C.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
+EventTravelEventForest30C.button1,{qst:ContinueButton}
+EventTravelEventWater4.text,<b>Wasser - Ein Glitzern:</b>\n\n<i>Etwas glitzert am Boden eines Sees!</i>\n\nWählt einen Heldenspieler, um eine Probe abzulegen, um danach zu tauchen. Wenn sie gelingt, zieht eine Suchkarte.
+EventTravelEventWater4.button1,{qst:ContinueButton}
+EventTravelEventWater5.text,<b>Wasser - Aufgeblähte Leichen:</b>\n\n<i>Aufgeblähte Leichen liegen im Wasser. Als ihr euch nähert, stöhnen sie und erheben sich!</i>\n\nJeder Held legt eine {will} Probe ab. Jeder Held, dessen Probe misslingt, wird von den Zombies überwältigt und erkrankt.
+EventTravelEventWater5.button1,{qst:ContinueButton}
+EventTravelEventWater7.text,<b>Wasser - Seuchenhaftes Miasma:</b>\n\n<i>Eine seuchenhaftes Miasma scheint aus dem Wasser zu steigen.</i>\n\nDer Held mit der niedrigsten {might} ist erkrankt.
+EventTravelEventWater7.button1,{qst:ContinueButton}
+EventTravelEventWater8.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Eine geheimnisvolle, vermummte Person bietet eine Fahrt auf seinem Boot an.</i>\n\nIhr wisst nicht, ob der fremde vertrauenswürdig ist, aber ihr würdet euch sicher etwas erholen. Nehmt ihr sein Angebot an?
+EventTravelEventWater8.button1,Nein
+EventTravelEventWater8.button2,Ja
+EventTravelEventWater8A.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Ihr wollt nichts riskieren.</i>\n\nNichts passiert.
+EventTravelEventWater8A.button1,{qst:ContinueButton}
+EventTravelEventWater8B.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Der fremde spricht nicht viel, aber er hört aufmerksam euren Gesprächen zu ...</i>\n\nJeder Held erholt sich von allen {fatigue}, aber die Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventWater8B.button1,{qst:ContinueButton}
+EventTravelEventWater9.text,<b>Wasser - Der Regen der letzten Nacht:</b>\n\n<i>Nach dem Regen der letzten Nacht laufen die Flüsse voll.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt erleidet {var:EventTravelEventWater9Fatigue} {fatigue}.
+EventTravelEventWater9.button1,{qst:ContinueButton}
+EventTravelEventWater10.text,<b>Wasser - Tentakel:</b>\n\n<i>Tentakel platzen aus dem Wasser und versuchen, die Helden hinabzuziehen!</i>\n\nJeder Held legt eine {might} Probe ab und erleidet {var:EventTravelEventWater10Fatigue} {fatigue}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventWater10Heart} {heart}.
+EventTravelEventWater10.button1,{qst:ContinueButton}
+EventTravelEventWater11.text,<b>Wasser - Fährmann:</b>\n\n<i>Ihr seid von der langen Reise ermüdet. Ein Fährmann bietet euch eine Fahrt an.</i>\n\nIhr könnt entweder {var:EventTravelEventWater11Gold} Gold ausgeben (wenn vorhanden) oder den anstrengenden Marsch zu Fuß fortsetzen.
+EventTravelEventWater11.button1,Müdigkeit erleiden
+EventTravelEventWater11.button2,Gold ausgeben
+EventTravelEventWater11A.text,<b>Wasser - Fährmann:</b>\n\n<i>Sie setzen Ihre Reise zu Fuß fort, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11AFatigue} {fatigue}.
+EventTravelEventWater11A.button1,{qst:ContinueButton}
+EventTravelEventWater11B.text,<b>Wasser - Fährmann:</b>\n\n<i>Auf diese Weise zu reisen, ist kostspielig, aber schneller.</i>\n\nIhr zahlt dem Fährmann seine {var:EventTravelEventWater11Gold} Gold.
+EventTravelEventWater11B.button1,{qst:ContinueButton}
+EventTravelEventWater11C.text,<b>Wasser - Fährmann:</b>\n\n<i>Da ihr nicht über das benötigte Gold verfügt, müsst ihr eure Reise zu Fuß fortsetzen, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11CFatigue} {fatigue}.
+EventTravelEventWater11C.button1,{qst:ContinueButton}
+EventTravelEventWater12.text,<b>Wasser - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventWater12Morale}.
+EventTravelEventWater12.button1,{qst:ContinueButton}
+EventTravelEventWater14.text,<b>Wasser - Belebt:</b>\n\n<i>Ihr fühlt euch gestärkt.</i>\n\nDie Helden wählen einen Krieger. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann diesen Marker zu Beginn seines Zuges ablegen. Er erleidet keine {fatigue}, in diesem Zug, um  Fähigkeiten zu nutzen.
+EventTravelEventWater14.button1,{qst:ContinueButton}
+EventTravelEventWater18LoR.text,<b>Wasser - Frau am Fluss:</b>\n\n<i>Eine Frau sitzt am Rand des Wassers, flüstert leise. Als ihr näher kommt, beginnen ihre Worte, euch mit Schrecken zu erfüllen.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird verflucht.
+EventTravelEventWater18LoR.button1,{qst:ContinueButton}
+EventTravelEventWater19.text,<b>Wasser - Dunkler Nebel:</b>\n\n<i>Ein dunkler Nebel hat sich über das Wasser gelegt.</i>\n\nEure Moral sinkt um {var:EventTravelEventWater19Morale}.
+EventTravelEventWater19.button1,{qst:ContinueButton}
+EventTravelEventWater20LoR.text,<b>Wasser - Dunkles Wasser:</b>\n\n<i>Das Wasser wirkt dunkel und riecht nach Fäulnis.</i>\n\nWählt einen Helden, der keine Zustandskarte hat, um für sein schwächstes Attribut eine Probe abzulegen. Falls sie misslingt ist er verflucht.
+EventTravelEventWater20LoR.button1,{qst:ContinueButton}
+EventTravelEventWater21.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Das Feilschen mit einem reisenden Kaufmann verlangsamt eure Reise.</i>\n\nDie Helden können einen Gegenstand bekommen, wenn sie etwas Zeit opfern. Wollt ihr das?
+EventTravelEventWater21.button1,Nein
+EventTravelEventWater21.button2,Ja
+EventTravelEventWater21A.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Dafür habt ihr keine Zeit.</i>\n\nNichts passiert.
+EventTravelEventWater21A.button1,{qst:ContinueButton}
+EventTravelEventWater21B.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Es dauert Stunden, bis ihr einen Preis ausgehandelt habt.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen und die Helden erhalten den Gegenstand {c:[QItemTravelRewardW21}.
+EventTravelEventWater21B.button1,{qst:ContinueButton}
+EventTravelEventWater23.text,<b>Wasser Verdorbene Gewässer:</b>\n\n<i>Etwas übles hat dieses Gewässer verseucht.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, ist vergiftet.
+EventTravelEventWater23.button1,{qst:ContinueButton}
+EventTravelEventWater24.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
+EventTravelEventWater24.button1,Nein
+EventTravelEventWater24.button2,Ja
+EventTravelEventWater24A.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventWater24A.button1,{qst:ContinueButton}
+EventTravelEventWater24B.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventWater24B.button1,Nein
+EventTravelEventWater24B.button2,Ja
+EventTravelEventWater24C.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventWater24C.button1,Nein
+EventTravelEventWater24C.button2,Ja
+EventTravelEventWater24D.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventWater24D.button1,{qst:ContinueButton}
+EventTravelEventWater24E.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventWater24E.button1,{qst:ContinueButton}
+EventTravelEventWater24F.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
+EventTravelEventWater24F.button1,{qst:ContinueButton}
+EventTravelEventWater25.text,<b>Wasser - Einladende Lagune:</b>\n\n<i>Unter den abgedunkelten Gewässern seht ihr in der Tiefe eine einladende Lagune.</i>\n\nJeder Held kann sich entscheiden, {var:EventTravelEventWater25Heart1} {heart} zu erleiden und dadurch {var:EventTravelEventWater25Fatigue1} zu erholen, oder {fatigue} {var:EventTravelEventWater25Fatigue2} {fatigue} zu erleiden und dadurch {var:EventTravelEventWater25Heart1} {heart} zu erholen.
+EventTravelEventWater25.button1,{qst:ContinueButton}
+EventTravelEventWater27.text,<b>Wasser - Blutegel:</b>\n\n<i>Das Wasser wimmelt von Blutegeln.</i>\n\nJeder Held legt eine {awareness} Probe ab. Jeder Held, dessen Probe misslingt, ist erkrankt.
+EventTravelEventWater27.button1,{qst:ContinueButton}
+EventTravelEventWater28MoB.text,<b>Wasser - Alter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
+EventTravelEventWater28MoB.button1,Nein
+EventTravelEventWater28MoB.button2,Ja
+EventTravelEventWater28MoBA.text,<b>Wasser - Alter Friedhof:</b>\n\n<i>Ihr riskiert nicht, den dunklen Kristall zu berühren.</i>\n\nNichts passiert.
+EventTravelEventWater28MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater28MoBB.text,<b>Wasser - Alter Friedhof:</b>\n\n<i>Ihr berührt den dunklen Kristall ...</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt oder erkrankt. Wenn alle Proben erfolgreich sind, legt einen Heldenmarker vom Helden mit der höchsten {knowledge} neben den Spielplan. Während seines Zuges kann dieser Held den Marker ablegen. Wenn er es tut, kann jeder Held einen Zustand ablegen.
+EventTravelEventWater28MoBB.button1,{qst:ContinueButton}
+EventTravelEventWater29MoB.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr findet die Überreste eines Wagens. Eine Kiste mit einem bizarrem Schloss liegt ungeöffnet unter den Trümmern. Eine Stimme flüstert dir in den Kopf: „Durch Oger und Geist, entfesselt sich das, was wartet.“</i>\n\nWollen die Helden die Truhe öffnen?
+EventTravelEventWater29MoB.button1,Nein
+EventTravelEventWater29MoB.button2,Ja
+EventTravelEventWater29MoBA.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr lasst die Truhe ungeöffnet.</i>\n\nNichts passiert.
+EventTravelEventWater29MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBB.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr versucht, die Truhe zu öffnen.</i>\n\nDie Helden wählen {var:EventTravelEventWater29MoBBHeroes} Helden, um sowohl {might} als auch {will} zu testen. Haben alle Helden die Probe bestanden?
+EventTravelEventWater29MoBB.button1,Nein
+EventTravelEventWater29MoBB.button2,Ja
+EventTravelEventWater29MoBC.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>IIhr schafft es nicht die Truhe zu öffnen, aber etwas hat sich daraus befreit ...</i>\n\nJeder Held, dessen {might} Probe misslungen ist, ist gelähmt. Jeder Held, dessen {will} misslungen ist, ist verängstigt.
+EventTravelEventWater29MoBC.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBD.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
+EventTravelEventWater29MoBD.button1,{qst:ContinueButton}
+EventTravelEventWater31TctR.text,<b>Wasser -Kugeln des Blutes:</b>\n\n<i>Die Kugeln des Blutes sprudeln aus unsichtbaren tiefen und füllen die Luft mit Putrid rotem Nebel.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird erkrankt und testet {will}. Jeder Held, der wiedessen Probe misslingt, ist verängstigt.
+EventTravelEventWater31TctR.button1,{qst:ContinueButton}
+EventTravelEventMountains1.text,<b>Berge - Tödliche Steilhänge:</b>\n\n<i>Ihr seid bei einem heftigen Sturm auf den tödlichen Steilhängen eines Berges gefangen.</i>\n\nJeder Held erleidet {var:EventTravelEventMountains1Heart} {heart} und {var:EventTravelEventMountains1Fatigue} {fatigue}.
+EventTravelEventMountains1.button1,{qst:ContinueButton}
+EventTravelEventMountains3.text,<b>Berge - Ein Ettin erscheint:</b>\n\n<i>Ein Ettin taucht aus den Bergen auf und greift die Helden an!</i>\n\nJeder Held legt eine {might} Probe ab und erleidet {var:EventTravelEventMountains3Heart1} {heart}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventMountains3HeartAll} zusätzliches {heart}.
+EventTravelEventMountains3.button1,{qst:ContinueButton}
+EventTravelEventMountains5.text,<b>Berge - Zwerg von Dunwarr:</b>\n\n<i>Ein Zwerg von Dunwarr begräbt seinen Bruder. Er warnt vor Gefahren.</i>\n\nIhr überspringt das nächste Reiseereignis.
+EventTravelEventMountains5.button1,{qst:ContinueButton}
+EventTravelEventMountains6.text,<b>Berge - Diener des Overlords!:</b>\n\n<i>Die Diener des Overlords tauchen auf!</i>\n\nDie Helden wählen 1 Attribut. Jeder Held muss das für das gewählte Attribut eine Probe ablegen. Jeder Held, der scheitert, erleidet {var:EventTravelEventMountains6Heart} {heart} und {var:EventTravelEventMountains6Fatigue} {fatigue}.
+EventTravelEventMountains6.button1,{qst:ContinueButton}
+EventTravelEventMountains8.text,<b>Berge - Geheimnisvolle Höhle:</b>\n\n<i>Eine geheimnisvolle Höhlmündung ragt vor euch auf.</i>\n\nDie Höhle zu durchsuchen, würde einige Zeit kosten. Wollt ihr das?
+EventTravelEventMountains8.button1,Nein
+EventTravelEventMountains8.button2,Ja
+EventTravelEventMountains8A.text,<b>Berge - Geheimnisvolle Höhle:</b>\n\n<i>Ihr habt keine Zeit, die Höhle zu überprüfen.</i>\n\nNichts passiert.
+EventTravelEventMountains8A.button1,{qst:ContinueButton}
+EventTravelEventMountains8B.text,<b>Berge - Geheimnisvolle Höhle:</b>\n\n<i>Es dauert eine Weile, aber ihr findet einen Schatz in der Höhle!</i>\n\nEin Held zieht eine Suchkarte, aber die Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventMountains8B.button1,{qst:ContinueButton}
+EventTravelEventMountains9.text,<b>Berge - Erdrutsch!:</b>\n\n<i>Ein Erdrutsch!</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt erleidet {var:EventTravelEventMountains9Fatigue} {fatigue}.
+EventTravelEventMountains9.button1,{qst:ContinueButton}
+EventTravelEventMountains10.text,<b>Berge - Hinterhalt:</b>\n\n<i>Pfeile fliegen hinter den Felsbrocken hervor!</i>\n\nJeder Held legt eine {awareness} Probe ab und erleidet {var:EventTravelEventMountains10Heart1} {heart}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventMountains10Heart2} zusätzliches {heart}.
+EventTravelEventMountains10.button1,{qst:ContinueButton}
+EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
+EventTravelEventMountains12.button1,{qst:ContinueButton}
+EventTravelEventMountains13.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Ein geheimnisvoller Gaukler taucht auf und macht euch ein unwiderstehliches Angebot ...</i>\n\nEin Held legt für jedes seiner Attribut eine Probe ab ({will}, {knowledge}, {awareness} und {might}). Waren alle Probe erfolgreich?
+EventTravelEventMountains13.button1,Nein
+EventTravelEventMountains13.button2,Ja
+EventTravelEventMountains13A.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Der Gaukler lacht manisch, um eurer Versagen zu bezeugen.</i>\n\nNichts passiert.
+EventTravelEventMountains13A.button1,{qst:ContinueButton}
+EventTravelEventMountains13B.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Der Gaukler ist beeindruckt von eurem Fachwissen und hält sein Versprechen.</i>\n\nIhr erhaltet den Gegenstand {c:QItemTravelRewardM13}.
+EventTravelEventMountains13B.button1,{qst:ContinueButton}
+EventTravelEventMountains16.text,<b>Berge - Reichtümer:</b>\n\n<i>Während ihr auf den Berg hinaufwandet, wundert ihr euch über die Reichtümer, die euch erwarten.</i>\n\nDie Spieler ziehen die obersten {var:EventTravelEventMountains16TopCards} Karten des Suchkartenstapels und legen alle <i>Tränke</i> zurück, an das untere Ende des Kartenstapels haben. Die anderen Karten werden an die Spitze des Suchkartenstapels gelegt.
+EventTravelEventMountains16.button1,{qst:ContinueButton}
+EventTravelEventMountains17.text,<b>Berge - Anstrengung:</b>\n\n<i>Ihr findet den Weg, der den Berg hinaufführt furchtbar anstrengend.</i>\n\nDer Held mit der niedrigsten {might} legt eine {might} Probe ab. Wenn er scheitert, legt einen Heldenmarker auf sein Heldenblatt. Er hat-{var:EventTravelEventMountains17Speed} Geschwindigkeit, bis er eine Erholungsaktion durchführt.
+EventTravelEventMountains17.button1,{qst:ContinueButton}
+EventTravelEventMountains18.text,<b>Berge - Kiste:</b>\n\n<i>Ihr findet eine mit einer Rune versiegelte Kiste.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Wenn mindestens {var:EventTravelEventMountains18Heroes} Helden erfolgreich sind, können die Helden den Suchkartenstapel nach einem Heiltrank durchsuchen. Mischt danach den Suchkartenstapel.
+EventTravelEventMountains18.button1,{qst:ContinueButton}
+EventTravelEventMountains19.text,<b>Berge - Felsiger Boden:</b>\n\n<i>Auf dem Weg auf den Berg hinauf, weicht sich der felsige Boden unter euren Füßen auf.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, ist gelähmt. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventMountains19Heart} {heart}.
+EventTravelEventMountains19.button1,{qst:ContinueButton}
+EventTravelEventMountains20.text,<b>Berge - Spion:</b>\n\n<i>Einen Spion zu fangen, erweist sich als nicht so  einfach.</i>\n\nJeder Held erleidet {var:EventTravelEventMountains20Fatigue} {fatigue}, aber Eure Moral steigt um {var:EventTravelEventMountains20Morale}.
+EventTravelEventMountains20.button1,{qst:ContinueButton}
+EventTravelEventMountains21.text,<b>Berge - Böse Günstlinge:</b>\n\n<i>Die bösen Günstlinge des Overlords gewinnen an Stärke.</i>\n\nPlatziert neben dem Spielplan einen {fatigue} Marker. Werft diesen Marker ab diesen Marker bei der ersten Aktivierung eines Elite-Monsters. Dieses Monster gewinnt {var:EventTravelEventMountains21MovementPoints} zusätzlichen Bewegungspunkte.
+EventTravelEventMountains21.button1,{qst:ContinueButton}
+EventTravelEventMountains23.text,<b>Berge - Gefangener Spion:</b>\n\n<i>Ein Gefangener Spion verrät euch viele Geheimnisse.</i>\n\nIhr werdet in der Lage sein, einige der Verstärkungen des Overlords zu vermeiden.
+EventTravelEventMountains23.button1,{qst:ContinueButton}
+EventTravelEventMountains24.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
+EventTravelEventMountains24.button1,Nein
+EventTravelEventMountains24.button2,Ja
+EventTravelEventMountains24A.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventMountains24A.button1,{qst:ContinueButton}
+EventTravelEventMountains24B.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventMountains24B.button1,Nein
+EventTravelEventMountains24B.button2,Ja
+EventTravelEventMountains24C.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventMountains24C.button1,Nein
+EventTravelEventMountains24C.button2,Ja
+EventTravelEventMountains24D.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventMountains24D.button1,{qst:ContinueButton}
+EventTravelEventMountains24E.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
+EventTravelEventMountains24E.button1,{qst:ContinueButton}
+EventTravelEventMountains24F.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
+EventTravelEventMountains24F.button1,{qst:ContinueButton}
+EventTravelEventMountains26MoB.text,<b>Berge - unnatürliche Figuren:</b>\n\n<i>Unnatürliche gestalten verfolgen den Rand ihrer Campingplätze.</i>\n\nDie Helden wählen einen Helden, um {Awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
+EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains27MoB.text,<b>Berge - der Reek des brennenden Fleisches:</b>\n\n<i>Der Reek des brennenden Fleisches zieht dich zu einem verlassenen Scheiterhaufen.</i>\n\nDie Helden können einen Helden wählen, um {awareness} zu Lege eine Probe ab. Wenn sie gelingt, zieht dieser Held eine Suchkarte und ist verängstigt.
+EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoB.text,<b>Berge - Alter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
+EventTravelEventMountains28MoB.button1,Nein
+EventTravelEventMountains28MoB.button2,Ja
+EventTravelEventMountains28MoBA.text,<b>Berge - Alter Friedhof:</b>\n\n<i>Ihr riskiert nicht, den dunklen Kristall zu berühren.</i>\n\nNichts passiert.
+EventTravelEventMountains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoBB.text,<b>Berge - Alter Friedhof:</b>\n\n<i>Ihr berührt den dunklen Kristall ...</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, ist verängstigt oder erkrankt. Wenn alle Proben erfolgreich sind, legt einen Heldenmarker vom Helden mit der höchsten {knowledge} neben den Spielplan. Während seines Zuges kann dieser Held den Marker ablegen. Wenn er es tut, kann jeder Held einen Zustand ablegen.
+EventTravelEventMountains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoB.text,<b>Berge - Die Überreste eines Wagens:</b>\n\n<i>Ihr findet die Überreste eines Wagens. Eine Kiste mit einem bizarrem Schloss liegt ungeöffnet unter den Trümmern. Eine Stimme flüstert dir in den Kopf: „Durch Oger und Geist, entfesselt sich das, was wartet.“</i>\n\nWollen die Helden die Truhe öffnen?
+EventTravelEventMountains29MoB.button1,Nein
+EventTravelEventMountains29MoB.button2,Ja
+EventTravelEventMountains29MoBA.text,<b>Berge - Die Überreste eines Wagens:</b>\n\n<i>Ihr lasst die Truhe ungeöffnet.</i>\n\nNichts passiert.
+EventTravelEventMountains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBB.text,<b>Berge - Die Überreste eines Wagens:</b>\n\n<i>Ihr versucht, die Truhe zu öffnen.</i>\n\nDie Helden wählen {var:EventTravelEventMountains29MoBBHeroes} Helden, um sowohl {might} als auch {will} zu testen. Haben alle Helden die Probe bestanden?
+EventTravelEventMountains29MoBB.button1,Nein
+EventTravelEventMountains29MoBB.button2,Ja
+EventTravelEventMountains29MoBC.text,<b>Berge - Die Überreste eines Wagens:</b>\n\n<i>IIhr schafft es nicht die Truhe zu öffnen, aber etwas hat sich daraus befreit ...</i>\n\nJeder Held, dessen {might} Probe misslungen ist, ist gelähmt. Jeder Held, dessen {will} misslungen ist, ist verängstigt.
+EventTravelEventMountains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBD.text,<b>Berge - Die Überreste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
+EventTravelEventMountains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventMountains31.text,<b>Berge - Sarg in der Klippe:</b>\n\n<i>Ihr findet einen gewaltigen Sarg, der direkt in einer Klippe eingebaut wurde.</i>\n\nDie Helden wählen eine einen oder mehrere Helden, um eine {might} Probe abzulegen. Jeder Held, dessen Probe misslingt erleidet {var:EventTravelEventMountains31Heart} {heart}. Haben {var:EventTravelEventMountains31Heroes} oder mehr Helden die Probe erfolgreich durchgeführt?
+EventTravelEventMountains31.button1,Nein
+EventTravelEventMountains31.button2,Ja
+EventTravelEventMountains31A.text,<b>Berge - Sarg in der Klippe:</b>\n\n<i>Ihr schafft es nicht, den Sarg zu öffnen.</i>\n\nNichts passiert.
+EventTravelEventMountains31A.button1,{qst:ContinueButton}
+EventTravelEventMountains31B.text,<b>Berge - Sarg in der Klippe:</b>\n\n<i>Im Inneren des Sarges findet ihr einige Goldmünzen.</i>\n\nIhr erhaltet {var:EventTravelEventMountains31BGold} Gold.
+EventTravelEventMountains31B.button1,{qst:ContinueButton}
+EventTravelEventThreat.text,<i>Die Streitkräfte des Overlords sind euren Spuren gefolgt und sind euch dicht auf den Fersen.</i>\n\n Ihr müsst eine zusätzliches Reiseergeinis durchführen, um mit ihnen fertig zu werden.
+EventTravelEventThreat.button1,{qst:ContinueButton}
+EventTravelEventThread1.text,<i>Ein magisches Seil hat einen von euch gefesselt. Ihr versucht, es abzuwerfen.</i>\n\nDer Held mit der niedrigsten {knowledge} legt eine {knowledge} Probe ab. Wenn sie misslingt ist er gelähmt.
+EventTravelEventThread2.text,<i>Um euch herum bildet sich eine giftige grüne Wolke.</i>\n\nJeder Held testet {knowledege}. Jeder Held, dessen Probe misslingt, wird vergiftet.
+EventTravelEventThread3.text,<i>Eine Gruppe Goblinbogenschützen hat euch entdeckt. Ein Pfeilhagel geht auf euch nieder.</i>\n\n Jeder Held legt eine {awareness} Probe ab. Jeder Held dessen Probe misslingt erleidet {var:EventTravelEventThread3Heart} {heart}.
+EventTravelEventThread4.text,<i>Ihr geratet in einen Kampf und einige von euch werden verletzt.</i>\n\nWählt zwei Helden, die jeweils {var:TravelEventThread4Heart} {heart} erleiden.
+EventTravelEventThread5.text,<i>Ein Schattendrache rast aus dem Himmel auf euch herab. Eine riesige Feuerwalze kommt aus seinem Mund.</i> Führt einen Angriff eines Elite-Schattendrachens gegen jeden Helden durch.\nEr hat: {surge} +{var:TravelEventThread5Heart} {heart}\n\n Es gelten die normalen Verteidgungsregeln.
+EventTravelEventThread1.button1,{qst:ContinueButton}
+EventTravelEventThread2.button1,{qst:ContinueButton}
+EventTravelEventThread3.button1,{qst:ContinueButton}
+EventTravelEventThread4.button1,{qst:ContinueButton}
+EventTravelEventThread5.button1,{qst:ContinueButton}
+EventBlackMarketNotEnoughGold.text,Euch kommt in den Sinn, nach jemandem zu suchen, der euch Zugang zu weniger legalen Waren verschaffen könnte, aber ihr stellt fest, dass euch das Geld dafür fehlt.\n\n Ihr findet keinen anderen Händler.
+EventBlackMarketNotEnoughGold.button1,{qst:ContinueButton}
+EventButtonClick.button1,{qst:ContinueButton}

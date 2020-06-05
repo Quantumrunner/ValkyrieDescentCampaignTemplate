@@ -1,0 +1,11 @@
+.,German
+ContinueButton,Weiter
+UIIntro.uitext,Intro Text hier einfügen
+UIStart.uitext,Start
+quest.name,Descent - Kampagnen Template
+quest.description,Kampagnen Beschreibung hier einfügen
+quest.authors,AutorenHierEinfügen
+quest.synopsys,Hier eine Kurzbeschreibung der Kampagne einfügen (wird in der Missionsauswahlliste angezeigt).
+quest.authors_short,AutorenHierEinfügen
+EventStart.button1,{qst:ContinueButton}
+EventInitializeCampaign.button1,{qst:ContinueButton}

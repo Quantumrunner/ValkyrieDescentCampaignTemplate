@@ -1,0 +1,599 @@
+.,English
+ContinueButton,Continue
+quest.name,Valkyrie - Descent - Campaign Template - Campaign Phase
+quest.description,Campaign Phase
+UIQuest1.text,Add Quest 1 text here.
+UIQuest1.button1,Start encounter
+UIQuest2.text,Add Quest 2 text here.
+UIQuest3.button1,Start encounter
+UIQuest4.text,Add Quest 4 text here.
+UIQuest2.button1,Start encounter
+UIQuest3.text,Add Quest 3 text here.
+UIQuest4.button1,Start encounter
+UIQuest5.text,Add Quest 5 text here.
+UIQuest5.button1,Start encounter
+UIQuestFinale.text,Add Finale text here.
+UIQuestFinale.button1,Start final encounter
+UICity.text,After an exhausting day you hurry to the city.
+UICity.button1,{qst:ContinueButton}
+UICityStartGame.text,You start your adventure in this city.
+UICityStartGame.button1,{qst:ContinueButton}
+EventTransition.text,<b>Transition to Act II</b>\n\nReturn all Act I Monster cards, Lieutenant cards, and Agent cards (if any) to the game box. Only Act II Monster cards, Lieutenant cards, and Agent cards (if any) are used for the remainder of the campaign.\n\n<i>You notice an substantial increase in the number of merchants who are traveling to the city.</i>\n\nYou will be able find additional merchants.
+EventTransition.button1,{qst:ContinueButton}
+EventCity.button1,Leave the City
+EventCity.button2,Restock
+EventCity.button3,Visit Black Market
+EventCityEL.button1,Leave the City
+EventCityEL.button2,Restock
+EventCityEL.button3,Visit Black Market
+EventBlackMarketVisited.text,You pay the fee and after following your contact through countless backalleys you arrive at the black market.\n\nYou are able to find another merchant.
+EventRestockAvailable.text,Due to your prior successes, the city has been able to attract several new merchants.\n\nYou are able to find another merchant.
+EventCityAct2.button1,Leave the City
+EventCityAct2.button2,Restock
+EventCityAct2.button3,Visit Black Market
+EventRestock.text,<i>There may be other merchants in town but you are not sure if you have the time to look for them.</i>\n\nYou can restock {var:%RestockAmount} times.\n\nDo you want to restock?
+EventRestock.button1,Yes
+EventRestock.button2,No
+EventLeaveCity.text,Do you really want to leave the city and set off to another adventure?
+EventLeaveCity.button1,Yes
+EventLeaveCity.button2,No
+EventRestockAvailable.button1,{qst:ContinueButton}
+EventRestockNotAvailable.text,Unfortunately the merchants have nothing else to offer.\n\nYou are unable to find another merchant.
+EventRestockNotAvailable.button1,{qst:ContinueButton}
+EventBlackMarketCheck.text,It will take a few hours to find someone who is willing to offer you the less legal wares. And it will cost you...\n\nDo you want to pay {var:EventBlackMarketEntryGold} Gold to gain access to other wares?
+EventBlackMarketCheck.button1,Yes
+EventBlackMarketCheck.button2,No
+EventBlackMarketAlreadyVisited.text,You already visited the black market. There is nothing else for sale.\n\nYou are unable to find another merchant.
+EventBlackMarketAlreadyVisited.button1,{qst:ContinueButton}
+EventBlackMarketVisited.button1,{qst:ContinueButton}
+EventTravelEventRoadNothing.text,<b>Road - Nothing happens</b>\n\n<i>You travel along the road.</i>\n\nNo Effect.
+EventTravelEventRoadNothing.button1,{qst:ContinueButton}
+EventTravelEventPlainsNothing.text,<b>Plains - Nothing happens</b>\n\n<i>You travel through open plains.</i>\n\nNo Effect.
+EventTravelEventPlainsNothing.button1,{qst:ContinueButton}
+EventTravelEventForestNothing.text,<b>Forest - Nothing happens</b>\n\n<i>You travel through a thick forest.</i>\n\nNo Effect.
+EventTravelEventForestNothing.button1,{qst:ContinueButton}
+EventTravelEventWaterNothing.text,<b>Water - Nothing happens</b>\n\n<i>You travel along a river.</i>\n\nNo Effect.
+EventTravelEventWaterNothing.button1,{qst:ContinueButton}
+EventTravelEventMountainsNothing.text,<b>Mountains - Nothing happens</b>\n\n<i>You travel through the mountains.</i>\n\nNo Effect.
+EventTravelEventMountainsNothing.button1,{qst:ContinueButton}
+EventTravelEventRoad2.text,<b>Road - Traveling Merchant:</b>\n\n<i>You come across a traveling merchant.</i>\n\nEach hero tests {knowledge} and draws 1 Search card if he passes.
+EventTravelEventRoad2.button1,{qst:ContinueButton}
+EventTravelEventRoad6.text,<b>Road - Hidden Path:</b>\n\n<i>You find a hidden path and make excellent time!</i>.\n\nYou skip the next Travel Event.
+EventTravelEventRoad6.button1,{qst:ContinueButton}
+EventTravelEventRoad7.text,<b>Road - Traveling Sage:</b>\n\n<i>A traveling sage gives you access to his library.</i>\n\nHero players choose one hero to test {knowledge}. Did he pass?
+EventTravelEventRoad7.button1,No
+EventTravelEventRoad7.button2,Yes
+EventTravelEventRoad7A.text,<b>Road - Traveling Sage:</b>\n\n<i>Unfortunately you do learn nothing of interest from the sage's library.</i>\n\nNo effect.
+EventTravelEventRoad7A.button1,{qst:ContinueButton}
+EventTravelEventRoad7B.text,<b>Road - Traveling Sage:</b>\n\n<i>In the Sage's books you learn something about the possible weaknesses of the overlord.</i>\n\nYour morale increases by {var:EventTravelEventRoad7BMorale}.
+EventTravelEventRoad7B.button1,{qst:ContinueButton}
+EventTravelEventRoad9.text,<b>Road - The Overlord's Spies:</b>\n\n<i>The overlord's spies are everywhere.</i>
+EventTravelEventRoad9.button1,{qst:ContinueButton}
+EventTravelEventRoad9H2.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H2.button1,None
+EventTravelEventRoad9H2.button2,One
+EventTravelEventRoad9H2.button3,Two
+EventTravelEventRoad9H3.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H3.button1,None
+EventTravelEventRoad9H3.button2,One
+EventTravelEventRoad9H3.button3,Two
+EventTravelEventRoad9H3.button4,Three
+EventTravelEventRoad9H4.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H4.button1,None
+EventTravelEventRoad9H4.button2,One
+EventTravelEventRoad9H4.button3,Two
+EventTravelEventRoad9H4.button4,Three
+EventTravelEventRoad9H4.button5,Four
+EventTravelEventRoad9A.text,<b>Road - The Overlord's Spies:</b>\n\nYou manage to avoid the Overlord's spies.\n\nNo effect.
+EventTravelEventRoad9A.button1,{qst:ContinueButton}
+EventTravelEventRoad9B.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9B.button1,{qst:ContinueButton}
+EventTravelEventRoad9C.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9C.button1,{qst:ContinueButton}
+EventTravelEventRoad9D.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9D.button1,{qst:ContinueButton}
+EventTravelEventRoad9E.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9E.button1,{qst:ContinueButton}
+EventTravelEventRoad11.text,<b>Road - Wrong turn:</b>\n\n<i>You think you took a wrong turn...</i>\n\nEach hero tests {knowledge} and suffers {var:EventTravelEventRoad11Fatigue} {fatigue} if he fails. Did all heroes pass?
+EventTravelEventRoad11.button1,No
+EventTravelEventRoad11.button2,Yes
+EventTravelEventRoad11A.text,<b>Road - Wrong turn:</b>\n\n<i>You find a way back onto the road.</i>\n\nNo effect.
+EventTravelEventRoad11A.button1,{qst:ContinueButton}
+EventTravelEventRoad11B.text,<b>Road - Wrong turn:</b>\n\n<i>Surprisingly it turns out that you found a shortcut.</i>\n\nYou skip the next Travel Event.
+EventTravelEventRoad11B.button1,{qst:ContinueButton}
+EventTravelEventRoad12.text,"<b>Road - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Hurry!""</i>\n\nYour morale increases by {var:EventTravelEventRoad12Morale}."
+EventTravelEventRoad12.button1,{qst:ContinueButton}
+EventTravelEventRoad15.text,<b>Road - Discarded Scroll:</b>\n\n<i>You come across a discarded scroll.</i>\n\nThe heroes choose a mage. He places one of his hero tokens besides the map. He may discard this after rolling defense dice to add a number of {shield} to his result equal to his {knowledge}.
+EventTravelEventRoad15.button1,{qst:ContinueButton}
+EventTravelEventRoad17.text,<b>Road - Lost Messenger:</b>\n\n<i>A lost messenger is selling secrets.</i>\n\nThe heroes may choose to spend {var:EventTravelEventRoad17GoldNeeded} gold (if available) to learn some of the Overlord's secrets.
+EventTravelEventRoad17.button1,No
+EventTravelEventRoad17.button2,Yes
+EventTravelEventRoad17A.text,<b>Road - Lost Messenger:</b>\n\n<i>You do not respond to the shady offer.</i>\n\nNo Effect.
+EventTravelEventRoad17A.button1,{qst:ContinueButton}
+EventTravelEventRoad17B.text,<b>Road - Lost Messenger:</b>\n\n<i>You learn about some of the Overlord's plans, for a price.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventRoad17B.button1,{qst:ContinueButton}
+EventTravelEventRoad17C.text,<b>Road - Lost Messenger:</b>\n\n<i>You do not have the required gold.</i>\n\nNo Effect.
+EventTravelEventRoad17C.button1,{qst:ContinueButton}
+EventTravelEventRoad20.text,<b>Road - Tall Tree:</b>\n\n<i>A tall tree offers a scouting vantage.</i>\n\nHero players choose one hero to suffer {var:EventTravelEventRoad20Fatigue} {fatigue} and test {awareness}. Did he pass?
+EventTravelEventRoad20.button1,No
+EventTravelEventRoad20.button2,Yes
+EventTravelEventRoad20A.text,<b>Road - Tall Tree:</b>\n\n<i>You do not manage to reach the treetop.</i>\n\nNo effect.
+EventTravelEventRoad20A.button1,{qst:ContinueButton}
+EventTravelEventRoad20B.text,<b>Road - Tall Tree:</b>\n\n<i>You get a clear view from the top of the tree.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventRoad20B.button1,{qst:ContinueButton}
+EventTravelEventRoad22.text,<b>Road - Shady Traveler:</b>\n\n<i>A shady traveler offers you directions, for a price.</i>\n\nThe heroes may choose to spend {var:EventTravelEventRoad22Gold} gold (if available). Do you want to pay the fee?
+EventTravelEventRoad22.button1,No
+EventTravelEventRoad22.button2,Yes
+EventTravelEventRoad22A.text,<b>Road - Shady Traveler:</b>\n\n<i>You do not respond to the shady offer.</i>\n\nNo effect.
+EventTravelEventRoad22A.button1,{qst:ContinueButton}
+EventTravelEventRoad22B.text,<b>Road - Shady Traveler:</b>\n\n<i>You pay the usurer and he indeed provides you with a shortcut to your destination.</i>\n\nYou skip the next Travel Event.
+EventTravelEventRoad22B.button1,{qst:ContinueButton}
+EventTravelEventRoad22C.text,<b>Road - Shady Traveler:</b>\n\n<i>You do not have the required gold.</i>\n\nNo effect.
+EventTravelEventRoad22C.button1,{qst:ContinueButton}
+EventTravelEventRoad24.text,<b>Road - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDo you accept the challenge?
+EventTravelEventRoad24.button1,No
+EventTravelEventRoad24.button2,Yes
+EventTravelEventRoad24A.text,<b>Road - Lone Knight:</b>\n\n<i>The knight seems disappointed but lets you pass unharmed.</i>\n\nNo effect.
+EventTravelEventRoad24A.button1,{qst:ContinueButton}
+EventTravelEventRoad24B.text,<b>Road - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActI}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActI}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventRoad24B.button1,No
+EventTravelEventRoad24B.button2,Yes
+EventTravelEventRoad24C.text,<b>Road - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActII}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActII}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventRoad24C.button1,No
+EventTravelEventRoad24C.button2,Yes
+EventTravelEventRoad24D.text,<b>Road - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventRoad24D.button1,{qst:ContinueButton}
+EventTravelEventRoad24E.text,<b>Road - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventRoad24E.button1,{qst:ContinueButton}
+EventTravelEventRoad24F.text,<b>Road - Lone Knight:</b>\n\n<i>You fight for several minutes, until the knight surrenders. He admires your strength and offers you his weapon as a token of his respect.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack. You receive the knight's weapon.
+EventTravelEventRoad24F.button1,{qst:ContinueButton}
+EventTravelEventRoad26.text,<b>Road - Tree Inscribed With Inspiring Words:</b>\n\n<i>A large tree in your path is inscribed with inspiring words.</i>\n\nEach hero applies +{var:EventTravelEventRoad26AttributesAdd} to each of his attributes until the end of this Travel phase.
+EventTravelEventRoad26.button1,{qst:ContinueButton}
+EventTravelEventRoad27.text,<b>Road - TURN BACK:</b>\n\n<i>TURN BACK is scrawled in blood on an ancient road marker.</i>\n\nEach hero tests {will}. Did {var:EventTravelEventRoad27Heroes} or more heroes fail?
+EventTravelEventRoad27.button1,No
+EventTravelEventRoad27.button2,Yes
+EventTravelEventRoad27A.text,<b>Road - TURN BACK:</b>\n\n<i>You ignore the words, as they are clearly there to hinder you.</i>\n\nNo Effect.
+EventTravelEventRoad27A.button1,{qst:ContinueButton}
+EventTravelEventRoad27B.text,<b>Road - TURN BACK:</b>\n\n<i>You heed the warning, but this means you need to take a detour.</i>\n\nYou will have another random travel event.
+EventTravelEventRoad27B.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoB.text,<b>Road - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?
+EventTravelEventRoad28MoB.button1,No
+EventTravelEventRoad28MoB.button2,Yes
+EventTravelEventRoad28MoBA.text,<b>Road - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventRoad28MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoBB.text,<b>Road - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may remove one condition.
+EventTravelEventRoad28MoBB.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoB.text,"<b>Road - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventRoad29MoB.button1,No
+EventTravelEventRoad29MoB.button2,Yes
+EventTravelEventRoad29MoBA.text,<b>Road - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventRoad29MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBB.text,<b>Road - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose one heroes to test both {might} and {will} to open the chest. Did both heroes pass both tests?
+EventTravelEventRoad29MoBB.button1,No
+EventTravelEventRoad29MoBB.button2,Yes
+EventTravelEventRoad29MoBC.text,<b>Road - The Remains of a Wagon:</b>\n\n<i>You fail to open the chest, but something has been set free...</i>\n\nEach hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified.
+EventTravelEventRoad29MoBC.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBD.text,<b>Road - The Remains of a Wagon:</b>\n\n<i>You manage to open the chest find an item.</i>\n\nYou found the item {c:QItemTravelReward29}.
+EventTravelEventRoad29MoBD.button1,{qst:ContinueButton}
+EventTravelEventRoad30.text,<b>Road - Battalion of Enemy Soldiers:</b>\n\n<i>You scurry off the road as a battalion of enemy soldiers marches into view. You press yourselves against the talus, desperate not to be seen.</i>\n\nEach hero tests {awareness}. For each hero who fails, each hero suffers {var:EventTravelEventRoad30Fatigue} {fatigue}.
+EventTravelEventRoad30.button1,{qst:ContinueButton}
+EventTravelEventRoad31.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>Twelve roads cross your path</i>\n\nOne hero tests {knowledge} or {awareness}. Did he pass?
+EventTravelEventRoad31.button1,Yes
+EventTravelEventRoad31.button2,No
+EventTravelEventRoad31A.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>You find the right path.</i>\n\nNo effect.
+EventTravelEventRoad31A.button1,{qst:ContinueButton}
+EventTravelEventRoad31B.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>You are absolutely lost.</i>\n\nYou will have 3 additional random travel events.
+EventTravelEventRoad31B.button1,{qst:ContinueButton}
+EventTravelEventPlains1.text,<b>Plains - Moss covered Standing Stones:</b>\n\n<i>You come across a collection of mosscovered standing stones.</i>\n\nEach hero tests {will} and suffers {var:EventTravelEventPlains1Fatigue} {fatigue} if he fails. If all heroes pass, each hero draws one Search Card.
+EventTravelEventPlains1.button1,{qst:ContinueButton}
+EventTravelEventPlains2.text,<b>Plains - Band of Refugees:</b>\n\n<i>You come across a band of refugees.</i>\n\nDo you want to stop and help them?
+EventTravelEventPlains2.button1,No
+EventTravelEventPlains2.button2,Yes
+EventTravelEventPlains2A.text,<b>Plains - Band of Refugees:</b>\n\n<i>You refuse to help them.</i>\n\nEach hero suffers {var:EventTravelEventPlains2AHeart} {heart}.
+EventTravelEventPlains2A.button1,{qst:ContinueButton}
+EventTravelEventPlains2B.text,<b>Plains - Band of Refugees:</b>\n\n<i>You stop and help the refugees.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventPlains2B.button1,{qst:ContinueButton}
+EventTravelEventPlains3.text,<b>Plains - Smoke Smudging the Horizon:</b>\n\n<i>You see smoke smudging the horizon in the distance.</i>\n\nYour morale decreases by {var:EventTravelEventPlains3Morale}.
+EventTravelEventPlains3.button1,{qst:ContinueButton}
+EventTravelEventPlains4.text,<b>Plains - Lawless Brigands:</b>\n\n<i>Lawless brigands accost you.</i>\n\nHero players choose one hero to test {might} to scare them off. If he fails, each hero suffers {var:EventTravelEventPlains4Heart} {heart} in the battle.
+EventTravelEventPlains4.button1,{qst:ContinueButton}
+EventTravelEventPlains8.text,<b>Plains - Burning Farm:</b>\n\n<i>You find a farm already burning and stop to give the farmers a proper burial.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventPlains8.button1,{qst:ContinueButton}
+EventTravelEventPlains10.text,<b>Plains - Tree with Golden Apples:</b>\n\n<i>You pause briefly in an orchard, which you discover has a tree with golden apples.</i>\n\nHero players choose one hero to test {will}. If he passes, draw one Search Card.
+EventTravelEventPlains10.button1,{qst:ContinueButton}
+EventTravelEventPlains11.text,<b>Plains - Winged Minions:</b>\n\n<i>Winged minions of the overlord descend to assault you from above.</i>\n\nOne hero tests {awareness}. if he fails, each hero suffers {var:EventTravelEventPlains11Heart} {heart} and {var:EventTravelEventPlains11Fatigue} {fatigue}.
+EventTravelEventPlains11.button1,{qst:ContinueButton}
+EventTravelEventPlains12.text,"<b>Plains - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYour morale increases by {var:EventTravelEventPlains12Morale}."
+EventTravelEventPlains12.button1,{qst:ContinueButton}
+EventTravelEventPlains13.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You encounter the enemy's scouts.</i>\n\nThe hero with the highest {awareness} must either suffer {var:EventTravelEventPlains13Heart} {heart} or suffer {var:EventTravelEventPlains13Fatigue} {fatigue}.
+EventTravelEventPlains13.button1,Suffer {var:EventTravelEventPlains13Fatigue} {fatigue}
+EventTravelEventPlains13.button2,Suffer {var:EventTravelEventPlains13Heart} {heart}
+EventTravelEventPlains13A.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You manage to skillfully distract the enemies without being caught.</i>\n\nNo effect.
+EventTravelEventPlains13A.button1,{qst:ContinueButton}
+EventTravelEventPlains13B.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You hunt down one of the scouts and defeat him in battle.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventPlains13B.button1,{qst:ContinueButton}
+EventTravelEventPlains14.text,<b>Plains - Wandering Mystic:</b>\n\n<i>A wandering mystic blesses you.</i>\n\nThe heroes choose a healer. He places one of his hero tokens besides the map. He may discard this token when reviving a hero. The revived hero recovers all {heart}.
+EventTravelEventPlains14.button1,{qst:ContinueButton}
+EventTravelEventPlains15.text,<b>Plains - Traveling Healer:</b>\n\n<i>A traveling healer offers you a mysterious method of healing.</i>\n\nThe heroes choose one hero to suffer {var:EventTravelEventPlains15Heart} {heart}. Another hero of their choice recovers all {heart} and discards all of his Condition cards.
+EventTravelEventPlains15.button1,{qst:ContinueButton}
+EventTravelEventPlains16.text,<b>Plains - Ambush:</b>\n\n<i>You sense an ambush.</i>\n\nThe heroes may choose up to {var:EventTravelEventPlains16Heroes} different heroes to suffer {var:EventTravelEventPlains16Heart} {heart} each. After setup, they can choose one monster to suffer the same amount of {heart}.
+EventTravelEventPlains16.button1,{qst:ContinueButton}
+EventTravelEventPlains19.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>A cloaked traveller offers a warning.</i>\n\nThe heroes may choose to suffer {var:EventTravelEventPlains19Heart} {heart} each to avoid some of the overlords troops. Do they want to do this?
+EventTravelEventPlains19.button1,No
+EventTravelEventPlains19.button2,Yes
+EventTravelEventPlains19A.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>You send the man away.</i>\n\nNo effect.
+EventTravelEventPlains19A.button1,{qst:ContinueButton}
+EventTravelEventPlains19B.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>You listen to the terrible stories of the cloaked man.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventPlains19B.button1,{qst:ContinueButton}
+EventTravelEventPlains21LoR.text,<b>Plains - Barren Field:</b>\n\n<i>As you cross through a barren field with no sign of life, your party is assailed by unseen dark energy.</i>\n\nEach hero tests {will}. Each hero who fails is Cursed.
+EventTravelEventPlains21LoR.button1,{qst:ContinueButton}
+EventTravelEventPlains22.text,"<b>Plains - Vicious Thunderstorm:</b>\n\n<i>A vicious thunderstorm hinders your progress.</i>\n\nEach hero suffers {var:EventTravelEventPlains22Fatigue} {fatigue}. Then you will have another ""Plains"" travel event."
+EventTravelEventPlains22.button1,{qst:ContinueButton}
+EventTravelEventPlains24.text,<b>Plains - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDo you accept the challenge?
+EventTravelEventPlains24.button1,No
+EventTravelEventPlains24.button2,Yes
+EventTravelEventPlains24A.text,<b>Plains - Lone Knight:</b>\n\n<i>The knight seems disappointed but lets you pass unharmed.</i>\n\nNo effect.
+EventTravelEventPlains24A.button1,{qst:ContinueButton}
+EventTravelEventPlains24B.text,<b>Plains - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActI}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActI}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventPlains24B.button1,No
+EventTravelEventPlains24B.button2,Yes
+EventTravelEventPlains24C.text,<b>Plains - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActII}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActII}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventPlains24C.button1,No
+EventTravelEventPlains24C.button2,Yes
+EventTravelEventPlains24D.text,<b>Plains - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventPlains24D.button1,{qst:ContinueButton}
+EventTravelEventPlains24E.text,<b>Plains - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventPlains24E.button1,{qst:ContinueButton}
+EventTravelEventPlains24F.text,<b>Plains - Lone Knight:</b>\n\n<i>You fight for several minutes, until the knight surrenders. He admires your strength and offers you his weapon as a token of his respect.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack. You receive the knight's weapon.
+EventTravelEventPlains24F.button1,{qst:ContinueButton}
+EventTravelEventPlains25MoB.text,<b>Plains - Wild Witch:</b>\n\n<i>A wild witch offers a boon.</i>\n\nThe heroes chose 1 hero to be Terrified. At the end of that hero's first turn, each monster adjacent to that hero is Terrified.
+EventTravelEventPlains25MoB.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoB.text,<b>Plains - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?
+EventTravelEventPlains28MoB.button1,No
+EventTravelEventPlains28MoB.button2,Yes
+EventTravelEventPlains28MoBA.text,<b>Plains - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventPlains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoBB.text,<b>Plains - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard one condition.
+EventTravelEventPlains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoB.text,"<b>Plains - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventPlains29MoB.button1,No
+EventTravelEventPlains29MoB.button2,Yes
+EventTravelEventPlains29MoBA.text,<b>Plains - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventPlains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBB.text,<b>Plains - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose {var:EventTravelEventPlains29MoBBHeroes} heroes to test both {might} and {will} to open the chest. Did both heroes pass both tests?
+EventTravelEventPlains29MoBB.button1,No
+EventTravelEventPlains29MoBB.button2,Yes
+EventTravelEventPlains29MoBC.text,<b>Plains - The Remains of a Wagon:</b>\n\n<i>You fail to open the chest, but something has been set free...</i>\n\nEach hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified.
+EventTravelEventPlains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBD.text,<b>Plains - The Remains of a Wagon:</b>\n\n<i>You manage to open the chest find an item.</i>\n\nYou found the item {c:QItemTravelReward29}.
+EventTravelEventPlains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventPlains30TctR.text,<b>Plains - Silent Vultures:</b>\n\n<i>Silent vultures congregate in the sky above you, their number ever growing.</i>\n\nEach hero tests {will}. Each hero who fails is Terrified. Each hero who passes chooses one monster on the map after setup to be Terrified.
+EventTravelEventPlains30TctR.button1,{qst:ContinueButton}
+EventTravelEventForest1.text,<b>Forest - Dense Thicket:</b>\n\n<i>You hear weeping at the center of a dense thicket.</i>\n\nDo you want to investigate it?
+EventTravelEventForest1.button1,No
+EventTravelEventForest1.button2,Yes
+EventTravelEventForest1A.text,<b>Forest - Dense Thicket:</b>\n\n<i>You do not waste any time investigating the forest.</i>\n\nNo Effect.
+EventTravelEventForest1A.button1,{qst:ContinueButton}
+EventTravelEventForest1B.text,<b>Forest - Dense Thicket:</b>\n\n<i>You hack through the thicket, getting a few scars on the way. You find nothing particularly interesting, but you are sure that you did the right thing.</i>\n\nEach hero suffers {var:EventTravelEventForest1BHeart} {heart} but your morale increases by {var:EventTravelEventForest1BMorale}.
+EventTravelEventForest1B.button1,{qst:ContinueButton}
+EventTravelEventForest2.text,<b>Forest - Lost:</b>\n\n<i>You become lost.</i>\n\nHero players choose one hero to test {awareness}. If he fails, each hero suffers {var:EventTravelEventForest2Fatigue} {fatigue}.
+EventTravelEventForest2.button1,{qst:ContinueButton}
+EventTravelEventForest3.text,<b>Forest - Peaceful Glade:</b>\n\n<i>Unexpectedly, you find a beautiful and peaceful glade in the woods.</i>\n\nEach hero recovers all {heart} and {fatigue}.
+EventTravelEventForest3.button1,{qst:ContinueButton}
+EventTravelEventForest4.text,<b>Forest - Webs Hang Everywhere!:</b>\n\n<i>Webs hang everywhere!</i>\n\nEach hero tests {awareness}. Each hero who fails is ambushed by a spider and is Poisoned. If all heroes fail, each hero suffers {var:EventTravelEventForest4Heart} {heart}.
+EventTravelEventForest4.button1,{qst:ContinueButton}
+EventTravelEventForest5.text,<b>Forest - Latari Elves:</b>\n\n<i>A band of Latari Elves is beset by minions of the overlord.</i>\n\nYou could aid the elves, but you might get wounded in the process. Do you want to help them?
+EventTravelEventForest5.button1,No
+EventTravelEventForest5.button2,Yes
+EventTravelEventForest5A.text,<b>Forest - Latari Elves:</b>\n\n<i>While you continue your journey the elves' dying screams echo in the woods.</i>\n\nYour morale decreases by {var:EventTravelEventForest5AMorale}.
+EventTravelEventForest5A.button1,{qst:ContinueButton}
+EventTravelEventForest5B.text,<b>Forest - Latari Elves:</b>\n\n<i>You leap to their defense.</i>\n\nEach hero suffers {var:EventTravelEventForest5BHeart} {heart}.
+EventTravelEventForest5B.button1,{qst:ContinueButton}
+EventTravelEventForest6.text,<b>Forest - Minions Emerge!:</b>\n\n<i>The overlord's minions emerge!</i>\n\nThe heroes chooses one attribute. Each hero must test the chose attribute. Each hero that fails suffers {var:EventTravelEventForest6Heart} {heart} and {var:EventTravelEventForest6Fatigue} {fatigue}.
+EventTravelEventForest6.button1,{qst:ContinueButton}
+EventTravelEventForest7.text,<b>Forest - Spiders!:</b>\n\n<i>Spiders! Gods be good, spiders!</i>\n\nThe hero with the lowest {awareness} is Poisoned.
+EventTravelEventForest7.button1,{qst:ContinueButton}
+EventTravelEventForest12.text,"<b>Forest - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYour morale increases by {var:EventTravelEventForest12Morale}."
+EventTravelEventForest12.button1,{qst:ContinueButton}
+EventTravelEventForest13LotW.text,<b>Forest - An Old Crone:</b>\n\n<i>You encounter an old crone who whispers a curse before disappearing back into the mists.</i>\n\nEach hero must test {will}. Each hero who fails succumbs to her spell and is Burning.
+EventTravelEventForest13LotW.button1,{qst:ContinueButton}
+EventTravelEventForest14.text,<b>Forest - Heavy Fog:</b>\n\n<i>You feel a heavy fog surround you. Suddenly you feel strangely tired.</i>\n\nEach hero tests {knowledge}. Each hero who fails must place a hero token on his Hero sheet. That hero's Speed is increas by {var:EventTravelEventForest14Speed} during his first turn.
+EventTravelEventForest14.button1,{qst:ContinueButton}
+EventTravelEventForest15.text,<b>Forest - Bandits Occupy This Forest:</b>\n\n<i>Bandits occupy this dark forest.</i>\n\nEach hero tests either {will} or {knowledge}. Did all heroes pass their test?
+EventTravelEventForest15.button1,No
+EventTravelEventForest15.button2,Yes
+EventTravelEventForest15A.text,<b>Forest - Bandits Occupy This Forest:</b>\n\n<i>You are ambushed by the bandits but manage to scare them of. Some of you have been wounded in the fight.</i>\n\nEach hero who failed his test suffers {var:EventTravelEventForest15AHeart} {heart} and {var:EventTravelEventForest15AFatigue} {fatigue}.
+EventTravelEventForest15A.button1,{qst:ContinueButton}
+EventTravelEventForest15B.text,<b>Forest - Bandits Occupy This Forest:</b>\n\n<i>The bandits try to ambush you, but you lure them into a trap instead. While looting their remains you find the item {c:QItemTravelRewardF15}.</i>\n\nThe heroes receive the item {c:QItemTravelRewardF15}.
+EventTravelEventForest15B.button1,{qst:ContinueButton}
+EventTravelEventForest16.text,<b>Forest - Lost Merchant:</b>\n\n<i>A lost merchant asks for directions.</i>
+EventTravelEventForest16.button1,{qst:ContinueButton}
+EventTravelEventForest16H2.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H2.button1,None
+EventTravelEventForest16H2.button2,One
+EventTravelEventForest16H2.button3,Two
+EventTravelEventForest16H3.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H3.button1,None
+EventTravelEventForest16H3.button2,One
+EventTravelEventForest16H3.button3,Two
+EventTravelEventForest16H3.button4,Three
+EventTravelEventForest16H4.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H4.button1,None
+EventTravelEventForest16H4.button2,One
+EventTravelEventForest16H4.button3,Two
+EventTravelEventForest16H4.button4,Three
+EventTravelEventForest16H4.button5,Four
+EventTravelEventForest16A.text,<b>Forest - Lost Merchant:</b>\n\n<i>Unfortunately you cannot help the merchant.</i>\n\nYou continue your journey.
+EventTravelEventForest16A.button1,{qst:ContinueButton}
+EventTravelEventForest16B.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant an inconsistent description.</i>\n\nThe heroes are rewarded with {var:EventTravelEventForest16BGold} Gold.
+EventTravelEventForest16B.button1,{qst:ContinueButton}
+EventTravelEventForest16C.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant a rough description.</i>\n\nThe heroes are rewarded with {var:EventTravelEventForest16CGold} Gold.
+EventTravelEventForest16C.button1,{qst:ContinueButton}
+EventTravelEventForest16D.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant a pretty accurate description.</i>\n\nThe heroes are rewarded with {var:EventTravelEventForest16DGold} Gold.
+EventTravelEventForest16D.button1,{qst:ContinueButton}
+EventTravelEventForest16E.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant an accurate description.</i>\n\nThe heroes receive the item {c:QItemTravelRewardF16}.
+EventTravelEventForest16E.button1,{qst:ContinueButton}
+EventTravelEventForest17.text,<b>Forest - Gold Key:</b>\n\n<i>A strange man offers you a gold key.</i>\n\nIs there a scout in the hero party?
+EventTravelEventForest17.button1,No
+EventTravelEventForest17.button2,Yes
+EventTravelEventForest17A.text,<b>Forest - Gold Key:</b>\n\n<i>The strange man revokes his offer.</i>\n\nNo effect.
+EventTravelEventForest17A.button1,{qst:ContinueButton}
+EventTravelEventForest17B.text,<b>Forest - Gold Key:</b>\n\n<i>The Scout identifies it as a value item which he can trade to access more wares.</i>\n\nThe next time you visit a city the heroes will find 3 additional items on the market.
+EventTravelEventForest17B.button1,{qst:ContinueButton}
+EventTravelEventForest18.text,<b>Forest - Wild Beast:</b>\n\n<i>A wild beast ambushes your party and you drop your weapons. You must resort to your bare hands.</i>\n\n{rnd:hero} tests {might}. If the test fails, suffer {heart} equal to your {might}.
+EventTravelEventForest18.button1,{qst:ContinueButton}
+EventTravelEventForest22.text,<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than {var:EventTravelEventForest22DiceResult}, each hero suffers {var:EventTravelEventForest22Heart} {heart}.
+EventTravelEventForest22.button1,{qst:ContinueButton}
+EventTravelEventForest23.text,<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than {var:EventTravelEventForest23DiceResult}, each hero suffers {var:EventTravelEventForest23Heart} {heart}.
+EventTravelEventForest23.button1,{qst:ContinueButton}
+EventTravelEventForest23TT.text,<b>Forest - Hideous Plague Worm:</b>\n\n<i>A hideous plague worm attacks!</i>\n\n{rnd:hero} suffers {var:EventTravelEventForest23TTHeart} {heart} and is Weakened.
+EventTravelEventForest23TT.button1,{qst:ContinueButton}
+EventTravelEventForest24.text,<b>Forest - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDo you accept the challenge?
+EventTravelEventForest24.button1,No
+EventTravelEventForest24.button2,Yes
+EventTravelEventForest24A.text,<b>Forest - Lone Knight:</b>\n\n<i>The knight seems disappointed but lets you pass unharmed.</i>\n\nNo effect.
+EventTravelEventForest24A.button1,{qst:ContinueButton}
+EventTravelEventForest24B.text,<b>Forest - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActI}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActI}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventForest24B.button1,No
+EventTravelEventForest24B.button2,Yes
+EventTravelEventForest24C.text,<b>Forest - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActII}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActII}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventForest24C.button1,No
+EventTravelEventForest24C.button2,Yes
+EventTravelEventForest24D.text,<b>Forest - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventForest24D.button1,{qst:ContinueButton}
+EventTravelEventForest24E.text,<b>Forest - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventForest24E.button1,{qst:ContinueButton}
+EventTravelEventForest24F.text,<b>Forest - Lone Knight:</b>\n\n<i>You fight for several minutes, until the knight surrenders. He admires your strength and offers you his weapon as a token of his respect.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack. You receive the knight's weapon.
+EventTravelEventForest24F.button1,{qst:ContinueButton}
+EventTravelEventForest25.text,<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than {var:EventTravelEventForest25DiceResult}, each hero suffers {var:EventTravelEventForest25DiceHeart} {heart}.
+EventTravelEventForest25.button1,{qst:ContinueButton}
+EventTravelEventForest25MoB.text,<b>Forest - A Strange Locket:</b>\n\n<i>A strange locket glints in the dirt.</i>\n\nThe heroes choose one hero to test {knowledge}. Did he pass?
+EventTravelEventForest25MoB.button1,No
+EventTravelEventForest25MoB.button2,Yes
+EventTravelEventForest25MoBA.text,<b>Forest - A Strange Locket:</b>\n\n<i>You do not manage to open the locket.</i>\n\nEach hero suffers {fatigue} equal to the {shield} rolled in excess of that hero's {knowledge}.
+EventTravelEventForest25MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest25MoBB.text,<b>Forest - A Strange Locket:</b>\n\n<i>You manage to open the locket.</i>\n\nInside you find {var:EventTravelEventForest25MoBBGold} gold.
+EventTravelEventForest25MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest26.text,<b>Forest - A Recent Rain:</b>\n\n<i>A recent rain has left the forest a boggy mess.</i>\n\nEach hero tests {might}. Each hero who fails reduces his Speed to {var:EventTravelEventForest26Speed} during his first turn.
+EventTravelEventForest26.button1,{qst:ContinueButton}
+EventTravelEventForest27.text,<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than {var:EventTravelEventForest27DiceResult}, each hero suffers {var:EventTravelEventForest27DiceHeart} {heart}.
+EventTravelEventForest27.button1,{qst:ContinueButton}
+EventTravelEventForest28MoB.text,<b>Forest - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?
+EventTravelEventForest28MoB.button1,No
+EventTravelEventForest28MoB.button2,Yes
+EventTravelEventForest28MoBA.text,<b>Forest - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventForest28MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest28MoBB.text,<b>Forest - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard one condition.
+EventTravelEventForest28MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest29MoB.text,"<b>Forest - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventForest29MoB.button1,No
+EventTravelEventForest29MoB.button2,Yes
+EventTravelEventForest29MoBA.text,<b>Forest - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventForest29MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBB.text,<b>Forest - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose {var:EventTravelEventForest29MoBBHeroes} heroes to test both {might} and {will} to open the chest. Did both heroes pass both tests?
+EventTravelEventForest29MoBB.button1,No
+EventTravelEventForest29MoBB.button2,Yes
+EventTravelEventForest29MoBC.text,<b>Forest - The Remains of a Wagon:</b>\n\n<i>You fail to open the chest, but something has been set free...</i>\n\nEach hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified.
+EventTravelEventForest29MoBC.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBD.text,<b>Forest - The Remains of a Wagon:</b>\n\n<i>You manage to open the chest find an item.</i>\n\nYou found the item {c:QItemTravelReward29}.
+EventTravelEventForest29MoBD.button1,{qst:ContinueButton}
+EventTravelEventForest30.text,<b>Forest - A Young Couple:</b>\n\n<i>A young couple sifts through the charred remains of their cabin.</i>\n\nDo the heroes want to spend {var:EventTravelEventForest30Gold} Gold (if available), to support them?
+EventTravelEventForest30.button1,No
+EventTravelEventForest30.button2,Yes
+EventTravelEventForest30A.text,<b>Forest - A Young Couple:</b>\n\n<i>You have no time to aid the locals.</i>\n\nNo effect.
+EventTravelEventForest30A.button1,{qst:ContinueButton}
+EventTravelEventForest30B.text,<b>Forest - A Young Couple:</b>\n\n<i>You help the couple, and they promise to tell others about your heroic endeavor.</i>\n\nYour morale increases by {var:EventTravelEventForest30Morale}.
+EventTravelEventForest30B.button1,{qst:ContinueButton}
+EventTravelEventForest30C.text,<b>Forest - A Young Couple:</b>\n\n<i>You do not have the required gold.</i>\n\nNo effect.
+EventTravelEventForest30C.button1,{qst:ContinueButton}
+EventTravelEventWater4.text,<b>Water - Something Glimmers:</b>\n\n<i>Something glimmers at the bottom of the pool!</i>\n\nHero players choose one hero to test {awareness} to dive in after it. If he passes, draw one Search card.
+EventTravelEventWater4.button1,{qst:ContinueButton}
+EventTravelEventWater5.text,<b>Water - Fat Bloated Corpses:</b>\n\n<i>Fat, bloated corpses float in the water. As you approach, they moan and rise!</i>\n\nEach hero tests {will}. Each hero who fails is overcome by zombies and is Diseased.
+EventTravelEventWater5.button1,{qst:ContinueButton}
+EventTravelEventWater7.text,<b>Water - Pestilential Miasma:</b>\n\n<i>A pestilential miasma seems to rise from the water.</i>\n\nThe hero with the lowest {might} is Diseased.
+EventTravelEventWater7.button1,{qst:ContinueButton}
+EventTravelEventWater8.text,<b>Water - Mysterious Robed Figure:</b>\n\n<i>A mysterious robed figure offers you a ride on his boat.</i>\n\nYou don't know if the stranger is trustworthy, but you would surely regain your stamina. Do you accept?
+EventTravelEventWater8.button1,No
+EventTravelEventWater8.button2,Yes
+EventTravelEventWater8A.text,<b>Water - Mysterious Robed Figure:</b>\n\n<i>You don't want to risk anything.</i>\n\nNo effect.
+EventTravelEventWater8A.button1,{qst:ContinueButton}
+EventTravelEventWater8B.text,<b>Water - Mysterious Robed Figure:</b>\n\n<i>The stranger doesn't speak much, but he observantly listens in on your conversations...</i>\n\nEach hero recovers all {fatigue}, but the Overlord's reinforcements will arrive sooner.
+EventTravelEventWater8B.button1,{qst:ContinueButton}
+EventTravelEventWater9.text,<b>Water - Last Night's Rain:</b>\n\n<i>After last night's rain, the rivers are running high and fast.</i>\n\nEach hero tests {knowledge}. Each hero that fails suffers {var:EventTravelEventWater9Fatigue} {fatigue}.
+EventTravelEventWater9.button1,{qst:ContinueButton}
+EventTravelEventWater10.text,<b>Water - Tentacles:</b>\n\n<i>Tentacles burst from the water and attempt to pull the heroes in!</i>\n\nEach hero tests {might} and suffers {var:EventTravelEventWater10Fatigue} {fatigue} if he fails. If all heroes fail, each hero suffers {var:EventTravelEventWater10Heart} {heart}.
+EventTravelEventWater10.button1,{qst:ContinueButton}
+EventTravelEventWater11.text,<b>Water - Ferryman:</b>\n\n<i>You begin to tire after the long journey. A ferryman sympathizes and offers you a ride.</i>\n\nYou could either spend {var:EventTravelEventWater11Gold} gold (if available) or continue the exhausting march by foot.
+EventTravelEventWater11.button1,Suffer fatigue
+EventTravelEventWater11.button2,Spend gold
+EventTravelEventWater11A.text,<b>Water - Ferryman:</b>\n\n<i>You continue your travel by foot, which proves to be quite exhausting.</i>\n\nEach hero suffers {var:EventTravelEventWater11AFatigue} {fatigue}.
+EventTravelEventWater11A.button1,{qst:ContinueButton}
+EventTravelEventWater11B.text,<b>Water - Ferryman:</b>\n\n<i>Traveling this way is costly but faster.</i>\n\nYou pay the ferryman his {var:EventTravelEventWater11Gold} gold.
+EventTravelEventWater11B.button1,{qst:ContinueButton}
+EventTravelEventWater11C.text,<b>Water - Ferryman:</b>\n\n<i>Since you do not have the required gold, you have to continue your travel by foot, which proves to be quite exhausting.</i>\n\nEach hero suffers {var:EventTravelEventWater11CFatigue} {fatigue}.
+EventTravelEventWater11C.button1,{qst:ContinueButton}
+EventTravelEventWater12.text,"<b>Water - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYour morale increases by {var:EventTravelEventWater12Morale}."
+EventTravelEventWater12.button1,{qst:ContinueButton}
+EventTravelEventWater14.text,<b>Water - Invigorated:</b>\n\n<i>You feel invigorated.</i>\n\nThe heroes choose a warrior. He places one of his hero tokens besides the map. He may discard this token at the start of his turn. He does not suffer {fatigue} to use skills this turn.
+EventTravelEventWater14.button1,{qst:ContinueButton}
+EventTravelEventWater18LoR.text,<b>Water - Woman by the Edge:</b>\n\n<i>A woman is sitting by the edge of the water whispering incoherently. As you get closer, her words begin to fill you with dread.</i>\n\nEach hero tests {knowledge}. Each hero who fails is Cursed.
+EventTravelEventWater18LoR.button1,{qst:ContinueButton}
+EventTravelEventWater19.text,<b>Water - Dark Fog:</b>\n\n<i>A dark fog has settled over the water.</i>\n\nYour morale decreases by {var:EventTravelEventWater19Morale}.
+EventTravelEventWater19.button1,{qst:ContinueButton}
+EventTravelEventWater20LoR.text,<b>Water - The Water Appears Dark:</b>\n\n<i>The water appears dark and smells rather foul.</i>\n\nChoose one hero, that does not have a Condition card, to test his weakest attribute. if he fails, he is Cursed.
+EventTravelEventWater20LoR.button1,{qst:ContinueButton}
+EventTravelEventWater21.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>Haggling with a traveling merchant causes unfortunate delay.</i>\n\nThe heroes may get an item if they spend some time. Do they want to do this?
+EventTravelEventWater21.button1,No
+EventTravelEventWater21.button2,Yes
+EventTravelEventWater21A.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>You have no time for this.</i>\n\nNo effect.
+EventTravelEventWater21A.button1,{qst:ContinueButton}
+EventTravelEventWater21B.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>It takes hours until you can negotiate a price.</i>\n\nThe Overlord's reinforcements will arrive sooner and the heroes receive the item {c:QItemTravelRewardW21}.
+EventTravelEventWater21B.button1,{qst:ContinueButton}
+EventTravelEventWater23.text,<b>Water - Corrupted Waters:</b>\n\n<i>Something foul has corrupted these waters.</i>\n\nEach hero tests {might}. Each hero that fails is Poisoned.
+EventTravelEventWater23.button1,{qst:ContinueButton}
+EventTravelEventWater24.text,<b>Water - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDo you accept the challenge?
+EventTravelEventWater24.button1,No
+EventTravelEventWater24.button2,Yes
+EventTravelEventWater24A.text,<b>Water - Lone Knight:</b>\n\n<i>The knight seems disappointed but lets you pass unharmed.</i>\n\nNo effect.
+EventTravelEventWater24A.button1,{qst:ContinueButton}
+EventTravelEventWater24B.text,<b>Water - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActI}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActI}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventWater24B.button1,No
+EventTravelEventWater24B.button2,Yes
+EventTravelEventWater24C.text,<b>Water - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActII}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActII}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventWater24C.button1,No
+EventTravelEventWater24C.button2,Yes
+EventTravelEventWater24D.text,<b>Water - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventWater24D.button1,{qst:ContinueButton}
+EventTravelEventWater24E.text,<b>Water - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventWater24E.button1,{qst:ContinueButton}
+EventTravelEventWater24F.text,<b>Water - Lone Knight:</b>\n\n<i>You fight for several minutes, until the knight surrenders. He admires your strength and offers you his weapon as a token of his respect.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack. You receive the knight's weapon.
+EventTravelEventWater24F.button1,{qst:ContinueButton}
+EventTravelEventWater25.text,<b>Water - Inviting Lagoon:</b>\n\n<i>Among the darkened waters you see a deep but inviting lagoon.</i>\n\nEach hero may choose to suffer {var:EventTravelEventWater25Heart1} {heart} and recover {var:EventTravelEventWater25Fatigue1} {fatigue} or suffer {var:EventTravelEventWater25Fatigue2} {fatigue} and recover {var:EventTravelEventWater25Heart1} {heart}.
+EventTravelEventWater25.button1,{qst:ContinueButton}
+EventTravelEventWater27.text,<b>Water - Festering Leeches:</b>\n\n<i>The water teems with festering leeches.</i>\n\nEach hero tests {awareness}. Each hero who fails is Diseased.
+EventTravelEventWater27.button1,{qst:ContinueButton}
+EventTravelEventWater28MoB.text,<b>Water - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?
+EventTravelEventWater28MoB.button1,No
+EventTravelEventWater28MoB.button2,Yes
+EventTravelEventWater28MoBA.text,<b>Water - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventWater28MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater28MoBB.text,<b>Water - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard one condition.
+EventTravelEventWater28MoBB.button1,{qst:ContinueButton}
+EventTravelEventWater29MoB.text,"<b>Water - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventWater29MoB.button1,No
+EventTravelEventWater29MoB.button2,Yes
+EventTravelEventWater29MoBA.text,<b>Water - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventWater29MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBB.text,<b>Water - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose {var:EventTravelEventWater29MoBBHeroes} heroes to test both {might} and {will} to open the chest. Did both heroes pass both tests?
+EventTravelEventWater29MoBB.button1,No
+EventTravelEventWater29MoBB.button2,Yes
+EventTravelEventWater29MoBC.text,<b>Water - The Remains of a Wagon:</b>\n\n<i>You fail to open the chest, but something has been set free...</i>\n\nEach hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified.
+EventTravelEventWater29MoBC.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBD.text,<b>Water - The Remains of a Wagon:</b>\n\n<i>You manage to open the chest find an item.</i>\n\nYou found the item {c:QItemTravelReward29}.
+EventTravelEventWater29MoBD.button1,{qst:ContinueButton}
+EventTravelEventWater31TctR.text,<b>Water - Globules of Blood:</b>\n\n<i>Globules of blood bubble up from unseen depths, filling the air with putrid red mist.</i>\n\nEach hero tests {knowledge}. Each hero who fails is Diseased and tests {will}. Each hero who fails again is Terrified.
+EventTravelEventWater31TctR.button1,{qst:ContinueButton}
+EventTravelEventMountains1.text,<b>Mountains - Unforgiving Slopes:</b>\n\n<i>You're caught on the unforgiving slopes during a fierce storm.</i>\n\nEach hero suffers {var:EventTravelEventMountains1Heart} {heart} and {var:EventTravelEventMountains1Fatigue} {fatigue}.
+EventTravelEventMountains1.button1,{qst:ContinueButton}
+EventTravelEventMountains3.text,<b>Mountains - An Ettin Appears:</b>\n\n<i>An ettin appears from the mountains and attacks the heroes!</i>\n\nEach hero tests {might} and suffers {var:EventTravelEventMountains3Heart1} {heart} if he fails. If all heroes fail, each hero suffers {var:EventTravelEventMountains3HeartAll} additional {heart}.
+EventTravelEventMountains3.button1,{qst:ContinueButton}
+EventTravelEventMountains5.text,<b>Mountains - Dwarf of Dunwarr:</b>\n\n<i>A dwarf of Dunwarr is burying his brother. He warns you of dangers ahead.</i>\n\nYou skip the next Travel Event.
+EventTravelEventMountains5.button1,{qst:ContinueButton}
+EventTravelEventMountains6.text,<b>Mountains - Minions Emerge!:</b>\n\n<i>The overlord's minions emerge!</i>\n\nThe heroes chooses 1 attribute. Each hero must test the chose attribute. Each hero that fails suffers {var:EventTravelEventMountains6Heart} {heart} and {var:EventTravelEventMountains6Fatigue} {fatigue}.
+EventTravelEventMountains6.button1,{qst:ContinueButton}
+EventTravelEventMountains8.text,<b>Mountains - Mysterious Cave:</b>\n\n<i>A mysterious cave mouth looms ahead.</i>\n\nChecking out the cave would take some time. Do you want to do this?
+EventTravelEventMountains8.button1,No
+EventTravelEventMountains8.button2,Yes
+EventTravelEventMountains8A.text,<b>Mountains - Mysterious Cave:</b>\n\n<i>You have no time to check out the cave.</i>\n\nNo effect.
+EventTravelEventMountains8A.button1,{qst:ContinueButton}
+EventTravelEventMountains8B.text,<b>Mountains - Mysterious Cave:</b>\n\n<i>It takes a while, but you find a treasure in the cave!</i>\n\nA hero draws a search card but the Overlord's reinforcements will arrive sooner.
+EventTravelEventMountains8B.button1,{qst:ContinueButton}
+EventTravelEventMountains9.text,<b>Mountains - Landslide!:</b>\n\n<i>Landslide!</i>\n\nEach hero tests {might}. Each hero that fails suffers {var:EventTravelEventMountains9Fatigue} {fatigue}.
+EventTravelEventMountains9.button1,{qst:ContinueButton}
+EventTravelEventMountains10.text,<b>Mountains - Arrows fly:</b>\n\n<i>Arrows fly from behind the boulders ahead!</i>\n\nEach hero tests {awareness} and suffers {var:EventTravelEventMountains10Heart1} {heart} if he fails. If all heroes fail, each hero suffers {var:EventTravelEventMountains10Heart2} additional {heart}.
+EventTravelEventMountains10.button1,{qst:ContinueButton}
+EventTravelEventMountains12.text,"<b>Mountains - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYour morale increases by {var:EventTravelEventMountains12Morale}."
+EventTravelEventMountains12.button1,{qst:ContinueButton}
+EventTravelEventMountains13.text,<b>Mountains - Mysterious Jester:</b>\n\n<i>A mysterious jester appears and presents an irresistible offer...</i>\n\nOne hero tests each of his attributes ({will}, {knowledge}, {awareness}, and {might}). Have all tests been successful?
+EventTravelEventMountains13.button1,No
+EventTravelEventMountains13.button2,Yes
+EventTravelEventMountains13A.text,<b>Mountains - Mysterious Jester:</b>\n\n<i>The jester laughs manically as he witnesses your failure.</i>\n\nNo effect.
+EventTravelEventMountains13A.button1,{qst:ContinueButton}
+EventTravelEventMountains13B.text,<b>Mountains - Mysterious Jester:</b>\n\n<i>The jester is impressed by your expertise and keeps his promise.</i>\n\nYou receive the item {c:QItemTravelRewardM13}.
+EventTravelEventMountains13B.button1,{qst:ContinueButton}
+EventTravelEventMountains16.text,<b>Mountains - Wonder at the Riches:</b>\n\n<i>As you hike up the mountain path, you wonder at the riches that await.</i>\n\nThe players draw the top {var:EventTravelEventMountains16TopCards} cards of the search deck and return any <i>potion</i> cards they found to the bottom of the deck. The other cards are returned to the top of the search deck.
+EventTravelEventMountains16.button1,{qst:ContinueButton}
+EventTravelEventMountains17.text,<b>Mountains - Mountain Path:</b>\n\n<i>You find the mountain path to be painfully exhausting.</i>\n\nThe hero with the lowest {might} tests {might}. If he fails, place a hero token on his Hero sheet. He has -{var:EventTravelEventMountains17Speed} speed until he performs a rest action.
+EventTravelEventMountains17.button1,{qst:ContinueButton}
+EventTravelEventMountains18.text,<b>Mountains - Chest Sealed with a Rune:</b>\n\n<i>You find a chest sealed with a rune.</i>\n\nEach hero tests {knowledge}. If at least {var:EventTravelEventMountains18Heroes} heroes pass, the heroes may search the Search deck for one Health Potion, take it, and then shuffle the Search Deck.
+EventTravelEventMountains18.button1,{qst:ContinueButton}
+EventTravelEventMountains19.text,<b>Mountains - Rocky Ground:</b>\n\n<i>As you hike your way up the mountain trail, the rocky ground gives way beneath your feet.</i>\n\nEach hero tests {might}. Each hero who fails is Stunned. If all heroes fail, each hero suffers {var:EventTravelEventMountains19Heart} {heart}.
+EventTravelEventMountains19.button1,{qst:ContinueButton}
+EventTravelEventMountains20.text,<b>Mountains - Catching a Spy:</b>\n\n<i>Catching a spy does not prove easy.</i>\n\nEach hero suffers {var:EventTravelEventMountains20Fatigue} {fatigue}, but your morale increases by {var:EventTravelEventMountains20Morale}.
+EventTravelEventMountains20.button1,{qst:ContinueButton}
+EventTravelEventMountains21.text,<b>Mountains - Evil Minions:</b>\n\n<i>Evil minions gain strength.</i>\n\nPlace a {fatigue} token besides the map. Discard this token during the first activation of a master monster. That monster gains {var:EventTravelEventMountains21MovementPoints} additional movement points.
+EventTravelEventMountains21.button1,{qst:ContinueButton}
+EventTravelEventMountains23.text,<b>Mountains - Captured Spy:</b>\n\n<i>A captured spy divulges many secrets.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventMountains23.button1,{qst:ContinueButton}
+EventTravelEventMountains24.text,<b>Mountains - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDo you accept the challenge?
+EventTravelEventMountains24.button1,No
+EventTravelEventMountains24.button2,Yes
+EventTravelEventMountains24A.text,<b>Mountains - Lone Knight:</b>\n\n<i>The knight seems disappointed but lets you pass unharmed.</i>\n\nNo effect.
+EventTravelEventMountains24A.button1,{qst:ContinueButton}
+EventTravelEventMountains24B.text,<b>Mountains - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActI}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActI}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventMountains24B.button1,No
+EventTravelEventMountains24B.button2,Yes
+EventTravelEventMountains24C.text,<b>Mountains - Lone Knight:</b>\n\n<i>The knight seems pleased and prepares for the duel.</i>\n\nThe knight wields the weapon {c:QItemTravelReward24ActII}. One hero performs an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the weapon {c:QItemTravelReward24ActII}, using his normal defense pool. Did the hero deal more {heart} than the knight?
+EventTravelEventMountains24C.button1,No
+EventTravelEventMountains24C.button2,Yes
+EventTravelEventMountains24D.text,<b>Mountains - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventMountains24D.button1,{qst:ContinueButton}
+EventTravelEventMountains24E.text,<b>Mountains - Lone Knight:</b>\n\n<i>After a short fight you surrender to the knight.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack.
+EventTravelEventMountains24E.button1,{qst:ContinueButton}
+EventTravelEventMountains24F.text,<b>Mountains - Lone Knight:</b>\n\n<i>You fight for several minutes, until the knight surrenders. He admires your strength and offers you his weapon as a token of his respect.</i>\n\nThe hero who fought against the knight suffers the {heart} dealt by the attack. You receive the knight's weapon.
+EventTravelEventMountains24F.button1,{qst:ContinueButton}
+EventTravelEventMountains26MoB.text,<b>Mountains - Unnatural Figures:</b>\n\n<i>Unnatural figures haunt the edge of your campsites.</i>\n\nThe heroes choose a hero to test {awareness}. If he passes, he is Terrified. If he fails, each other hero is Terrified.
+EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains27MoB.text,<b>Mountains - The Reek of Burning Flesh:</b>\n\n<i>The reek of burning flesh draws you to an abandoned funeral pyre.</i>\n\nThe heroes may choose one hero to test {awareness}. If he passes, that hero draws one search card and is Terrified.
+EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoB.text,<b>Mountains - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?
+EventTravelEventMountains28MoB.button1,No
+EventTravelEventMountains28MoB.button2,Yes
+EventTravelEventMountains28MoBA.text,<b>Mountains - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventMountains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoBB.text,<b>Mountains - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard one condition.
+EventTravelEventMountains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoB.text,"<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventMountains29MoB.button1,No
+EventTravelEventMountains29MoB.button2,Yes
+EventTravelEventMountains29MoBA.text,<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventMountains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBB.text,<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose {var:EventTravelEventMountains29MoBBHeroes} heroes to test both {might} and {will} to open the chest. Did both heroes pass both tests?
+EventTravelEventMountains29MoBB.button1,No
+EventTravelEventMountains29MoBB.button2,Yes
+EventTravelEventMountains29MoBC.text,<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You fail to open the chest, but something has been set free...</i>\n\nEach hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified.
+EventTravelEventMountains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBD.text,<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You manage to open the chest find an item.</i>\n\nYou found the item {c:QItemTravelReward29}.
+EventTravelEventMountains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventMountains31.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>You happen upon an enormous coffin inlaid into the face of a cliff.</i>\n\nThe heroes choose a number of heroes to test {might}. Each hero who fails suffers {var:EventTravelEventMountains31Heart} {heart}. Did {var:EventTravelEventMountains31Heroes} or more heroes pass?
+EventTravelEventMountains31.button1,No
+EventTravelEventMountains31.button2,Yes
+EventTravelEventMountains31A.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>You do not manage to open the coffin.</i>\n\nNo effect.
+EventTravelEventMountains31A.button1,{qst:ContinueButton}
+EventTravelEventMountains31B.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>Inside the coffin you find some gold coins.</i>\n\nYou receive {var:EventTravelEventMountains31BGold} gold.
+EventTravelEventMountains31B.button1,{qst:ContinueButton}
+EventTravelEventThreat.text,<i>The overlord's forces have been following your tracks and are close on your heels.</i>\n\nYou need to do a special travel event to deal with them.
+EventTravelEventThreat.button1,{qst:ContinueButton}
+EventTravelEventThread1.text,<i>A magic rope has tied one of you up. You try to cast it off.</i>\n\nThe hero with the lowest {knowledge} performs a {knowledge} test. If he fails he is paralyzed.
+EventTravelEventThread2.text,<i>A poisonous green cloud is forming around you.</i> \n\nEach hero tests {will}. Each hero who fails is poisoned.
+EventTravelEventThread3.text,<i>A group of goblin archers spotted you. A hail of arrows is coming down on you.</i> \n\nEach hero tests {awareness}. Each hero who fails suffers {var:EventTravelEventThread3Heart} {heart}.
+EventTravelEventThread4.text,<i>You get into a fight and some of you gets injured.</i>\n\nChoose two heroes who each suffer {var:TravelEventThread4Heart} {heart}.
+EventTravelEventThread5.text,<i>A shadow dragon races down on you from the sky. A huge roll of fire comes out of its mouth.</i>\n\nDo an attack of a master shadow dragon against every hero. He has: {surge} +{var:TravelEventThread5Heart} {heart}\n\nThe normal rules of defense apply.
+EventTravelEventThread1.button1,{qst:ContinueButton}
+EventTravelEventThread2.button1,{qst:ContinueButton}
+EventTravelEventThread3.button1,{qst:ContinueButton}
+EventTravelEventThread4.button1,{qst:ContinueButton}
+EventTravelEventThread5.button1,{qst:ContinueButton}
+EventBlackMarketNotEnoughGold.text,You consider searching for someone who could give you access to less legal wares, but you realize that you lack the money to do so.\n\nYou are unable to find another merchant.
+EventBlackMarketNotEnoughGold.button1,{qst:ContinueButton}
+EventButtonClick.button1,{qst:ContinueButton}

@@ -1,0 +1,16 @@
+.,English
+quest.name,Descent - Campaign Template - Campaign End
+ContinueButton,Continue
+EventEndCampaign.button1,{qst:ContinueButton}
+EventStart.button1,{qst:ContinueButton}
+UIOutroWon.uitext,<i>Add campaign won text here.</i>\n\n<b>The heroes have won the campaign!</b>
+UIButtonEndCampaign.uitext,End campaign
+UIButtonEndCampaign.button1,{qst:ContinueButton}
+EventOutroWon.button1,{qst:ContinueButton}
+UIOutroWon.button1,{qst:ContinueButton}
+EventOutroLost.button1,{qst:ContinueButton}
+UIOutroLost.uitext,<i>Add campaign lost text here.\n</i>\n\n<b>The heroes have lost the campaign!</b>
+UICredits.uitext,Credits
+UICredits.button1,Continue
+EventCredits.text,Add campaign creators and other information here (e.g. credits for sound effects used.
+EventCredits.button1,Continue

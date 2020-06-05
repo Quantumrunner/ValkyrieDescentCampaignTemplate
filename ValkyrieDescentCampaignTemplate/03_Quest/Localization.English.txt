@@ -1,0 +1,38 @@
+.,English
+ContinueButton,Continue
+SearchButton,{action} Search
+quest.name,Descent - Campaign Template - Quest 3
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch4Players.button1,{qst:SearchButton}
+EventTokenSearch2Players1.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch2Players1Gold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch2Players2Gold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch3PlayersGold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch4PlayersGold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+TokenSearch4Players.text,<i>Add some 'heroes have found something'-flavor text here.</i>
+TokenSearch3Players.text,<i>Add some 'heroes have found something'-flavor text here.</i>
+TokenSearch2Players2.text,<i>Add some 'heroes have found something'-flavor text here.</i>
+TokenSearch2Players1.text,<i>Add some 'heroes have found something'-flavor text here.</i>
+EventVictory.button1,{qst:ContinueButton}
+EventDefeat.text,<i>Add some flavor text here.</i>\n\n<b>The heroes have lost this encounter!</b>
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory.text,<i>Add some flavor text here.</i>\n\n<b>The heroes have won this encounter!</b>
+TokenDebug.button1,Victory
+TokenDebug.button2,Defeat
+TokenDebug.text,Click a button to simulate losing or winning.
+EventNoMorale.text,<i>Add some No-Morale flavor text here.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventEndEncounter1.text,The heroes gain {var:RewardGold} gold, {var:RewardXp} xp and {var:RewardFame} fame.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventPlaceTiles.text,Set aside the following tiles:
+EventPlaceTiles.button1,{qst:ContinueButton}
+EventIntroduction.text,<i>Add introduction text here.</i>
+EventIntroduction.button1,{qst:ContinueButton}

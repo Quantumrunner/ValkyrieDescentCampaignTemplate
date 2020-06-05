@@ -1,0 +1,13 @@
+.,English
+ContinueButton,Continue
+UIIntro.uitext,Add intro text here
+UIStart.uitext,Start
+quest.name,Valkyrie - Descent - Campaign Template
+quest.description,Add campaign description here
+quest.authors,AddCampaignAuthorsHere
+quest.synopsys,Add campaign short description here (shown in mission selection list).
+quest.authors_short,AddCampaignAuthorsHere
+EventStart.button1,{qst:ContinueButton}
+EventInitializeCampaign.button1,{qst:ContinueButton}
+EventCampaignPhaseStart.button1,Button1
+EventMissionStart.button1,Button1
