@@ -6,4 +6,4 @@ A lot of the campaign logic is based on the [Community Shadow Rune Project](http
 If you only want to create single missions without any campaign overhead check out the [Valkyrie Descent Mission Template](https://github.com/Quantumrunner/ValkyrieDescentMissionTemplate) project.
 
 ## Wiki
-Checkout the project wiki for details: https://github.com/Quantumrunner/ValkyrieDescentCampaignTemplate/wiki
+Checkout the project [wiki](https://github.com/Quantumrunner/ValkyrieDescentCampaignTemplate/wiki) for details
