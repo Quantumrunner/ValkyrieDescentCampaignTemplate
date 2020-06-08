@@ -10,3 +10,7 @@ EventOutroWon.button1,{qst:ContinueButton}
 UIOutroWon.button1,{qst:ContinueButton}
 EventOutroLost.button1,{qst:ContinueButton}
 UIOutroLost.uitext,<i>Kampagne gewonnen text hier einfügen.\n</i>\n\n<b>Die Helden haben die Kampagne verloren!</b>
+UICredits.uitext,Credits
+UICredits.button1,{qst:ContinueButton}
+EventCredits.text,Fügen Sie hier die Urheber der Kampagne und andere Informationen hinzu (z.B. Credits für verwendete Soundeffekte).
+EventCredits.button1,{qst:ContinueButton}
