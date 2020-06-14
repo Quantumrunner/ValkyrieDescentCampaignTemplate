@@ -32,7 +32,9 @@ EventNoMorale.text,<i>Add some No-Morale flavor text here.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventEndEncounter1.text,The heroes gain {var:RewardGold} gold, {var:RewardXp} xp and {var:RewardFame} fame.
 EventEndEncounter1.button1,{qst:ContinueButton}
-EventPlaceTiles.text,Set aside the following tiles:
-EventPlaceTiles.button1,{qst:ContinueButton}
+EventSetup.text,Set aside the following tiles:
+EventSetup.button1,{qst:ContinueButton}
 EventIntroduction.text,<i>Add introduction text here.</i>
 EventIntroduction.button1,{qst:ContinueButton}
+EventMissionStartXpAndGold.button1,Continue
+EventMissionStartXpAndGold.text,<b>Starting Equipment</b>\n\nThe heroes start the campaign with {var:$%gold} gold and {var:$%xp} XP.

@@ -14,6 +14,13 @@ UIQuest5.text,Add Quest 5 text here.
 UIQuest5.button1,Start encounter
 UIQuestFinale.text,Add Finale text here.
 UIQuestFinale.button1,Start final encounter
+EventBlackMarketNotEnoughGold.text,You consider searching for someone who could give you access to less legal wares, but you realize that you lack the money to do so.\n\nYou are unable to find another merchant.
+EventBlackMarketNotEnoughGold.button1,{qst:ContinueButton}
+EventButtonClick.button1,{qst:ContinueButton}
+EventIconCityStartGame.text,<i>Add some flavor text here what the heroes are planning and which city they are going to.</i>
+EventIconCityStartGame.button1,{qst:ContinueButton}
+EventStartGameXpAndGold.button1,{qst:ContinueButton}
+EventStartGameXpAndGold.text,<b>Starting Equipment</b>\n\nThe heroes start the campaign with {var:$%gold} gold and {var:$%xp} XP.
 UICity.text,After an exhausting day you hurry to the city.
 UICity.button1,{qst:ContinueButton}
 UICityStartGame.text,You start your adventure in this city.
@@ -594,6 +601,3 @@ EventTravelEventThread2.button1,{qst:ContinueButton}
 EventTravelEventThread3.button1,{qst:ContinueButton}
 EventTravelEventThread4.button1,{qst:ContinueButton}
 EventTravelEventThread5.button1,{qst:ContinueButton}
-EventBlackMarketNotEnoughGold.text,You consider searching for someone who could give you access to less legal wares, but you realize that you lack the money to do so.\n\nYou are unable to find another merchant.
-EventBlackMarketNotEnoughGold.button1,{qst:ContinueButton}
-EventButtonClick.button1,{qst:ContinueButton}

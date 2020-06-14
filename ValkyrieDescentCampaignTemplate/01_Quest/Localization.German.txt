@@ -32,7 +32,9 @@ EventNoMorale.text,<i>Keine Moral Storytext hier einfügen.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventEndEncounter1.text,Die Helden erhalten {var:RewardGold} Gold, {var:RewardXp} Xp und {var:RewardFame} Ruhm.
 EventEndEncounter1.button1,{qst:ContinueButton}
-EventPlaceTiles.text,Legt die folgenden Spielplanteile bereit:
-EventPlaceTiles.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventSetup.text,Legt die folgenden Spielplanteile bereit:
 EventIntroduction.text,<i>Einleitungstext hier einfügen.</i>
 EventIntroduction.button1,{qst:ContinueButton}
+EventMissionStartXpAndGold.button1,Continue
+EventMissionStartXpAndGold.text,<b>Startausrüstung</b>\n\n Die Helden beginnen das Spiel mit {var:$%gold} Gold und {var:$%xp} XP.
