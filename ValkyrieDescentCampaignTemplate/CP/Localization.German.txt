@@ -559,7 +559,7 @@ EventTravelEventMountains24E.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach ein
 EventTravelEventMountains24E.button1,{qst:ContinueButton}
 EventTravelEventMountains24F.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
 EventTravelEventMountains24F.button1,{qst:ContinueButton}
-EventTravelEventMountains26MoB.text,<b>Berge - unnatürliche Figuren:</b>\n\n<i>Unnatürliche gestalten verfolgen den Rand ihrer Campingplätze.</i>\n\nDie Helden wählen einen Helden, um {Awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
+EventTravelEventMountains26MoB.text,<b>Berge - unnatürliche Figuren:</b>\n\n<i>Unnatürliche gestalten tauchen am Rande eures Lagers auf.</i>\n\nDie Helden wählen einen Helden, um {Awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
 EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
 EventTravelEventMountains27MoB.text,<b>Berge - der Reek des brennenden Fleisches:</b>\n\n<i>Der Reek des brennenden Fleisches zieht dich zu einem verlassenen Scheiterhaufen.</i>\n\nDie Helden können einen Helden wählen, um {awareness} zu Lege eine Probe ab. Wenn sie gelingt, zieht dieser Held eine Suchkarte und ist verängstigt.
 EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
