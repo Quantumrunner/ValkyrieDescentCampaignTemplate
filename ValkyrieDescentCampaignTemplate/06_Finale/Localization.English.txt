@@ -10,13 +10,13 @@ TokenSearch2Players1.button1,{qst:SearchButton}
 TokenSearch2Players2.button1,{qst:SearchButton}
 TokenSearch3Players.button1,{qst:SearchButton}
 TokenSearch4Players.button1,{qst:SearchButton}
-EventTokenSearch2Players1.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch2Players1Gold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch2Players1.text,Draw a search card and discard this token.
 EventTokenSearch2Players1.button1,{qst:ContinueButton}
-EventTokenSearch2Players2.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch2Players2Gold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch2Players2.text,Draw a search card and discard this token.
 EventTokenSearch2Players2.button1,{qst:ContinueButton}
-EventTokenSearch3Players.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch3PlayersGold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch3Players.text,Draw a search card and discard this token.
 EventTokenSearch3Players.button1,{qst:ContinueButton}
-EventTokenSearch4Players.text,<i>Add some flavor text here.</i>\n\nYou find {var:TokenSearch4PlayersGold} gold.\n\nDraw a search card and discard this token.
+EventTokenSearch4Players.text,Draw a search card and discard this token.
 EventTokenSearch4Players.button1,{qst:ContinueButton}
 TokenSearch4Players.text,<i>Add some 'heroes have found something'-flavor text here.</i>
 TokenSearch3Players.text,<i>Add some 'heroes have found something'-flavor text here.</i>

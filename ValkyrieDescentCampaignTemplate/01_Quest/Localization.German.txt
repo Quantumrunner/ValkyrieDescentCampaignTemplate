@@ -9,13 +9,13 @@ TokenSearch2Players1.button1,{qst:SearchButton}
 TokenSearch2Players2.button1,{qst:SearchButton}
 TokenSearch3Players.button1,{qst:SearchButton}
 TokenSearch4Players.button1,{qst:SearchButton}
-EventTokenSearch2Players1.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch2Players1Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch2Players1.text,Ihr findet{var:TokenSearch2Players1Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
 EventTokenSearch2Players1.button1,{qst:ContinueButton}
-EventTokenSearch2Players2.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch2Players2Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch2Players2.text,Ihr findet{var:TokenSearch2Players2Gold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
 EventTokenSearch2Players2.button1,{qst:ContinueButton}
-EventTokenSearch3Players.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch3PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch3Players.text,Ihr findet{var:TokenSearch3PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
 EventTokenSearch3Players.button1,{qst:ContinueButton}
-EventTokenSearch4Players.text,<i>Storytext hier einfügen.</i>\n\nIhr findet{var:TokenSearch4PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
+EventTokenSearch4Players.text,Ihr findet{var:TokenSearch4PlayersGold} gold.\n\nZieht eine Suchkarte und werft diesen Marker ab.
 EventTokenSearch4Players.button1,{qst:ContinueButton}
 TokenSearch4Players.text,"<i>Hier einen ""Helden haben etwas gefunden""-Storytext hinzufügen.</i>"
 TokenSearch3Players.text,"<i>Hier einen ""Helden haben etwas gefunden""-Storytext hinzufügen.</i>"
