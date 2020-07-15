@@ -601,3 +601,8 @@ EventTravelEventThread2.button1,{qst:ContinueButton}
 EventTravelEventThread3.button1,{qst:ContinueButton}
 EventTravelEventThread4.button1,{qst:ContinueButton}
 EventTravelEventThread5.button1,{qst:ContinueButton}
+EventKnightReward.button1,{qst:ContinueButton}
+EventKnightRewardAct2.text,The heroes gain the item:\n\n{c:QItemTravelReward24ActII}
+EventKnightRewardAct2.button1,{qst:ContinueButton}
+EventKnightRewardAct1.text,The heroes gain the item:\n\n{c:QItemTravelReward24ActI}
+EventKnightRewardAct1.button1,{qst:ContinueButton}
