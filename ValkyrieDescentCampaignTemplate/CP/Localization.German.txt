@@ -33,7 +33,7 @@ EventCity.button3,Schwarzmarkt besuchen
 EventCityEL.button1,Stadt verlassen
 EventCityEL.button2,Waren auffüllen
 EventCityEL.button3,Schwarzmarkt besuchen
-EventBlackMarketVisited.text,Ihr zahlt die Gebühr und eurer Kontakt führt euch durch unzählige Hinterstraßen zumn Schwarzmarkt der Stadt.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
+EventBlackMarketVisited.text,Ihr zahlt die Gebühr und eurer Kontakt führt euch durch unzählige Hinterstraßen zum Schwarzmarkt der Stadt.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
 EventRestockAvailable.text,Aufgrund eurer bisherigen erfolge, konnte die stadt einige neue Händler anlocken.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
 EventCityAct2.button1,Stadt verlassen
 EventCityAct2.button2,Waren auffüllen
@@ -108,7 +108,7 @@ EventTravelEventRoad11A.text,<b>Straße - Falsch abgebogen:</b>\n\n<i>Ihr findet
 EventTravelEventRoad11A.button1,{qst:ContinueButton}
 EventTravelEventRoad11B.text,<b>Straße - Falsch abgebogen:</b>\n\n<i>Überraschenderweise stellt sich heraus, dass ihr eine Abkürzung gefunden habt.</i>\n\nIhr überspringt das nächste Reiseereignis.
 EventTravelEventRoad11B.button1,{qst:ContinueButton}
-EventTravelEventRoad12.text,<b>Straße - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventRoad12Morale}.
+EventTravelEventRoad12.text,<b>Straße - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventRoad12Morale}.
 EventTravelEventRoad12.button1,{qst:ContinueButton}
 EventTravelEventRoad15.text,<b>Straße - Alte Schriftrolle:</b>\n\n<i>Ihr stoßt auf eine alte Schriftrolle.</i>\n\nDie Helden wählen einen Magier. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann dies nach dem Würfeln eines Verteidigungswurfes verwerfen, um seinem Ergebnis {shield} in Höhe seiner {knowledge} hinzuzufügen.
 EventTravelEventRoad15.button1,{qst:ContinueButton}
@@ -121,7 +121,7 @@ EventTravelEventRoad17B.text,<b>Straße -Verlorener Gesandter:</b>\n\n<i>Ihr ler
 EventTravelEventRoad17B.button1,{qst:ContinueButton}
 EventTravelEventRoad17C.text,<b>Straße -Verlorener Gesandter:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
 EventTravelEventRoad17C.button1,{qst:ContinueButton}
-EventTravelEventRoad20.text,<b>Straße - Großer Baum:</b>\n\n<i>Ein hoher Baum bietet eine Möglichkeit die Gegend auszukundscha.</i>\n\nWählt einen Helden, um {var:EventTravelEventRoad20Fatigue} {fatigue} zu erleiden und eine {awareness} Probe abzulegen. War sie erfolgreich?
+EventTravelEventRoad20.text,<b>Straße - Großer Baum:</b>\n\n<i>Ein hoher Baum bietet eine Möglichkeit die Gegend auszukundschaften.</i>\n\nWählt einen Helden, um {var:EventTravelEventRoad20Fatigue} {fatigue} zu erleiden und eine {awareness} Probe abzulegen. War sie erfolgreich?
 EventTravelEventRoad20.button1,Nein
 EventTravelEventRoad20.button2,Ja
 EventTravelEventRoad20A.text,<b>Straße- Großer Baum:</b>\n\n<i>Ihr schafft es nicht, den Baumwipfel zu erreichen.</i>\n\nNichts passiert.
@@ -140,7 +140,7 @@ EventTravelEventRoad22C.button1,{qst:ContinueButton}
 EventTravelEventRoad24.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert euren Weg und fordert euren stärksten Krieger zum Duell.</i>\n\nNehmt ihr die Herausforderung an?
 EventTravelEventRoad24.button1,Nein
 EventTravelEventRoad24.button2,Ja
-EventTravelEventRoad24A.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventRoad24A.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventRoad24A.button1,{qst:ContinueButton}
 EventTravelEventRoad24B.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventRoad24B.button1,Nein
@@ -202,7 +202,7 @@ EventTravelEventPlains2B.text,<b>Ebenen - Bande der Flüchtlinge:</b>\n\n<i>Ihr 
 EventTravelEventPlains2B.button1,{qst:ContinueButton}
 EventTravelEventPlains3.text,<b>Ebenen - Rauchschwaden über dem Horizont:</b>\n\n<i>Ihr seht Rauchschaden in der Ferne am Horizont.</i>\n\nEure Moral sinkt um {var:EventTravelEventPlains3Morale}.
 EventTravelEventPlains3.button1,{qst:ContinueButton}
-EventTravelEventPlains4.text,<b>Ebene - Gesetzlose Briganten:</b>\n\n<i>Gesetzlose Brigands greifen euch an.</i>\n\nWählt einen Heldenspieler, eine {might} Probe abzulegen, um sie abzuschrecken. Scheitert sie, erleidet jeder Held {var:EventTravelEventPlains4Heart} {heart} im Kampf.
+EventTravelEventPlains4.text,<b>Ebene - Gesetzlose Briganten:</b>\n\n<i>Gesetzlose Briganden greifen euch an.</i>\n\nWählt einen Heldenspieler, eine {might} Probe abzulegen, um sie abzuschrecken. Scheitert sie, erleidet jeder Held {var:EventTravelEventPlains4Heart} {heart} im Kampf.
 EventTravelEventPlains4.button1,{qst:ContinueButton}
 EventTravelEventPlains8.text,<b>Ebene - Brennende Farm:</b>\n\n<i>Ihr findet einen Hof, der lichterloh bereits brennt, und bleibt stehen, um den Bauern eine ordentliche Bestattung zu geben.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen.
 EventTravelEventPlains8.button1,{qst:ContinueButton}
@@ -210,7 +210,7 @@ EventTravelEventPlains10.text,<b>Ebenen - Baum mit goldenen Äpfeln:</b>\n\n<i>I
 EventTravelEventPlains10.button1,{qst:ContinueButton}
 EventTravelEventPlains11.text,<b>Ebenen - Geflügelte Diener:</b>\n\n<i>Geflügelte Diener des Overlords steigen herab, um euch von oben zu überwältigen.</i>\n\nEin Heldlegt eine {awareness} Probe ab. Scheitert er, erleidet jeder Held {var:EventTravelEventPlains11Heart} {heart} und {var:EventTravelEventPlains11Fatigue} {fatigue}.
 EventTravelEventPlains11.button1,{qst:ContinueButton}
-EventTravelEventPlains12.text,<b>Straße - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventPlains12Morale}.
+EventTravelEventPlains12.text,<b>Straße - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf den  Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. Seid vorsichtig, Helden“, sagt der getarnte Fremde. „Überall lauren die Diener des Bösen! Etwas schreckliches ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventPlains12Morale}.
 EventTravelEventPlains12.button1,{qst:ContinueButton}
 EventTravelEventPlains13.text,<b>Straße - Die Späher des Overlords:</b>\n\nDie Späher des Overlords haben euch entdeckt.\n\nDer Held mit der höchsten {awareness} muss entweder {var:EventTravelEventPlains13Heart} {heart} oder {var:EventTravelEventPlains13Fatigue} {fatigue} erleiden.
 EventTravelEventPlains13.button1,{var:EventTravelEventPlains13Fatigue} {fatigue} erleiden
@@ -239,7 +239,7 @@ EventTravelEventPlains22.button1,{qst:ContinueButton}
 EventTravelEventPlains24.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
 EventTravelEventPlains24.button1,Nein
 EventTravelEventPlains24.button2,Ja
-EventTravelEventPlains24A.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventPlains24A.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventPlains24A.button1,{qst:ContinueButton}
 EventTravelEventPlains24B.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventPlains24B.button1,Nein
@@ -300,13 +300,13 @@ EventTravelEventForest6.text,<b>Wald - Diener des Overlords erscheinen!:</b>\n\n
 EventTravelEventForest6.button1,{qst:ContinueButton}
 EventTravelEventForest7.text,<b>Wald - Spinnen!:</b>\n\n<i>Spinnen! Bei allen Göttern! Überall Spinnen!</i>\n\nDer Held mit der niedrigsten {awareness} ist vergiftet.
 EventTravelEventForest7.button1,{qst:ContinueButton}
-EventTravelEventForest12.text,<b>Wald - mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der getarnte fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventForest12Morale}.
+EventTravelEventForest12.text,<b>Wald - mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der getarnte fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventForest12Morale}.
 EventTravelEventForest12.button1,{qst:ContinueButton}
 EventTravelEventForest13LotW.text,<b>Wald - ein altes Weib:</b>\n\n<i>Sie begegnen einer alten Frau, die euch mit einem Fluch belegt, bevor sie wieder in den Nebeln verschwindet.</i>\n\nJeder Held muss eine {will} Probe ablegen. Jeder Held, dessen Probe misslingt, erliegt ihrem Bann und brennt.
 EventTravelEventForest13LotW.button1,{qst:ContinueButton}
 EventTravelEventForest14.text,<b>Wald - Starker Nebel:</b>\n\n<i>Ihr spürt einen schweren Nebel, der euch umgibt. Plötzlich fühlt ihr euch seltsam müde.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, muss einen Heldenmarker auf sein Heldenblatt legen. Die Geschwindigkeit dieses Helden ist bei seinem ersten Zug {var:EventTravelEventForest14Speed}.
 EventTravelEventForest14.button1,{qst:ContinueButton}
-EventTravelEventForest15.text,<b>Wald - Banditen:</b>\n\n<i>Banditen haben diesen Wald besetzt.</i>\n\nJeder Held legt entweder eine {will} oder {knowledege} Probe ab. Haben alle Helden die Probe bestanden?
+EventTravelEventForest15.text,<b>Wald - Banditen:</b>\n\n<i>Banditen haben diesen Wald besetzt.</i>\n\nJeder Held legt entweder eine {will} oder {knowledge} Probe ab. Haben alle Helden die Probe bestanden?
 EventTravelEventForest15.button1,Nein
 EventTravelEventForest15.button2,Ja
 EventTravelEventForest15A.text,<b>Wald - Banditen:</b>\n\n<i>Ihr werdet von den Banditen überfallen, aber es gelingt euch, sie zu verjagen. Einige von euch sind im Kampf verwundet worden.</i>\n\nJeder Held, dessen Probe gescheitert ist, erleidet {var:EventTravelEventForest15AHeart} {heart} und {var:EventTravelEventForest15AFatigue} {fatigue}.
@@ -330,7 +330,7 @@ EventTravelEventForest16H4.button2,Eine
 EventTravelEventForest16H4.button3,Zwei
 EventTravelEventForest16H4.button4,Drei
 EventTravelEventForest16H4.button5,Vier
-EventTravelEventForest16A.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Leider könnt ihr dem Kaufmann nicht helfen.</i>\n\nIhr setz eure Reise fort.
+EventTravelEventForest16A.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Leider könnt ihr dem Kaufmann nicht helfen.</i>\n\nIhr setzt eure Reise fort.
 EventTravelEventForest16A.button1,{qst:ContinueButton}
 EventTravelEventForest16B.text,<b>Wald - Verlorener Kaufmann:</b>\n\n<i>Ihr könnt dem Händler eine ungenaue Beschreibung geben.</i>\n\nDie Helden werden mit {var:EventTravelEventForest16BGold} Gold belohnt.
 EventTravelEventForest16B.button1,{qst:ContinueButton}
@@ -358,7 +358,7 @@ EventTravelEventForest23TT.button1,{qst:ContinueButton}
 EventTravelEventForest24.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
 EventTravelEventForest24.button1,Nein
 EventTravelEventForest24.button2,Ja
-EventTravelEventForest24A.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventForest24A.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventForest24A.button1,{qst:ContinueButton}
 EventTravelEventForest24B.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventForest24B.button1,Nein
@@ -439,7 +439,7 @@ EventTravelEventWater11B.text,<b>Wasser - Fährmann:</b>\n\n<i>Auf diese Weise z
 EventTravelEventWater11B.button1,{qst:ContinueButton}
 EventTravelEventWater11C.text,<b>Wasser - Fährmann:</b>\n\n<i>Da ihr nicht über das benötigte Gold verfügt, müsst ihr eure Reise zu Fuß fortsetzen, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11CFatigue} {fatigue}.
 EventTravelEventWater11C.button1,{qst:ContinueButton}
-EventTravelEventWater12.text,<b>Wasser - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventWater12Morale}.
+EventTravelEventWater12.text,<b>Wasser - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventWater12Morale}.
 EventTravelEventWater12.button1,{qst:ContinueButton}
 EventTravelEventWater14.text,<b>Wasser - Belebt:</b>\n\n<i>Ihr fühlt euch gestärkt.</i>\n\nDie Helden wählen einen Krieger. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann diesen Marker zu Beginn seines Zuges ablegen. Er erleidet keine {fatigue}, in diesem Zug, um  Fähigkeiten zu nutzen.
 EventTravelEventWater14.button1,{qst:ContinueButton}
@@ -461,7 +461,7 @@ EventTravelEventWater23.button1,{qst:ContinueButton}
 EventTravelEventWater24.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
 EventTravelEventWater24.button1,Nein
 EventTravelEventWater24.button2,Ja
-EventTravelEventWater24A.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventWater24A.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventWater24A.button1,{qst:ContinueButton}
 EventTravelEventWater24B.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventWater24B.button1,Nein
@@ -519,7 +519,7 @@ EventTravelEventMountains9.text,<b>Berge - Erdrutsch!:</b>\n\n<i>Ein Erdrutsch!<
 EventTravelEventMountains9.button1,{qst:ContinueButton}
 EventTravelEventMountains10.text,<b>Berge - Hinterhalt:</b>\n\n<i>Pfeile fliegen hinter den Felsbrocken hervor!</i>\n\nJeder Held legt eine {awareness} Probe ab und erleidet {var:EventTravelEventMountains10Heart1} {heart}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventMountains10Heart2} zusätzliches {heart}.
 EventTravelEventMountains10.button1,{qst:ContinueButton}
-EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herald:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herald angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
+EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
 EventTravelEventMountains12.button1,{qst:ContinueButton}
 EventTravelEventMountains13.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Ein geheimnisvoller Gaukler taucht auf und macht euch ein unwiderstehliches Angebot ...</i>\n\nEin Held legt für jedes seiner Attribut eine Probe ab ({will}, {knowledge}, {awareness} und {might}). Waren alle Probe erfolgreich?
 EventTravelEventMountains13.button1,Nein
@@ -545,7 +545,7 @@ EventTravelEventMountains23.button1,{qst:ContinueButton}
 EventTravelEventMountains24.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ein einsamer Ritter in leuchtender silberner Rüstung blockiert und fordert euren stärksten Krieger zum Duell heraus.</i>\n\nNehmt ihr die Herausforderung an?
 EventTravelEventMountains24.button1,Nein
 EventTravelEventMountains24.button2,Ja
-EventTravelEventMountains24A.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehn.</i>\n\nNichts passiert.
+EventTravelEventMountains24A.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventMountains24A.button1,{qst:ContinueButton}
 EventTravelEventMountains24B.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventMountains24B.button1,Nein
@@ -592,7 +592,7 @@ EventTravelEventMountains31B.button1,{qst:ContinueButton}
 EventTravelEventThreat.text,<i>Die Streitkräfte des Overlords sind euren Spuren gefolgt und sind euch dicht auf den Fersen.</i>\n\n Ihr müsst eine zusätzliches Reiseergeinis durchführen, um mit ihnen fertig zu werden.
 EventTravelEventThreat.button1,{qst:ContinueButton}
 EventTravelEventThread1.text,<i>Ein magisches Seil hat einen von euch gefesselt. Ihr versucht, es abzuwerfen.</i>\n\nDer Held mit der niedrigsten {knowledge} legt eine {knowledge} Probe ab. Wenn sie misslingt ist er gelähmt.
-EventTravelEventThread2.text,<i>Um euch herum bildet sich eine giftige grüne Wolke.</i>\n\nJeder Held testet {knowledege}. Jeder Held, dessen Probe misslingt, wird vergiftet.
+EventTravelEventThread2.text,<i>Um euch herum bildet sich eine giftige grüne Wolke.</i>\n\nJeder Held testet {knowledge}. Jeder Held, dessen Probe misslingt, wird vergiftet.
 EventTravelEventThread3.text,<i>Eine Gruppe Goblinbogenschützen hat euch entdeckt. Ein Pfeilhagel geht auf euch nieder.</i>\n\n Jeder Held legt eine {awareness} Probe ab. Jeder Held dessen Probe misslingt erleidet {var:EventTravelEventThread3Heart} {heart}.
 EventTravelEventThread4.text,<i>Ihr geratet in einen Kampf und einige von euch werden verletzt.</i>\n\nWählt zwei Helden, die jeweils {var:TravelEventThread4Heart} {heart} erleiden.
 EventTravelEventThread5.text,<i>Ein Schattendrache rast aus dem Himmel auf euch herab. Eine riesige Feuerwalze kommt aus seinem Mund.</i> Führt einen Angriff eines Elite-Schattendrachens gegen jeden Helden durch.\nEr hat: {surge} +{var:TravelEventThread5Heart} {heart}\n\n Es gelten die normalen Verteidgungsregeln.
