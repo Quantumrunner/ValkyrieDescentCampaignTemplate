@@ -204,7 +204,7 @@ EventTravelEventPlains3.text,<b>Ebenen - Rauchschwaden über dem Horizont:</b>\n
 EventTravelEventPlains3.button1,{qst:ContinueButton}
 EventTravelEventPlains4.text,<b>Ebene - Gesetzlose Briganten:</b>\n\n<i>Gesetzlose Briganden greifen euch an.</i>\n\nWählt einen Heldenspieler, eine {might} Probe abzulegen, um sie abzuschrecken. Scheitert sie, erleidet jeder Held {var:EventTravelEventPlains4Heart} {heart} im Kampf.
 EventTravelEventPlains4.button1,{qst:ContinueButton}
-EventTravelEventPlains8.text,<b>Ebene - Brennende Farm:</b>\n\n<i>Ihr findet einen Hof, der lichterloh bereits brennt, und bleibt stehen, um den Bauern eine ordentliche Bestattung zu geben.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventPlains8.text,<b>Ebene - Brennende Farm:</b>\n\n<i>Ihr findet einen Hof, der bereits lichterloh brennt, und bleibt stehen, um den Bauern eine ordentliche Bestattung zu geben.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen.
 EventTravelEventPlains8.button1,{qst:ContinueButton}
 EventTravelEventPlains10.text,<b>Ebenen - Baum mit goldenen Äpfeln:</b>\n\n<i>Ihr haltet kurz in einem Obstgarten, den ihr entdeckt habt, voller Bäume mit goldenen Äpfeln.</i>\n\nWählt einen Helden um eine {will} Probe abzulegen. Wenn sie gelingt, zieht eine Suchkarte.
 EventTravelEventPlains10.button1,{qst:ContinueButton}
@@ -404,14 +404,14 @@ EventTravelEventForest29MoBC.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n
 EventTravelEventForest29MoBC.button1,{qst:ContinueButton}
 EventTravelEventForest29MoBD.text,<b>Wald - Die Überreste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
 EventTravelEventForest29MoBD.button1,{qst:ContinueButton}
-EventTravelEventForest30.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ein junges Paar durchsucht die verkohlten Überreste ihrer Hütte..</i>\n\nWollen die Helden {var:EventTravelEventForest30Gold} Gold ausgeben (wenn vorhanden), um sie zu unterstützen?
+EventTravelEventForest30.text,<b>Wald - Ein junges Paar:</b>\n\n<i>Ein junges Paar durchsucht die verkohlten Überreste ihrer Hütte..</i>\n\nWollen die Helden {var:EventTravelEventForest30Gold} Gold ausgeben (wenn vorhanden), um sie zu unterstützen?
 EventTravelEventForest30.button1,Nein
 EventTravelEventForest30.button2,Ja
-EventTravelEventForest30A.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr habt keine Zeit, den Einheimischen zu Helfen.</i>\n\nNichts passiert.
+EventTravelEventForest30A.text,<b>Wald - Ein junges Paar:</b>\n\n<i>Ihr habt keine Zeit, den Einheimischen zu Helfen.</i>\n\nNichts passiert.
 EventTravelEventForest30A.button1,{qst:ContinueButton}
-EventTravelEventForest30B.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr helft dem Paar, und sie versprechen, anderen von eurer heroischen Tat zu erzählen.</i>\n\nEure Moral steigt um {var:EventTravelEventForest30Morale}.
+EventTravelEventForest30B.text,<b>Wald - Ein junges Paar:</b>\n\n<i>Ihr helft dem Paar, und sie versprechen, anderen von eurer heroischen Tat zu erzählen.</i>\n\nEure Moral steigt um {var:EventTravelEventForest30Morale}.
 EventTravelEventForest30B.button1,{qst:ContinueButton}
-EventTravelEventForest30C.text,<b>Wald - Ein junges paar:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
+EventTravelEventForest30C.text,<b>Wald - Ein junges Paar:</b>\n\n<i>Ihr habt nicht das erforderliche Gold.</i>\n\nNichts passiert.
 EventTravelEventForest30C.button1,{qst:ContinueButton}
 EventTravelEventWater4.text,<b>Wasser - Ein Glitzern:</b>\n\n<i>Etwas glitzert am Boden eines Sees!</i>\n\nWählt einen Heldenspieler, um eine Probe abzulegen, um danach zu tauchen. Wenn sie gelingt, zieht eine Suchkarte.
 EventTravelEventWater4.button1,{qst:ContinueButton}
@@ -559,7 +559,7 @@ EventTravelEventMountains24E.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach ein
 EventTravelEventMountains24E.button1,{qst:ContinueButton}
 EventTravelEventMountains24F.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
 EventTravelEventMountains24F.button1,{qst:ContinueButton}
-EventTravelEventMountains26MoB.text,<b>Berge - Unnatürliche Gestalten:</b>\n\n<i>Unnatürliche Gestalten tauchen am Rande eures Lagers auf.</i>\n\nDie Helden wählen einen Helden, um {Awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
+EventTravelEventMountains26MoB.text,<b>Berge - Unnatürliche Gestalten:</b>\n\n<i>Unnatürliche Gestalten tauchen am Rande eures Lagers auf.</i>\n\nDie Helden wählen einen Helden, um {awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
 EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
 EventTravelEventMountains27MoB.text,<b>Berge - Fleischesduft:</b>\n\n<i>Der Geruch von brennendem Fleisch zieht euch zu einem verlassenen Scheiterhaufen.</i>\n\nDie Helden können einen Helden wählen, um {awareness} zu Lege eine Probe ab. Wenn sie gelingt, zieht dieser Held eine Suchkarte und ist verängstigt.
 EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
