@@ -498,7 +498,7 @@ EventTravelEventWater29MoBC.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>I
 EventTravelEventWater29MoBC.button1,{qst:ContinueButton}
 EventTravelEventWater29MoBD.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
 EventTravelEventWater29MoBD.button1,{qst:ContinueButton}
-EventTravelEventWater31TctR.text,<b>Wasser -Kugeln des Blutes:</b>\n\n<i>Die Kugeln des Blutes sprudeln aus unsichtbaren tiefen und füllen die Luft mit Putrid rotem Nebel.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird erkrankt und testet {will}. Jeder Held, der wiedessen Probe misslingt, ist verängstigt.
+EventTravelEventWater31TctR.text,<b>Wasser - Die Kugeln des Blutes:</b>\n\n<i>Kugeln aus Blut sprudeln aus unsichtbaren Tiefen und füllen die Luft mit fauligem rotem Nebel.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird erkrankt und testet {will}. Jeder Held, der wiedessen Probe misslingt, ist verängstigt.
 EventTravelEventWater31TctR.button1,{qst:ContinueButton}
 EventTravelEventMountains1.text,<b>Berge - Tödliche Steilhänge:</b>\n\n<i>Ihr seid bei einem heftigen Sturm auf den tödlichen Steilhängen eines Berges gefangen.</i>\n\nJeder Held erleidet {var:EventTravelEventMountains1Heart} {heart} und {var:EventTravelEventMountains1Fatigue} {fatigue}.
 EventTravelEventMountains1.button1,{qst:ContinueButton}
