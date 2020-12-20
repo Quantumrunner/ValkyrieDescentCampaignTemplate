@@ -27,7 +27,7 @@ EventDefeat.button1,{qst:ContinueButton}
 EventVictory.text,<i>Add some flavor text here.</i>\n\n<b>The heroes have won this encounter!</b>
 TokenDebug.button1,Victory
 TokenDebug.button2,Defeat
-TokenDebug.text,Click a button to simulate losing or winning.
+TokenDebug.text,Quest 4: Click a button to simulate losing or winning.
 EventNoMorale.text,<i>Add some No-Morale flavor text here.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventEndEncounter1.text,The heroes gain {var:RewardGold} gold, {var:RewardXp} xp and {var:RewardFame} fame.

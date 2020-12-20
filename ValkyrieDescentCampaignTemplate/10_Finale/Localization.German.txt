@@ -25,7 +25,7 @@ EventVictory.button1,{qst:ContinueButton}
 EventDefeat.button1,{qst:ContinueButton}
 TokenDebug.button1,Sieg
 TokenDebug.button2,Niederlage
-TokenDebug.text,Klicken Sie auf diesen Button Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
+TokenDebug.text,Finale: Klicken Sie auf diesen Button Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
 EventNoMorale.text,<i>Keine Moral Storytext hier einfügen.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventPlaceTiles.text,Legt die folgenden Spielplanteile bereit:

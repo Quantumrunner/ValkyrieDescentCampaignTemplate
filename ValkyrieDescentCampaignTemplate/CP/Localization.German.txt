@@ -12,6 +12,14 @@ UIQuest3.text,Quest 3 Text hier einfügen.
 UIQuest4.button1,Begegnung starten
 UIQuest5.text,Quest 5 Text hier einfügen.
 UIQuest5.button1,Begegnung starten
+UIQuest6.text,Quest 6 Text hier einfügen.
+UIQuest6.button1,Start encounter
+UIQuest7.text,Quest 7 Text hier einfügen.
+UIQuest7.button1,Start encounter
+UIQuest8.text,Quest 8 Text hier einfügen.
+UIQuest8.button1,Start encounter
+UIQuest9.text,Quest 9 Text hier einfügen.
+UIQuest9.button1,Start encounter
 UIQuestFinale.text,Finale Text hier einfügen.
 UIQuestFinale.button1,Finale Begegnung starten
 EventBlackMarketNotEnoughGold.text,Euch kommt in den Sinn, nach jemandem zu suchen, der euch Zugang zu weniger legalen Waren verschaffen könnte, aber ihr stellt fest, dass euch das Geld dafür fehlt.\n\n Ihr findet keinen anderen Händler.
@@ -223,7 +231,7 @@ EventTravelEventPlains14.text,<b>Ebenen - Wandernder Mystiker:</b>\n\n<i>Ein wan
 EventTravelEventPlains14.button1,{qst:ContinueButton}
 EventTravelEventPlains15.text,<b>Ebene - Wanderheiler:</b>\n\n<i>Ein reisender Heiler bietet euch eine geheimnisvolle Methode der Heilung an.</i>\n\nDie Helden wählen einen Helden, um {var:EventTravelEventPlains15Heart} {heart} zu erleiden. Ein anderer Held eurer Wahl erholt alle {heart} und wirft alle seine Zustandskarten ab.
 EventTravelEventPlains15.button1,{qst:ContinueButton}
-EventTravelEventPlains16.text,<b>Ebenen - Hinterhalt:</b>\n\n<i>Ihr bemerkt einen Hinterhalt.</i>\n\nDie Helden können bis zu {var:EventTravelEventPlains16Heroes} verschiedenen Helden wählen, um {var:EventTravelEventPlains16Heart} {heart} zu erleiden. Nach dem Aufbau können sie ein Monster wählen, um ihnen die gleiche Menge an {heart} zuzufügen.
+EventTravelEventPlains16.text,<b>Ebenen - Hinterhalt:</b>\n\n<i>Ihr bemerkt einen Hinterhalt.</i>\n\nDie Helden können bis zu {var:EventTravelEventPlains16Heroes} verschiedenen Helden wählen, um {var:EventTravelEventPlains16Heart} {heart} zu erleiden. Nach dem Aufbau können sie ein Monster wählen, um ihm die gleiche Menge an {heart} zuzufügen.
 EventTravelEventPlains16.button1,{qst:ContinueButton}
 EventTravelEventPlains19.text,<b>Ebene - Vermummter Reisender:</b>\n\n<i>Ein vermummter Reisender warnt euch.</i>\n\nDie Helden können wählen, {var:EventTravelEventPlains19Heart} {heart} pro Held zu erleiden, um einige der Overlord-Truppen zu vermeiden. Wollt ihr dies tun?
 EventTravelEventPlains19.button1,Nein
@@ -433,7 +441,7 @@ EventTravelEventWater10.button1,{qst:ContinueButton}
 EventTravelEventWater11.text,<b>Wasser - Fährmann:</b>\n\n<i>Ihr seid von der langen Reise ermüdet. Ein Fährmann bietet euch eine Fahrt an.</i>\n\nIhr könnt entweder {var:EventTravelEventWater11Gold} Gold ausgeben (wenn vorhanden) oder den anstrengenden Marsch zu Fuß fortsetzen.
 EventTravelEventWater11.button1,Müdigkeit erleiden
 EventTravelEventWater11.button2,Gold ausgeben
-EventTravelEventWater11A.text,<b>Wasser - Fährmann:</b>\n\n<i>Sie setzen Ihre Reise zu Fuß fort, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11AFatigue} {fatigue}.
+EventTravelEventWater11A.text,<b>Wasser - Fährmann:</b>\n\n<i>Ihr setzt eure Reise zu Fuß fort, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11AFatigue} {fatigue}.
 EventTravelEventWater11A.button1,{qst:ContinueButton}
 EventTravelEventWater11B.text,<b>Wasser - Fährmann:</b>\n\n<i>Auf diese Weise zu reisen, ist kostspielig, aber schneller.</i>\n\nIhr zahlt dem Fährmann seine {var:EventTravelEventWater11Gold} Gold.
 EventTravelEventWater11B.button1,{qst:ContinueButton}

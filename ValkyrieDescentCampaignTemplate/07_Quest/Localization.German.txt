@@ -1,7 +1,7 @@
 .,German
 ContinueButton,Weiter
 SearchButton,{action} Suchen
-quest.name,Descent - Campaign Template - Quest 3
+quest.name,Descent - Campaign Template - Quest 7
 EventStart.button1,{qst:ContinueButton}
 EventStartRound.button1,{qst:ContinueButton}
 EventEndRound.button1,{qst:ContinueButton}
@@ -27,7 +27,7 @@ EventDefeat.button1,{qst:ContinueButton}
 EventVictory.text,<i>Storytext hier einfügen.</i>\n\n<b>Die Helden haben diese Begegnung gewonnen!</b>
 TokenDebug.button1,Sieg
 TokenDebug.button2,Niederlage
-TokenDebug.text,Quest 3: Klicken Sie auf diesen Button Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
+TokenDebug.text,Quest 7: Klicken Sie auf diesen Button Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
 EventNoMorale.text,<i>Keine Moral Storytext hier einfügen.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventEndEncounter1.text,Die Helden erhalten {var:RewardGold} Gold, {var:RewardXp} Xp und {var:RewardFame} Ruhm.

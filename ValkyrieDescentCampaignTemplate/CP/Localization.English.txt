@@ -12,6 +12,14 @@ UIQuest3.text,Add Quest 3 text here.
 UIQuest4.button1,Start encounter
 UIQuest5.text,Add Quest 5 text here.
 UIQuest5.button1,Start encounter
+UIQuest6.text,Add Quest 6 text here.
+UIQuest6.button1,Start encounter
+UIQuest7.text,Add Quest 7 text here.
+UIQuest7.button1,Start encounter
+UIQuest8.text,Add Quest 8 text here.
+UIQuest8.button1,Start encounter
+UIQuest9.text,Add Quest 9 text here.
+UIQuest9.button1,Start encounter
 UIQuestFinale.text,Add Finale text here.
 UIQuestFinale.button1,Start final encounter
 EventBlackMarketNotEnoughGold.text,You consider searching for someone who could give you access to less legal wares, but you realize that you lack the money to do so.\n\nYou are unable to find another merchant.

@@ -27,7 +27,7 @@ EventDefeat.button1,{qst:ContinueButton}
 EventVictory.text,<i>Storytext hier einfügen.</i>\n\n<b>Die Helden haben diese Begegnung gewonnen!</b>
 TokenDebug.button1,Sieg
 TokenDebug.button2,Niederlage
-TokenDebug.text,Klicken Sie auf diese Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
+TokenDebug.text,Quest 1: Klicken Sie auf diese Schaltfläche, um einen Sieg oder eine Niederlage zu simulieren.
 EventNoMorale.text,<i>Keine Moral Storytext hier einfügen.</i>
 EventNoMorale.button1,{qst:ContinueButton}
 EventEndEncounter1.text,Die Helden erhalten {var:RewardGold} Gold, {var:RewardXp} Xp und {var:RewardFame} Ruhm.
