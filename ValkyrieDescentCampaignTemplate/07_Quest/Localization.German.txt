@@ -36,3 +36,13 @@ EventPlaceTiles.text,Legt die folgenden Spielplanteile bereit:
 EventPlaceTiles.button1,{qst:ContinueButton}
 EventIntroduction.text,<i>Einleitungstext hier einfügen.</i>
 EventIntroduction.button1,{qst:ContinueButton}
+DoorButton,{action} Tür öffnen
+DoorRuleText,Ihr könnt diese Tür mit einer <b>Tür öffnen</b>-Aktion öffnen.
+Door1.text,<i>Storytext hier einfügen.</i>\n\n{qst:DoorRuleText}
+Door1.button1,{qst:DoorButton}
+Door2.text,<i>Storytext hier einfügen.</i>\n\n{qst:DoorRuleText}
+Door2.button1,{qst:DoorButton}
+Door3.text,<i>Storytext hier einfügen.</i>\n\n{qst:DoorRuleText}
+Door3.button1,{qst:DoorButton}
+Door4.text,<i>Storytext hier einfügen.</i>\n\n{qst:DoorRuleText}
+Door4.button1,{qst:DoorButton}

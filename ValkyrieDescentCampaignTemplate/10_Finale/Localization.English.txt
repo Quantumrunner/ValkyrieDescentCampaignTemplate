@@ -33,3 +33,13 @@ EventPlaceTiles.text,Set aside the following tiles:
 EventPlaceTiles.button1,{qst:ContinueButton}
 EventIntroduction.text,<i>Add introduction text here.</i>
 EventIntroduction.button1,{qst:ContinueButton}
+DoorButton,{action} Open Door
+DoorRuleText,You can open this door with an <b>Open Door</b> action.
+Door1.text,<i>Add some flavor text here.</i>\n\n{qst:DoorRuleText}
+Door1.button1,{qst:DoorButton}
+Door2.text,<i>Add some flavor text here.</i>\n\n{qst:DoorRuleText}
+Door2.button1,{qst:DoorButton}
+Door3.text,<i>Add some flavor text here.</i>\n\n{qst:DoorRuleText}
+Door3.button1,{qst:DoorButton}
+Door4.text,<i>Add some flavor text here.</i>\n\n{qst:DoorRuleText}
+Door4.button1,{qst:DoorButton}
