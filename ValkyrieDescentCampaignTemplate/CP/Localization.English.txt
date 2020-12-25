@@ -5,10 +5,10 @@ quest.description,Campaign Phase
 UIQuest1.text,Add Quest 1 text here.
 UIQuest1.button1,Start encounter
 UIQuest2.text,Add Quest 2 text here.
-UIQuest3.button1,Start encounter
-UIQuest4.text,Add Quest 4 text here.
 UIQuest2.button1,Start encounter
 UIQuest3.text,Add Quest 3 text here.
+UIQuest3.button1,Start encounter
+UIQuest4.text,Add Quest 4 text here.
 UIQuest4.button1,Start encounter
 UIQuest5.text,Add Quest 5 text here.
 UIQuest5.button1,Start encounter

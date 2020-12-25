@@ -5,10 +5,10 @@ quest.description,Kampagnenphase
 UIQuest1.text,Quest 1 Text hier einfügen.
 UIQuest1.button1,Begegnung starten
 UIQuest2.text,Quest 2 Text hier einfügen.
-UIQuest3.button1,Begegnung starten
-UIQuest4.text,Quest 4 Text hier einfügen.
 UIQuest2.button1,Begegnung starten
 UIQuest3.text,Quest 3 Text hier einfügen.
+UIQuest3.button1,Begegnung starten
+UIQuest4.text,Quest 4 Text hier einfügen.
 UIQuest4.button1,Begegnung starten
 UIQuest5.text,Quest 5 Text hier einfügen.
 UIQuest5.button1,Begegnung starten
