@@ -312,7 +312,7 @@ EventTravelEventForest12.text,<b>Wald - mysteriöser Herold:</b>\n\n<i>Als ihr e
 EventTravelEventForest12.button1,{qst:ContinueButton}
 EventTravelEventForest13LotW.text,<b>Wald - ein altes Weib:</b>\n\n<i>Sie begegnen einer alten Frau, die euch mit einem Fluch belegt, bevor sie wieder in den Nebeln verschwindet.</i>\n\nJeder Held muss eine {will} Probe ablegen. Jeder Held, dessen Probe misslingt, erliegt ihrem Bann und brennt.
 EventTravelEventForest13LotW.button1,{qst:ContinueButton}
-EventTravelEventForest14.text,<b>Wald - Starker Nebel:</b>\n\n<i>Ihr spürt einen schweren Nebel, der euch umgibt. Plötzlich fühlt ihr euch seltsam müde.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, muss einen Heldenmarker auf sein Heldenblatt legen. Die Geschwindigkeit dieses Helden ist bei seinem ersten Zug {var:EventTravelEventForest14Speed}.
+EventTravelEventForest14.text,<b>Wald - Starker Nebel:</b>\n\n<i>Ihr spürt einen schweren Nebel, der euch umgibt. Plötzlich fühlt ihr euch seltsam müde.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, muss einen Heldenmarker auf seinen Heldenbogen legen. Die Geschwindigkeit dieses Helden ist bei seinem ersten Zug {var:EventTravelEventForest14Speed}.
 EventTravelEventForest14.button1,{qst:ContinueButton}
 EventTravelEventForest15.text,<b>Wald - Banditen:</b>\n\n<i>Banditen haben diesen Wald besetzt.</i>\n\nJeder Held legt entweder eine {will} oder {knowledge} Probe ab. Haben alle Helden die Probe bestanden?
 EventTravelEventForest15.button1,Nein
@@ -389,7 +389,7 @@ EventTravelEventForest25MoBA.text,<b>Wald - Ein seltsames Medaillon:</b>\n\n<i>I
 EventTravelEventForest25MoBA.button1,{qst:ContinueButton}
 EventTravelEventForest25MoBB.text,<b>Wald - Ein seltsames Medaillon:</b>\n\n<i>Ihr schafft es, das Medallion zu öffnen.</i>\n\nDarin findet ihr {var:EventTravelEventForest25MoBBGold} Gold.
 EventTravelEventForest25MoBB.button1,{qst:ContinueButton}
-EventTravelEventForest26.text,<b>Wald - Plötzlicher Regen:</b>\n\n<i>Ein plötzlicher Regenschauer hat den Wald ein matschiges Chaos verwandelt.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, verringert seine Geschwindigkeit auf {var:EventTravelEventForest26Speed} während seines ersten Zuges.
+EventTravelEventForest26.text,<b>Wald - Plötzlicher Regen:</b>\n\n<i>Ein plötzlicher Regenschauer hat den Wald in ein matschiges Chaos verwandelt.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, verringert seine Geschwindigkeit auf {var:EventTravelEventForest26Speed} während seines ersten Zuges.
 EventTravelEventForest26.button1,{qst:ContinueButton}
 EventTravelEventForest27.text,<b>Wald - Goblin-Späher:</b>\n\n<i>Ein Goblin-Späher rennt vor euch Weg, um seine Kameraden zu warnen!</i>\n\nEin Held mit einer Fernkampfwaffe würfelt mit derren Angriffswürfel. Ist die gewürfelte Entfernung geringer als {var:EventTravelEventForest27DiceResult}, erleidet jeder Held {var:EventTravelEventForest27DiceHeart} {heart}.
 EventTravelEventForest27.button1,{qst:ContinueButton}
@@ -483,7 +483,7 @@ EventTravelEventWater24E.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Nach einem 
 EventTravelEventWater24E.button1,{qst:ContinueButton}
 EventTravelEventWater24F.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
 EventTravelEventWater24F.button1,{qst:ContinueButton}
-EventTravelEventWater25.text,<b>Wasser - Einladende Lagune:</b>\n\n<i>Unter den abgedunkelten Gewässern seht ihr in der Tiefe eine einladende Lagune.</i>\n\nJeder Held kann sich entscheiden, {var:EventTravelEventWater25Heart1} {heart} zu erleiden und dadurch {var:EventTravelEventWater25Fatigue1} zu erholen, oder {fatigue} {var:EventTravelEventWater25Fatigue2} {fatigue} zu erleiden und dadurch {var:EventTravelEventWater25Heart1} {heart} zu erholen.
+EventTravelEventWater25.text,<b>Wasser - Einladende Lagune:</b>\n\n<i>Unter der Wasseroberfläche seht ihr in der Tiefe eine einladende Lagune.</i>\n\nJeder Held kann sich entscheiden, {var:EventTravelEventWater25Heart1} {heart} zu erleiden und dadurch {var:EventTravelEventWater25Fatigue1} zu erholen, oder {fatigue} {var:EventTravelEventWater25Fatigue2} {fatigue} zu erleiden und dadurch {var:EventTravelEventWater25Heart1} {heart} zu erholen.
 EventTravelEventWater25.button1,{qst:ContinueButton}
 EventTravelEventWater27.text,<b>Wasser - Blutegel:</b>\n\n<i>Das Wasser wimmelt von Blutegeln.</i>\n\nJeder Held legt eine {awareness} Probe ab. Jeder Held, dessen Probe misslingt, ist erkrankt.
 EventTravelEventWater27.button1,{qst:ContinueButton}
@@ -538,7 +538,7 @@ EventTravelEventMountains13B.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Der
 EventTravelEventMountains13B.button1,{qst:ContinueButton}
 EventTravelEventMountains16.text,<b>Berge - Reichtümer:</b>\n\n<i>Während ihr auf den Berg hinaufwandet, wundert ihr euch über die Reichtümer, die euch erwarten.</i>\n\nDie Spieler ziehen die obersten {var:EventTravelEventMountains16TopCards} Karten des Suchkartenstapels und legen alle <i>Tränke</i> zurück, an das untere Ende des Kartenstapels haben. Die anderen Karten werden an die Spitze des Suchkartenstapels gelegt.
 EventTravelEventMountains16.button1,{qst:ContinueButton}
-EventTravelEventMountains17.text,<b>Berge - Anstrengung:</b>\n\n<i>Ihr findet den Weg, der den Berg hinaufführt furchtbar anstrengend.</i>\n\nDer Held mit der niedrigsten {might} legt eine {might} Probe ab. Wenn er scheitert, legt einen Heldenmarker auf sein Heldenblatt. Er hat-{var:EventTravelEventMountains17Speed} Geschwindigkeit, bis er eine Erholungsaktion durchführt.
+EventTravelEventMountains17.text,<b>Berge - Anstrengung:</b>\n\n<i>Ihr findet den Weg, der den Berg hinaufführt furchtbar anstrengend.</i>\n\nDer Held mit der niedrigsten {might} legt eine {might} Probe ab. Wenn er scheitert, legt einen Heldenmarker auf seinen Heldenbogen. Er hat-{var:EventTravelEventMountains17Speed} Geschwindigkeit, bis er eine Erholungsaktion durchführt.
 EventTravelEventMountains17.button1,{qst:ContinueButton}
 EventTravelEventMountains18.text,<b>Berge - Kiste:</b>\n\n<i>Ihr findet eine mit einer Rune versiegelte Kiste.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Wenn mindestens {var:EventTravelEventMountains18Heroes} Helden erfolgreich sind, können die Helden den Suchkartenstapel nach einem Heiltrank durchsuchen. Mischt danach den Suchkartenstapel.
 EventTravelEventMountains18.button1,{qst:ContinueButton}
@@ -567,9 +567,9 @@ EventTravelEventMountains24E.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach ein
 EventTravelEventMountains24E.button1,{qst:ContinueButton}
 EventTravelEventMountains24F.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Ihr kämpft mehrere Minuten lang, bis der Ritter sich ergibt. Er bewundert eure Kraft und bietet euch seine Waffe als Zeichen seines Respekts an.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff. Ihr erhaltet die Waffe des Ritters.
 EventTravelEventMountains24F.button1,{qst:ContinueButton}
-EventTravelEventMountains26MoB.text,<b>Berge - Unnatürliche Gestalten:</b>\n\n<i>Unnatürliche Gestalten tauchen am Rande eures Lagers auf.</i>\n\nDie Helden wählen einen Helden, um {awareness} zu lege eine Probe ab. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
+EventTravelEventMountains26MoB.text,<b>Berge - Unnatürliche Gestalten:</b>\n\n<i>Unnatürliche Gestalten tauchen am Rande eures Lagers auf.</i>\n\nDie Helden wählen einen Helden, um eine {awareness} Probe abzulegen. Wenn sie gelingt, ist er verängstigt. Wenn er scheitert, ist jeder andere Held verängstigt.
 EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
-EventTravelEventMountains27MoB.text,<b>Berge - Fleischesduft:</b>\n\n<i>Der Geruch von brennendem Fleisch zieht euch zu einem verlassenen Scheiterhaufen.</i>\n\nDie Helden können einen Helden wählen, um {awareness} zu Lege eine Probe ab. Wenn sie gelingt, zieht dieser Held eine Suchkarte und ist verängstigt.
+EventTravelEventMountains27MoB.text,<b>Berge - Fleischesduft:</b>\n\n<i>Der Geruch von brennendem Fleisch zieht euch zu einem verlassenen Scheiterhaufen.</i>\n\nDie Helden können einen Helden wählen, um eine {awareness} Probe abzulegen. Wenn sie gelingt, zieht dieser Held eine Suchkarte und ist verängstigt.
 EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
 EventTravelEventMountains28MoB.text,<b>Berge - Alter Friedhof:</b>\n\n<i>Ihr stolpert über einen alten Friedhof. Die Statue einer Kapuzenfigur thront über den bröckelnden Grabsteinen. In den Händen der Statue strahlt ein schwarzer Kristall in unheilvollem Glanz.</i>\n\nWollen die Helden die Kraft des Kristalls nutzen?
 EventTravelEventMountains28MoB.button1,Nein
