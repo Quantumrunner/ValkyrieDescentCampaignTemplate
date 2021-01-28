@@ -308,7 +308,7 @@ EventTravelEventForest6.text,<b>Wald - Diener des Overlords erscheinen!:</b>\n\n
 EventTravelEventForest6.button1,{qst:ContinueButton}
 EventTravelEventForest7.text,<b>Wald - Spinnen!:</b>\n\n<i>Spinnen! Bei allen Göttern! Überall Spinnen!</i>\n\nDer Held mit der niedrigsten {awareness} ist vergiftet.
 EventTravelEventForest7.button1,{qst:ContinueButton}
-EventTravelEventForest12.text,<b>Wald - mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der getarnte fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventForest12Morale}.
+EventTravelEventForest12.text,<b>Wald - mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Seid vorsichtig, Helden“, sagt der getarnte fremde. „Überall sind die Schergen des Bösen! Eine schreckliche Verschwörung ist im Gange, ganz in der Nähe, und sie muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventForest12Morale}.
 EventTravelEventForest12.button1,{qst:ContinueButton}
 EventTravelEventForest13LotW.text,<b>Wald - ein altes Weib:</b>\n\n<i>Sie begegnen einer alten Frau, die euch mit einem Fluch belegt, bevor sie wieder in den Nebeln verschwindet.</i>\n\nJeder Held muss eine {will} Probe ablegen. Jeder Held, dessen Probe misslingt, erliegt ihrem Bann und brennt.
 EventTravelEventForest13LotW.button1,{qst:ContinueButton}
