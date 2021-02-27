@@ -47,8 +47,8 @@ EventCityAct2.button1,Stadt verlassen
 EventCityAct2.button2,Waren auffüllen
 EventCityAct2.button3,Schwarzmarkt besuchen
 EventRestock.text,<i>Es mag andere Händler in der Stadt geben, aber seid euch nicht sicher, ob ihr die Zeit habt, sie zu suchen.</i>\n\n Ihr könnt die Items beim Händler {var:%RestockAmount} mal auffüllen.\n\n Wollt ihr sie auffüllen?
-EventRestock.button1,Yes
-EventRestock.button2,No
+EventRestock.button1,Ja
+EventRestock.button2,Nein
 EventLeaveCity.text,Wollt ihr wirklich die Stadt verlassen und euch auf ein anderes Abenteuer einlassen?
 EventLeaveCity.button1,Ja
 EventLeaveCity.button2,Nein
@@ -289,7 +289,7 @@ EventTravelEventForest1.button1,Nein
 EventTravelEventForest1.button2,Ja
 EventTravelEventForest1A.text,<b>Enges Dickicht:</b>\n\n<i>Ihr verschwendet keine Zeit, um den Wald zu erforschen, sondern reist weiter.</i>\n\nNichts passiert.
 EventTravelEventForest1A.button1,{qst:ContinueButton}
-EventTravelEventForest1B.text,<b>Enges Dickicht:</b>\n\n<i>Ihr hackt euch durch das Dickicht und bekommt ein paar Narben auf dem Weg. Ihr findet nichts besonders interessantes, aber ihr seid sicher, dass man ihr das Richtige getan hat.</i>\n\nJeder Held erleidet {var:EventTravelEventForest1BHeart} {heart} aber Eure Moral steigt um {var:EventTravelEventForest1BMorale}.
+EventTravelEventForest1B.text,<b>Enges Dickicht:</b>\n\n<i>Ihr hackt euch durch das Dickicht und bekommt ein paar Narben auf dem Weg. Ihr findet nichts besonders interessantes, aber ihr seid sicher, dass ihr das Richtige getan hat.</i>\n\nJeder Held erleidet {var:EventTravelEventForest1BHeart} {heart} aber Eure Moral steigt um {var:EventTravelEventForest1BMorale}.
 EventTravelEventForest1B.button1,{qst:ContinueButton}
 EventTravelEventForest2.text,<b>Wald - Verirrt:</b>\n\n<i>Ihr habt euch im Wald verirrt.</i>\n\nWählt einen Helden, der eine {awareness} Probe ablegt. Scheitert er, erleidet jeder Held {var:EventTravelEventForest2Fatigue} {fatigue}.
 EventTravelEventForest2.button1,{qst:ContinueButton}
@@ -439,7 +439,7 @@ EventTravelEventWater9.button1,{qst:ContinueButton}
 EventTravelEventWater10.text,<b>Wasser - Tentakel:</b>\n\n<i>Tentakel platzen aus dem Wasser und versuchen, die Helden hinabzuziehen!</i>\n\nJeder Held legt eine {might} Probe ab und erleidet {var:EventTravelEventWater10Fatigue} {fatigue}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventWater10Heart} {heart}.
 EventTravelEventWater10.button1,{qst:ContinueButton}
 EventTravelEventWater11.text,<b>Wasser - Fährmann:</b>\n\n<i>Ihr seid von der langen Reise ermüdet. Ein Fährmann bietet euch eine Fahrt an.</i>\n\nIhr könnt entweder {var:EventTravelEventWater11Gold} Gold ausgeben (wenn vorhanden) oder den anstrengenden Marsch zu Fuß fortsetzen.
-EventTravelEventWater11.button1,Müdigkeit erleiden
+EventTravelEventWater11.button1,Erschöpfung erleiden
 EventTravelEventWater11.button2,Gold ausgeben
 EventTravelEventWater11A.text,<b>Wasser - Fährmann:</b>\n\n<i>Ihr setzt eure Reise zu Fuß fort, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11AFatigue} {fatigue}.
 EventTravelEventWater11A.button1,{qst:ContinueButton}
@@ -529,7 +529,7 @@ EventTravelEventMountains10.text,<b>Berge - Hinterhalt:</b>\n\n<i>Pfeile fliegen
 EventTravelEventMountains10.button1,{qst:ContinueButton}
 EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
 EventTravelEventMountains12.button1,{qst:ContinueButton}
-EventTravelEventMountains13.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Ein geheimnisvoller Gaukler taucht auf und macht euch ein unwiderstehliches Angebot ...</i>\n\nEin Held legt für jedes seiner Attribut eine Probe ab ({will}, {knowledge}, {awareness} und {might}). Waren alle Probe erfolgreich?
+EventTravelEventMountains13.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Ein geheimnisvoller Gaukler taucht auf und macht euch ein unwiderstehliches Angebot...</i>\n\nEin Held legt für jedes seiner Attribut eine Probe ab ({will}, {knowledge}, {awareness} und {might}). Waren alle Probe erfolgreich?
 EventTravelEventMountains13.button1,Nein
 EventTravelEventMountains13.button2,Ja
 EventTravelEventMountains13A.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Der Gaukler lacht manisch, um eurer Versagen zu bezeugen.</i>\n\nNichts passiert.
