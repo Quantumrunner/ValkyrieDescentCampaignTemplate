@@ -150,10 +150,10 @@ EventTravelEventRoad24.button1,Nein
 EventTravelEventRoad24.button2,Ja
 EventTravelEventRoad24A.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventRoad24A.button1,{qst:ContinueButton}
-EventTravelEventRoad24B.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventRoad24B.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventRoad24B.button1,Nein
 EventTravelEventRoad24B.button2,Ja
-EventTravelEventRoad24C.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventRoad24C.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventRoad24C.button1,Nein
 EventTravelEventRoad24C.button2,Ja
 EventTravelEventRoad24D.text,<b>Straße - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
@@ -249,10 +249,10 @@ EventTravelEventPlains24.button1,Nein
 EventTravelEventPlains24.button2,Ja
 EventTravelEventPlains24A.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventPlains24A.button1,{qst:ContinueButton}
-EventTravelEventPlains24B.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventPlains24B.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventPlains24B.button1,Nein
 EventTravelEventPlains24B.button2,Ja
-EventTravelEventPlains24C.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventPlains24C.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventPlains24C.button1,Nein
 EventTravelEventPlains24C.button2,Ja
 EventTravelEventPlains24D.text,<b>Ebene - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
@@ -368,10 +368,10 @@ EventTravelEventForest24.button1,Nein
 EventTravelEventForest24.button2,Ja
 EventTravelEventForest24A.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventForest24A.button1,{qst:ContinueButton}
-EventTravelEventForest24B.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventForest24B.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventForest24B.button1,Nein
 EventTravelEventForest24B.button2,Ja
-EventTravelEventForest24C.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventForest24C.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventForest24C.button1,Nein
 EventTravelEventForest24C.button2,Ja
 EventTravelEventForest24D.text,<b>Wald - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
@@ -471,10 +471,10 @@ EventTravelEventWater24.button1,Nein
 EventTravelEventWater24.button2,Ja
 EventTravelEventWater24A.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventWater24A.button1,{qst:ContinueButton}
-EventTravelEventWater24B.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventWater24B.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventWater24B.button1,Nein
 EventTravelEventWater24B.button2,Ja
-EventTravelEventWater24C.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventWater24C.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventWater24C.button1,Nein
 EventTravelEventWater24C.button2,Ja
 EventTravelEventWater24D.text,<b>Wasser - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
@@ -506,7 +506,7 @@ EventTravelEventWater29MoBC.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>I
 EventTravelEventWater29MoBC.button1,{qst:ContinueButton}
 EventTravelEventWater29MoBD.text,<b>Wasser - Die Reste eines Wagens:</b>\n\n<i>Ihr schafft es die Truhe zu öffnen und darin einen Gegenstand zu finden.</i>\n\nIhr findet den Gegenstand {c:QItemTravelReward29}.
 EventTravelEventWater29MoBD.button1,{qst:ContinueButton}
-EventTravelEventWater31TctR.text,<b>Wasser - Die Kugeln des Blutes:</b>\n\n<i>Kugeln aus Blut sprudeln aus unsichtbaren Tiefen und füllen die Luft mit fauligem rotem Nebel.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird erkrankt und testet {will}. Jeder Held, der wiedessen Probe misslingt, ist verängstigt.
+EventTravelEventWater31TctR.text,<b>Wasser - Die Kugeln des Blutes:</b>\n\n<i>Kugeln aus Blut sprudeln aus unsichtbaren Tiefen und füllen die Luft mit fauligem rotem Nebel.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, erkrankt und legt eine {will} Probe ab. Jeder Held, der wiedessen Probe misslingt, ist verängstigt.
 EventTravelEventWater31TctR.button1,{qst:ContinueButton}
 EventTravelEventMountains1.text,<b>Berge - Tödliche Steilhänge:</b>\n\n<i>Ihr seid bei einem heftigen Sturm auf den tödlichen Steilhängen eines Berges gefangen.</i>\n\nJeder Held erleidet {var:EventTravelEventMountains1Heart} {heart} und {var:EventTravelEventMountains1Fatigue} {fatigue}.
 EventTravelEventMountains1.button1,{qst:ContinueButton}
@@ -555,10 +555,10 @@ EventTravelEventMountains24.button1,Nein
 EventTravelEventMountains24.button2,Ja
 EventTravelEventMountains24A.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint enttäuscht, lässt euch aber unversehrt weiterziehen.</i>\n\nNichts passiert.
 EventTravelEventMountains24A.button1,{qst:ContinueButton}
-EventTravelEventMountains24B.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventMountains24B.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActI}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActI} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventMountains24B.button1,Nein
 EventTravelEventMountains24B.button2,Ja
-EventTravelEventMountains24C.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
+EventTravelEventMountains24C.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Der Ritter scheint erfreut und bereitet sich auf das Duell vor.</i>\n\nDer Ritter trägt die Waffe {c:QItemTravelReward24ActII}. Ein Held führt einen Angriff mit einer Nahkampfwaffe gegen einen grauen Verteidigungswürfel. Dieser Held ist auch Ziel eines Angriffs mit der Waffe {c:QItemTravelReward24ActII} und würfelt seine normalen Verteidigungswürfel. Hat der Held mehr {heart} als der Ritter zugefügt?
 EventTravelEventMountains24C.button1,Nein
 EventTravelEventMountains24C.button2,Ja
 EventTravelEventMountains24D.text,<b>Berge - Einsamer Ritter:</b>\n\n<i>Nach einem kurzen Kampf ergeben ihr euch dem Ritter.</i>\n\nDer Held, der gegen den Ritter kämpfte, erleidet {heart} Schaden durch den Angriff.
@@ -600,7 +600,7 @@ EventTravelEventMountains31B.button1,{qst:ContinueButton}
 EventTravelEventThreat.text,<i>Die Streitkräfte des Overlords sind euren Spuren gefolgt und sind euch dicht auf den Fersen.</i>\n\n Ihr müsst eine zusätzliches Reiseergeinis durchführen, um mit ihnen fertig zu werden.
 EventTravelEventThreat.button1,{qst:ContinueButton}
 EventTravelEventThread1.text,<i>Ein magisches Seil hat einen von euch gefesselt. Ihr versucht, es abzuwerfen.</i>\n\nDer Held mit der niedrigsten {knowledge} legt eine {knowledge} Probe ab. Wenn sie misslingt ist er gelähmt.
-EventTravelEventThread2.text,<i>Um euch herum bildet sich eine giftige grüne Wolke.</i>\n\nJeder Held testet {knowledge}. Jeder Held, dessen Probe misslingt, wird vergiftet.
+EventTravelEventThread2.text,<i>Um euch herum bildet sich eine giftige grüne Wolke.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt, wird vergiftet.
 EventTravelEventThread3.text,<i>Eine Gruppe Goblinbogenschützen hat euch entdeckt. Ein Pfeilhagel geht auf euch nieder.</i>\n\n Jeder Held legt eine {awareness} Probe ab. Jeder Held dessen Probe misslingt erleidet {var:EventTravelEventThread3Heart} {heart}.
 EventTravelEventThread4.text,<i>Ihr geratet in einen Kampf und einige von euch werden verletzt.</i>\n\nWählt zwei Helden, die jeweils {var:TravelEventThread4Heart} {heart} erleiden.
 EventTravelEventThread5.text,<i>Ein Schattendrache rast aus dem Himmel auf euch herab. Eine riesige Feuerwalze kommt aus seinem Mund.</i> Führt einen Angriff eines Elite-Schattendrachens gegen jeden Helden durch.\nEr hat: {surge} +{var:TravelEventThread5Heart} {heart}\n\n Es gelten die normalen Verteidgungsregeln.
