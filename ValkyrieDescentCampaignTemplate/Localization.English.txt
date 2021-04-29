@@ -9,5 +9,10 @@ quest.synopsys,Add campaign short description here (shown in mission selection l
 quest.authors_short,AddCampaignAuthorsHere
 EventStart.button1,{qst:ContinueButton}
 EventInitializeCampaign.button1,{qst:ContinueButton}
-EventCampaignPhaseStart.button1,Button1
-EventMissionStart.button1,Button1
+EventCampaignPhaseStart.button1,{qst:ContinueButton}
+EventMissionStart.button1,{qst:ContinueButton}
+EventCheckDifficulty.text,"<b>Please choose a difficulty:</b>\n\nNormal: The heroes start with {var:StartXpNormal} XP and {var:StartGoldPerHeroNormal} gold per hero.\nHard: The heroes start with {var:StartXpHard} XP and {var:StartGoldPerHeroHard} gold per hero."
+EventCheckDifficulty.button1,Normal
+EventCheckDifficulty.button2,Hard
+EventInitializeHard.button1,{qst:ContinueButton}
+EventInitializeNormal.button1,{qst:ContinueButton}

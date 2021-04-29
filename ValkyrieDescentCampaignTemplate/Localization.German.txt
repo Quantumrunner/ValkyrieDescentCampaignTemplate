@@ -9,3 +9,10 @@ quest.synopsys,Hier eine Kurzbeschreibung der Kampagne einfügen (wird in der Mi
 quest.authors_short,AutorenHierEinfügen
 EventStart.button1,{qst:ContinueButton}
 EventInitializeCampaign.button1,{qst:ContinueButton}
+EventCampaignPhaseStart.button1,{qst:ContinueButton}
+EventMissionStart.button1,{qst:ContinueButton}
+EventCheckDifficulty.text,"<b>Schwierigkeitsgrad wählen:</b>\n\nNormal: Die Helden starten mit {var:StartXpNormal} EP und {var:StartGoldPerHeroNormal} Gold pro Held.\nHard: Die Helden starten mit {var:StartXpHard} EP und {var:StartGoldPerHeroHard} Gold pro Held."
+EventCheckDifficulty.button1,Normal
+EventCheckDifficulty.button2,Hard
+EventInitializeHard.button1,{qst:ContinueButton}
+EventInitializeNormal.button1,{qst:ContinueButton}
