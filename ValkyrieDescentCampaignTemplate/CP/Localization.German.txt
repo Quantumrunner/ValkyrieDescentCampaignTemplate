@@ -33,7 +33,7 @@ UICity.text,Nach einem anstrengenden Tag eilt ihr zurück in die Stadt.
 UICity.button1,{qst:ContinueButton}
 UICityStartGame.text,Ihr startet euer Abenteuer in dieser Stadt
 UICityStartGame.button1,{qst:ContinueButton}
-EventTransition.text,<b>Übergang zu Akt II</b>\n\nLegt alle Monsterkarten des ersten Aktes, Leutnantskarten und Agentenkarten (falls vorhanden) in die Spielkiste zurück. Nur Monsterkarten aus Akt II, Leutnantskarten und Agentenkarten (falls vorhanden) werden für den Rest der Kampagne verwendet. \n\n<i>Ihr bemerkt eine Vielzahl von Händlern, die in die Stadt reisen.<i> \n\nIhr werdet in der Stadt zusätzliche Händler aufsuchen können.
+EventTransition.text,<b>Übergang zu Akt II</b>\n\nLegt alle Monsterkarten des ersten Aktes, Anführerkarten und Agentenkarten (falls vorhanden) in die Spielkiste zurück. Nur Monsterkarten aus Akt II, Anführerkarten und Agentenkarten (falls vorhanden) werden für den Rest der Kampagne verwendet. \n\n<i>Ihr bemerkt eine Vielzahl von Händlern, die in die Stadt reisen.<i> \n\nIhr werdet in der Stadt zusätzliche Händler aufsuchen können.
 EventTransition.button1,{qst:ContinueButton}
 EventCity.button1,Stadt verlassen
 EventCity.button2,Waren auffüllen
@@ -42,7 +42,7 @@ EventCityEL.button1,Stadt verlassen
 EventCityEL.button2,Waren auffüllen
 EventCityEL.button3,Schwarzmarkt besuchen
 EventBlackMarketVisited.text,Ihr zahlt die Gebühr und eurer Kontakt führt euch durch unzählige Hinterstraßen zum Schwarzmarkt der Stadt.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
-EventRestockAvailable.text,Aufgrund eurer bisherigen erfolge, konnte die stadt einige neue Händler anlocken.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
+EventRestockAvailable.text,Aufgrund eurer bisherigen erfolge, konnte die Stadt einige neue Händler anlocken.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
 EventCityAct2.button1,Stadt verlassen
 EventCityAct2.button2,Waren auffüllen
 EventCityAct2.button3,Schwarzmarkt besuchen

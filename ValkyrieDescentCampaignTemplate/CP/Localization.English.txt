@@ -101,13 +101,13 @@ EventTravelEventRoad9H4.button4,Three
 EventTravelEventRoad9H4.button5,Four
 EventTravelEventRoad9A.text,<b>Road - The Overlord's Spies:</b>\n\nYou manage to avoid the Overlord's spies.\n\nNo effect.
 EventTravelEventRoad9A.button1,{qst:ContinueButton}
-EventTravelEventRoad9B.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9B.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable information about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
 EventTravelEventRoad9B.button1,{qst:ContinueButton}
-EventTravelEventRoad9C.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9C.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable information about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
 EventTravelEventRoad9C.button1,{qst:ContinueButton}
-EventTravelEventRoad9D.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9D.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable information about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
 EventTravelEventRoad9D.button1,{qst:ContinueButton}
-EventTravelEventRoad9E.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9E.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable information about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
 EventTravelEventRoad9E.button1,{qst:ContinueButton}
 EventTravelEventRoad11.text,<b>Road - Wrong turn:</b>\n\n<i>You think you took a wrong turn...</i>\n\nEach hero tests {knowledge} and suffers {var:EventTravelEventRoad11Fatigue} {fatigue} if he fails. Did all heroes pass?
 EventTravelEventRoad11.button1,No
