@@ -41,6 +41,9 @@ EventCity.button3,Schwarzmarkt besuchen
 EventCityEL.button1,Stadt verlassen
 EventCityEL.button2,Waren auffüllen
 EventCityEL.button3,Schwarzmarkt besuchen
+EventCityELAct2.button1,Stadt verlassen
+EventCityELAct2.button2,Waren auffüllen
+EventCityELAct2.button3,Schwarzmarkt besuchen
 EventBlackMarketVisited.text,Ihr zahlt die Gebühr und eurer Kontakt führt euch durch unzählige Hinterstraßen zum Schwarzmarkt der Stadt.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
 EventRestockAvailable.text,Aufgrund eurer bisherigen erfolge, konnte die Stadt einige neue Händler anlocken.\n\nIhr könnt ab jetzt zusätzliche Händler aufsuchen.
 EventCityAct2.button1,Stadt verlassen

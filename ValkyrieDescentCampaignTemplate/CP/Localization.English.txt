@@ -41,6 +41,9 @@ EventCity.button3,Visit Black Market
 EventCityEL.button1,Leave the City
 EventCityEL.button2,Restock
 EventCityEL.button3,Visit Black Market
+EventCityELAct2.button1,Leave the City
+EventCityELAct2.button2,Restock
+EventCityELAct2.button3,Visit Black Market
 EventBlackMarketVisited.text,You pay the fee and after following your contact through countless backalleys you arrive at the black market.\n\nYou are able to find another merchant.
 EventRestockAvailable.text,Due to your prior successes, the city has been able to attract several new merchants.\n\nYou are able to find another merchant.
 EventCityAct2.button1,Leave the City
