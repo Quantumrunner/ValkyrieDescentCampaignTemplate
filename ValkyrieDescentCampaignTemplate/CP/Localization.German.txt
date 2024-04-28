@@ -58,7 +58,7 @@ EventLeaveCity.button2,Nein
 EventRestockAvailable.button1,{qst:ContinueButton}
 EventRestockNotAvailable.text,Leider haben die Kaufleute nichts anderes zu bieten.\n\nIhr könnt keinen anderen Kaufmann finden.
 EventRestockNotAvailable.button1,{qst:ContinueButton}
-EventBlackMarketCheck.text,Es wird ein paar Stunden dauern, um jemanden zu finden, der bereit ist, euch die weniger legalen Waren anzubieten. Und es wird euch einiges Kosten ...\n\nWollt ihr {var:EventBlackMarket1EntryGold} Gold bezahlen, um Zugang zu anderen Waren zu erhalten?
+EventBlackMarketCheck.text,Es wird ein paar Stunden dauern, um jemanden zu finden, der bereit ist, euch die weniger legalen Waren anzubieten. Und es wird euch einiges Kosten ...\n\nWollt ihr {var:EventBlackMarketEntryGold} Gold bezahlen, um Zugang zu anderen Waren zu erhalten?
 EventBlackMarketCheck.button1,Ja
 EventBlackMarketCheck.button2,Nein
 EventBlackMarketAlreadyVisited.text,Ihr habt bereits den Schwarzmarkt besucht. Es gibt nichts anderes zu verkaufen.\n\nIhr könnt keinen anderen Kaufmann finden.
@@ -430,12 +430,12 @@ EventTravelEventWater5.text,<b>Wasser - Aufgeblähte Leichen:</b>\n\n<i>Aufgebl�
 EventTravelEventWater5.button1,{qst:ContinueButton}
 EventTravelEventWater7.text,<b>Wasser - Seuchenhaftes Miasma:</b>\n\n<i>Eine seuchenhaftes Miasma scheint aus dem Wasser zu steigen.</i>\n\nDer Held mit der niedrigsten {might} ist erkrankt.
 EventTravelEventWater7.button1,{qst:ContinueButton}
-EventTravelEventWater8.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Eine geheimnisvolle, vermummte Person bietet eine Fahrt auf seinem Boot an.</i>\n\nIhr wisst nicht, ob der fremde vertrauenswürdig ist, aber ihr würdet euch sicher etwas erholen. Nehmt ihr sein Angebot an?
+EventTravelEventWater8.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Eine geheimnisvolle, vermummte Person bietet eine Fahrt auf seinem Boot an.</i>\n\nIhr wisst nicht, ob der Fremde vertrauenswürdig ist, aber ihr würdet euch sicher etwas ausruhen können. Nehmt ihr sein Angebot an?
 EventTravelEventWater8.button1,Nein
 EventTravelEventWater8.button2,Ja
 EventTravelEventWater8A.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Ihr wollt nichts riskieren.</i>\n\nNichts passiert.
 EventTravelEventWater8A.button1,{qst:ContinueButton}
-EventTravelEventWater8B.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Der fremde spricht nicht viel, aber er hört aufmerksam euren Gesprächen zu ...</i>\n\nJeder Held erholt sich von allen {fatigue}, aber die Verstärkungen des Overlords werden früher ankommen.
+EventTravelEventWater8B.text,<b>Wasser - Geheimnisvolle vermummte Person:</b>\n\n<i>Der Fremde spricht nicht viel, aber er hört aufmerksam euren Gesprächen zu ...</i>\n\nJeder Held erholt sich von allen {fatigue}, aber die Verstärkungen des Overlords werden früher ankommen.
 EventTravelEventWater8B.button1,{qst:ContinueButton}
 EventTravelEventWater9.text,<b>Wasser - Der Regen der letzten Nacht:</b>\n\n<i>Nach dem Regen der letzten Nacht laufen die Flüsse voll.</i>\n\nJeder Held legt eine {knowledge} Probe ab. Jeder Held, dessen Probe misslingt erleidet {var:EventTravelEventWater9Fatigue} {fatigue}.
 EventTravelEventWater9.button1,{qst:ContinueButton}
@@ -450,7 +450,7 @@ EventTravelEventWater11B.text,<b>Wasser - Fährmann:</b>\n\n<i>Auf diese Weise z
 EventTravelEventWater11B.button1,{qst:ContinueButton}
 EventTravelEventWater11C.text,<b>Wasser - Fährmann:</b>\n\n<i>Da ihr nicht über das benötigte Gold verfügt, müsst ihr eure Reise zu Fuß fortsetzen, was sich als ziemlich anstrengend erweist.</i>\n\nJeder Held erleidet {var:EventTravelEventWater11CFatigue} {fatigue}.
 EventTravelEventWater11C.button1,{qst:ContinueButton}
-EventTravelEventWater12.text,<b>Wasser - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventWater12Morale}.
+EventTravelEventWater12.text,<b>Wasser - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. Seid vorsichtig, Helden“, sagt der mysteriöse Fremde. „Überall lauern die Diener des Bösen! Etwas schreckliches passiert hier ganz in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventWater12Morale}.
 EventTravelEventWater12.button1,{qst:ContinueButton}
 EventTravelEventWater14.text,<b>Wasser - Belebt:</b>\n\n<i>Ihr fühlt euch gestärkt.</i>\n\nDie Helden wählen einen Krieger. Er stellt einen seiner Heldenmarker neben den Spielplan. Er kann diesen Marker zu Beginn seines Zuges ablegen. Er erleidet keine {fatigue}, in diesem Zug, um  Fähigkeiten zu nutzen.
 EventTravelEventWater14.button1,{qst:ContinueButton}
@@ -530,7 +530,7 @@ EventTravelEventMountains9.text,<b>Berge - Erdrutsch!:</b>\n\n<i>Ein Erdrutsch!<
 EventTravelEventMountains9.button1,{qst:ContinueButton}
 EventTravelEventMountains10.text,<b>Berge - Hinterhalt:</b>\n\n<i>Pfeile fliegen hinter den Felsbrocken hervor!</i>\n\nJeder Held legt eine {awareness} Probe ab und erleidet {var:EventTravelEventMountains10Heart1} {heart}, wenn er scheitert. Wenn alle Helden scheitern, erleidet jeder Held {var:EventTravelEventMountains10Heart2} zusätzliches {heart}.
 EventTravelEventMountains10.button1,{qst:ContinueButton}
-EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. „Trete vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Eine schreckliche Handlung ist im Gange, nur in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
+EventTravelEventMountains12.text,<b>Berg - Mysteriöser Herold:</b>\n\n<i>Als ihr euch auf euren Weg zu eurem Ziel macht, werdet ihr von einem geheimnisvollen Herold angesprochen. Seid vorsichtig, Helden“, sagt der mysteriöse fremde. „Überall lauern die Diener des Bösen! Etwas schreckliches passiert hier ganz in der Nähe, und es muss gestoppt werden! Beeilt euch!“</i>\n\nEure Moral steigt um {var:EventTravelEventMountains12Morale}.
 EventTravelEventMountains12.button1,{qst:ContinueButton}
 EventTravelEventMountains13.text,<b>Berge - Mysteriöser Gaukler:</b>\n\n<i>Ein geheimnisvoller Gaukler taucht auf und macht euch ein unwiderstehliches Angebot...</i>\n\nEin Held legt für jedes seiner Attribut eine Probe ab ({will}, {knowledge}, {awareness} und {might}). Waren alle Probe erfolgreich?
 EventTravelEventMountains13.button1,Nein
