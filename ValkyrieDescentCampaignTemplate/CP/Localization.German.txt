@@ -465,7 +465,7 @@ EventTravelEventWater21.button1,Nein
 EventTravelEventWater21.button2,Ja
 EventTravelEventWater21A.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Dafür habt ihr keine Zeit.</i>\n\nNichts passiert.
 EventTravelEventWater21A.button1,{qst:ContinueButton}
-EventTravelEventWater21B.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Es dauert Stunden, bis ihr einen Preis ausgehandelt habt.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen und die Helden erhalten den Gegenstand {c:[QItemTravelRewardW21}.
+EventTravelEventWater21B.text,<b>Wasser Feilschen mit einem Kaufmann:</b>\n\n<i>Es dauert Stunden, bis ihr einen Preis ausgehandelt habt.</i>\n\nDie Verstärkungen des Overlords werden früher ankommen und die Helden erhalten den Gegenstand {c:QItemTravelRewardW21}.
 EventTravelEventWater21B.button1,{qst:ContinueButton}
 EventTravelEventWater23.text,<b>Wasser Verdorbene Gewässer:</b>\n\n<i>Etwas übles hat dieses Gewässer verseucht.</i>\n\nJeder Held legt eine {might} Probe ab. Jeder Held, dessen Probe misslingt, ist vergiftet.
 EventTravelEventWater23.button1,{qst:ContinueButton}
